@@ -1,0 +1,22 @@
+{
+    "@context": {
+      "schema": "http://schema.org/",
+      "rs": "https://w3id.org/everse/rs#"
+    },
+    "@type": "schema:SoftwareApplication",
+    "schema:name": "GitHub",
+    "schema:description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
+    "schema:url": "https://github.com/",
+    "schema:softwareTier": [],
+    "schema:isAccessibleForFree": "free",
+    "rs:hasQualityDimension": {
+      "@id": "rs:FAIRness",
+      "@type": "@id"
+    },
+    "rs:howToUse": ["CI/CD", "command-line"],
+    "schema:license": {
+      "@id": "",
+      "@type": "@id"
+    }
+  }
+  

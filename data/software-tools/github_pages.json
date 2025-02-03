@@ -1,0 +1,22 @@
+{
+    "@context": {
+      "schema": "http://schema.org/",
+      "rs": "https://w3id.org/everse/rs#"
+    },
+    "@type": "schema:SoftwareApplication",
+    "schema:name": "GitHub Pages",
+    "schema:description": "A static site hosting service by GitHub that allows users to publish websites directly from a GitHub repository.",
+    "schema:url": "https://pages.github.com/",
+    "schema:softwareTier": ["analysis code"],
+    "schema:isAccessibleForFree": "free",
+    "rs:hasQualityDimension": {
+      "@id": "rs:Documentation",
+      "@type": "@id"
+    },
+    "rs:howToUse": ["CI/CD", "command-line", "online-service"],
+    "schema:license": {
+      "@id": "",
+      "@type": "@id"
+    }
+  }
+  

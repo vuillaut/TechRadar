@@ -1,0 +1,22 @@
+{
+    "@context": {
+      "schema": "http://schema.org/",
+      "rs": "https://w3id.org/everse/rs#"
+    },
+    "@type": "schema:SoftwareApplication",
+    "schema:name": "Pelican",
+    "schema:description": "A static site generator written in Python, designed for building content-focused websites.",
+    "schema:url": "https://blog.getpelican.com/",
+    "schema:softwareTier": ["analysis code"],
+    "schema:isAccessibleForFree": "free",
+    "rs:hasQualityDimension": {
+      "@id": "rs:Documentation",
+      "@type": "@id"
+    },
+    "rs:howToUse": ["CI/CD", "command-line", "online-service"],
+    "schema:license": {
+      "@id": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "@type": "@id"
+    }
+  }
+  
