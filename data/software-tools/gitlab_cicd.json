@@ -1,0 +1,22 @@
+{
+    "@context": {
+      "schema": "http://schema.org/",
+      "rs": "https://w3id.org/everse/rs#"
+    },
+    "@type": "schema:SoftwareApplication",
+    "schema:name": "GitLab CICD",
+    "schema:description": "A platform for Integration, Delivery and Deployment.",
+    "schema:url": "https://docs.gitlab.com/ee/ci/pipelines/",
+    "schema:softwareTier": [],
+    "schema:isAccessibleForFree": "paid",
+    "rs:hasQualityDimension": {
+      "@id": "rs:Sustainalibity",
+      "@type": "@id"
+    },
+    "rs:howToUse": ["CI/CD", "command-line", "online-service"],
+    "schema:license": {
+      "@id": "",
+      "@type": "@id"
+    }
+  }
+  
