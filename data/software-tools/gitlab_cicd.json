@@ -7,7 +7,6 @@
     "schema:name": "GitLab CICD",
     "schema:description": "A platform for Integration, Delivery and Deployment.",
     "schema:url": "https://docs.gitlab.com/ee/ci/pipelines/",
-    "schema:applicationCategory": [],
     "schema:isAccessibleForFree": "paid",
     "rs:hasQualityDimension": {
       "@id": "rs:Sustainalibity",

@@ -7,7 +7,7 @@
     "schema:name": "Hugo",
     "schema:description": "A fast and flexible static site generator written in Go, known for its speed and flexibility in creating websites.",
     "schema:url": "https://gohugo.io/",
-    "schema:applicationCategory": ["analysis code"],
+    "schema:applicationCategory": {"@id": "AnalysisCode", "@type": "@id"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {
       "@id": "rs:Documentation",

@@ -7,7 +7,7 @@
     "schema:name": "sphinx",
     "schema:description": "Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.",
     "schema:url": "https://www.sphinx-doc.org",
-    "schema:applicationCategory": ["analysis code"],
+    "schema:applicationCategory": {"@id":"rs:AnalysisCode", "@type": "@id"}, 
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
     "rs:howToUse": ["online-service"],

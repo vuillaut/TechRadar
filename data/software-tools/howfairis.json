@@ -9,7 +9,7 @@
     "schema:description": "Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations",
     "schema:url": "https://github.com/fair-software/howfairis",
     "schema:identifier": { "@id": "https://example.org/howfairis"},
-    "schema:applicationCategory": ["analysis code"],
+    "schema:applicationCategory": {"@id": "AnalysisCode", "@type": "@id"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:FAIRness", "@type": "@id"},
     "rs:howToUse": ["CI/CD","command-line"],
