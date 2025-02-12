@@ -7,7 +7,7 @@
     "schema:name": "bandit",
     "schema:description": "Bandit is a tool designed to find common security issues in Python code.",
     "schema:url": "https://github.com/PyCQA/bandit",
-    "schema:softwareTier": [""],
+    "schema:applicationCategory": [""],
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service"],

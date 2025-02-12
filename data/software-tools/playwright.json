@@ -7,7 +7,7 @@
     "schema:name": "Playwright",
     "schema:description": "Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API",
     "schema:url": "https://playwright.dev/docs/intro",
-    "schema:softwareTier": [""],
+    "schema:applicationCategory": [""],
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service"],

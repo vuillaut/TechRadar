@@ -7,7 +7,7 @@
     "schema:name": "Fair Python Cookiecutter",
     "schema:description": "An opinionated cookiecutter template to kickstart a modern best-practice Python project with FAIR metadata.",
     "schema:url": "https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter",
-    "schema:softwareTier": [""],
+    "schema:applicationCategory": [""],
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD","online-service"],

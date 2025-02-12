@@ -7,7 +7,7 @@
     "schema:name": "GitHub Pages",
     "schema:description": "A static site hosting service by GitHub that allows users to publish websites directly from a GitHub repository.",
     "schema:url": "https://pages.github.com/",
-    "schema:softwareTier": ["analysis code"],
+    "schema:softwapplicationCategoryareTier": ["analysis code"],
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {
       "@id": "rs:Documentation",

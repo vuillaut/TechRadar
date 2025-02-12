@@ -7,7 +7,7 @@
     "schema:name": "GitLab",
     "schema:description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
     "schema:url": "https://gitlab.com/",
-    "schema:softwareTier": [],
+    "schema:applicationCategory": [],
     "schema:isAccessibleForFree": "paid",
     "rs:hasQualityDimension": {
       "@id": "rs:FAIRness",
