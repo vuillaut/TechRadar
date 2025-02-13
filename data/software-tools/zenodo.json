@@ -9,7 +9,5 @@
     "schema:url": "https://zenodo.org/",
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
-    "rs:howToUse": ["CI/CD", "command-line"],
-    "schema:license": { "@id": "", "@type": "@id"}
-      
+    "rs:howToUse": ["CI/CD", "command-line"]
   }

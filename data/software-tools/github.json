@@ -12,10 +12,6 @@
       "@id": "rs:FAIRness",
       "@type": "@id"
     },
-    "rs:howToUse": ["CI/CD", "command-line"],
-    "schema:license": {
-      "@id": "",
-      "@type": "@id"
-    }
+    "rs:howToUse": ["CI/CD", "command-line"]
   }
   

@@ -13,10 +13,6 @@
       "@id": "rs:Documentation",
       "@type": "@id"
     },
-    "rs:howToUse": ["CI/CD", "command-line", "online-service"],
-    "schema:license": {
-      "@id": "",
-      "@type": "@id"
-    }
+    "rs:howToUse": ["CI/CD", "command-line", "online-service"]
   }
   
