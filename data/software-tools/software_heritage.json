@@ -3,10 +3,12 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "rs:Sustainability",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "Software Heritage",
     "schema:description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",
     "schema:url": "https://www.softwareheritage.org",
+    "schema:identifier": { "@id": "rs:Sustainability"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD","command-line"]

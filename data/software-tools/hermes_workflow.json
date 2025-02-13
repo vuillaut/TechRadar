@@ -3,10 +3,12 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "rs:Documentation",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "Hermes Workflows",
     "schema:description": "The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.",
     "schema:url": "https://www.oracle.com/java/technologies/javase/javadoc-tool.html",
+    "schema:identifier": { "@id": "rs:Documentation"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
     "rs:howToUse": ["online-service"],

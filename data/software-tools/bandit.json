@@ -3,10 +3,12 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "rs:Sustainability",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "bandit",
     "schema:description": "Bandit is a tool designed to find common security issues in Python code.",
     "schema:url": "https://github.com/PyCQA/bandit",
+    "schema:identifier": { "@id": "rs:Sustainability"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service"],

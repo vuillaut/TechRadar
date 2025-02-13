@@ -3,10 +3,12 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "rs:Documentation",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "CFFINIT Generator",
     "schema:description": "Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).",
     "schema:url": "https://citation-file-format.github.io/cff-initializer-javascript/#/",
+    "schema:identifier": { "@id": "rs:Documentation"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
     "rs:howToUse": ["CI/CD", "command-line"],

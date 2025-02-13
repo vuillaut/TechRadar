@@ -3,10 +3,12 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "rs:Documentation",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "SOMEF",
     "schema:description": "Software Metadata Extraction Framework (SOMEF) is a command line interface for automatically extracting relevant information from README files",
     "schema:url": "https://github.com/KnowledgeCaptureAndDiscovery/somef",
+    "schema:identifier": { "@id": "rs:Documentation"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
     "rs:howToUse": ["CI/CD","online-service"],

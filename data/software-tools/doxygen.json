@@ -3,10 +3,12 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "rs:Documentation",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "doxygen",
     "schema:description": "Documentation generator tool in software development for C++ (and also C, Python, PHP, Java, C#, Objective-C, Fortran, VHDL, Splice, IDL, and Lex).",
     "schema:url": "https://www.doxygen.nl/",
+    "schema:identifier": { "@id": "rs:Documentation"},
     "schema:applicationCategory": { "id": "rs:AnalysisCode", "type": "@id"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},

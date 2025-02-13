@@ -3,10 +3,12 @@
       "schema": "http://schema.org/",
       "rs": "https://w3id.org/everse/rs#"
     },
+    "@id": "rs:Documentation",
     "@type": "schema:SoftwareApplication",
     "schema:name": "GitLab Pages",
     "schema:description": "A feature of GitLab that allows users to publish static websites directly from their Git repositories.",
     "schema:url": "https://about.gitlab.com/stages-devops-lifecycle/pages/",
+    "schema:identifier": { "@id": "rs:Documentation"},
     "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {
