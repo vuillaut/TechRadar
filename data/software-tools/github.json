@@ -3,12 +3,11 @@
       "schema": "http://schema.org/",
       "rs": "https://w3id.org/everse/rs#"
     },
-    "@id": "rs:FAIRness",
+    "@id": "https://w3id.org/everse/tools/github",
     "@type": "schema:SoftwareApplication",
     "schema:name": "GitHub",
     "schema:description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
     "schema:url": "https://github.com/",
-    "schema:identifier": { "@id": "rs:FAIRness"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {
       "@id": "rs:FAIRness",

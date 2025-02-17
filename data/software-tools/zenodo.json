@@ -3,12 +3,11 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-    "@id": "rs:Documentation",
+    "@id": "https://w3id.org/everse/tools/zenodo",
     "@type": "schema:SoftwareApplication",
     "schema:name": "zenodo",
     "schema:description": "Open repository for EU-funded research outputs from Horizon Europe, Euratom, and earlier Framework Programmes.",
     "schema:url": "https://zenodo.org/",
-    "schema:identifier": { "@id": "rs:Documentation"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
     "rs:howToUse": ["CI/CD", "command-line"]

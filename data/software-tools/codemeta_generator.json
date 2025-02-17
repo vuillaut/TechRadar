@@ -3,12 +3,11 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-    "@id": "rs:Sustainability",
+    "@id": "https://w3id.org/everse/tools/codemeta-generator",
     "@type": "schema:SoftwareApplication",
     "schema:name": "CodeMeta Generator",
     "schema:description": "A free, open-source project that creates a minimal metadata schema for research software and code.",
     "schema:url": "https://codemeta.github.io/codemeta-generator",
-    "schema:identifier": { "@id": "rs:Sustainability"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD","command-line"],

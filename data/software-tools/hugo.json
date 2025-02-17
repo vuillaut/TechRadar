@@ -3,12 +3,11 @@
       "schema": "http://schema.org/",
       "rs": "https://w3id.org/everse/rs#"
     },
-    "@id": "rs:Documentation",
+    "@id": "https://w3id.org/everse/tools/hugo",
     "@type": "schema:SoftwareApplication",
     "schema:name": "Hugo",
     "schema:description": "A fast and flexible static site generator written in Go, known for its speed and flexibility in creating websites.",
     "schema:url": "https://gohugo.io/",
-    "schema:identifier": { "@id": "rs:Documentation"},
     "schema:applicationCategory": {"@id": "rs:AnalysisCode", "@type": "@id"},
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {
