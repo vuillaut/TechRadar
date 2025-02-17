@@ -3,11 +3,11 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "https://w3id.org/everse/tools/playwright",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "Playwright",
     "schema:description": "Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API",
     "schema:url": "https://playwright.dev/docs/intro",
-    "schema:softwareTier": [""],
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service"],

@@ -3,11 +3,11 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-        "@type": "schema:SoftwareApplication",
+    "@id": "https://w3id.org/everse/tools/bearer",
+    "@type": "schema:SoftwareApplication",
     "schema:name": "bearer",
     "schema:description": "Bearer CLI is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security and privacy risks.",
     "schema:url": "https://github.com/bearer/bearer",
-    "schema:softwareTier": [""],
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service"],
