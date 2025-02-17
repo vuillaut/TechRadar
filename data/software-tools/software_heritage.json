@@ -3,7 +3,7 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-    "@id": "https://w3id.org/everse/tools/software-heritage",
+    "@id": "https://w3id.org/everse/tools/software_heritage",
     "@type": "schema:SoftwareApplication",
     "schema:name": "Software Heritage",
     "schema:description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",

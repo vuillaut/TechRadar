@@ -3,7 +3,7 @@
       "schema": "http://schema.org/",
       "rs": "https://w3id.org/everse/rs#"
     },
-    "@id": "https://w3id.org/everse/tools/github-pages",
+    "@id": "https://w3id.org/everse/tools/github_pages",
     "@type": "schema:SoftwareApplication",
     "schema:name": "GitHub Pages",
     "schema:description": "A static site hosting service by GitHub that allows users to publish websites directly from a GitHub repository.",

@@ -3,7 +3,7 @@
       "schema": "http://schema.org/",
       "rs": "https://w3id.org/everse/rs#"
     },
-    "@id": "https://w3id.org/everse/tools/gitlab-pages",
+    "@id": "https://w3id.org/everse/tools/gitlab_pages",
     "@type": "schema:SoftwareApplication",
     "schema:name": "GitLab Pages",
     "schema:description": "A feature of GitLab that allows users to publish static websites directly from their Git repositories.",

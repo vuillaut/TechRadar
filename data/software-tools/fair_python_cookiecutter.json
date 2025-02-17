@@ -3,7 +3,7 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-    "@id": "https://w3id.org/everse/tools/fair",
+    "@id": "https://w3id.org/everse/tools/fair_python_cookiecutter",
     "@type": "schema:SoftwareApplication",
     "schema:name": "Fair Python Cookiecutter",
     "schema:description": "An opinionated cookiecutter template to kickstart a modern best-practice Python project with FAIR metadata.",

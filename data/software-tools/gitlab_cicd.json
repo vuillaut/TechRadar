@@ -3,7 +3,7 @@
       "schema": "http://schema.org/",
       "rs": "https://w3id.org/everse/rs#"
     },
-    "@id": "https://w3id.org/everse/tools/gitlab-cicd",
+    "@id": "https://w3id.org/everse/tools/gitlab_cicd",
     "@type": "schema:SoftwareApplication",
     "schema:name": "GitLab CICD",
     "schema:description": "A platform for Integration, Delivery and Deployment.",

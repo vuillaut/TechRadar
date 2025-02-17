@@ -3,7 +3,7 @@
       "schema": "http://schema.org/",
       "rs" : "https://w3id.org/everse/rs#"
     },
-    "@id": "https://w3id.org/everse/tools/cffinit-generator",
+    "@id": "https://w3id.org/everse/tools/cffinit_generator",
     "@type": "schema:SoftwareApplication",
     "schema:name": "CFFINIT Generator",
     "schema:description": "Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).",
