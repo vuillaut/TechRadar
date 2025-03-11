@@ -1,56 +1,28 @@
-# How to use the EVERSE Technology Radar
+# How to use the EVERSE Technology Watch
 
 ### Introduction
 
-Technology Watch(TW), developed as part of EVERSE project, contains a collection of software quality tools and their metadata in terms of quality indicators and quality dimentions. It contains all the tools for research software quality that align, adapt, and extend to the specific needs of various research communities.
+Technology Watch(TW), developed as part of EVERSE project, is preliminary work done referencing AOE tech radar. It contains collection of research software quality tools and their metadata in terms of quality indicators and quality dimentions. It contains all the tools for research software quality that align, adapt, and extend to the specific needs of various research communities.
 
 
-### What is the EVERSE Technology Radar?
+### What is the EVERSE Technology Watch?
 
-The Tech Radar provides an overview of different technologies, including languages, frameworks,
-tools, and patterns, as well as platforms, that we consider 'new or noteworthy.' The radar does not
-cover all established technologies; instead, it focuses on items that have recently gained
-significance or undergone changes. Items previously featured in the radar are not listed on the
-homepage but remain available in the complete overview and search.
+The Technology Watch provides an overview of different technologies, including languages, frameworks,
+tools, and patterns, as well as platforms, that EVERSE collected from the workshops. The watch does not
+cover all established technologies; instead, it focuses on tools that have recently gained
+significance and used for scientific cluster use cases.
 
 ### How it is created
 
-The items in the technology radar are suggested by different teams, many of which are related to the
-work and challenges faced by the teams in various projects. In fact, we do not include anything on
-the radar that we haven't personally tested at least once.
+The tools in the technology watch are from EVERSE work package 3 collected tools sheet. 
 
-Numerous valuable discussions have taken place in various expert groups regarding the classification
-and details of each technology and innovation. The culmination of these discussions is reflected in
-the latest technology radar.
 
-### How should it be used
+#### [WIP] The quadrants are:
 
-The radar serves as an overview of technologies that we believe everyone in the teams should be
-aware of at present.
-
-Its goal is to guide and inspire daily work within the teams. Additionally, it aims to provide
-valuable information and a high-level perspective to enable decisions to be made with a deeper
-understanding of the subject matter, resulting in more informed and coordinated choices.
-
-We also hope that developers outside of EVERSE will find the information in our technology overview
-inspiring.
-
-We categorize the items into four quadrants, and sometimes, when it's not entirely clear where an
-item belongs, we choose the best fit.
-
-#### The quadrants are:
-
-- **Languages & Frameworks:** In this category, we include development languages like Scala or
-  Golang, as well as low-level development frameworks such as Play or Symfony. These are valuable
-  for implementing various types of custom software.
-- **Tools:** This section is dedicated to a wide range of software tools, from small utilities to
-  more extensive software projects.
-- **Methods & Patterns:** Patterns hold enduring significance, with many of them standing the test
-  of time compared to some tools or frameworks. This category is where we provide information on
-  methods and patterns related to development, continuous integration, testing, organization,
-  architecture, and more.
-- **Platforms & Operations:** In this quadrant, we group technologies related to the operation of
-  software, infrastructure, and platform-related tools and services.
+- **Source Code Management:** This quadrant includes Source code management (SCM) tools related software development, using this developers can track and manage changes to software code over time..
+- **FAIRness:** This quadrant covers Tools and services to help with software FAIRness evalution and improvement..
+- **Platforms and Services:** This quadrant clusters technologies focused on the operation of software, related platforms, tools, infrastructure, and services.
+- **Documentation:** In this quadrant, we group technologies which help to create, build and integrate good documentation of the software..
 
 #### Each of the items is classified in one of these rings:
 
