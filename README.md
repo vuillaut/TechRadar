@@ -1,7 +1,7 @@
 
 # EVERSE Technology Radar - Content
 
-This is primarly work done for Technology Watch(TW), developed as part of [EVERSE project](https://everse.software/) referencing AOE tech radar, contains a collection of software quality tools and their metadata in terms of quality indicators and quality dimentions. It contains all the tools for research software quality that align, adapt, and extend to the specific needs of various research communities.
+This is preliminary work done for Technology Watch(TW), developed as part of [EVERSE project](https://everse.software/) referencing AOE tech radar, contains a collection of software quality tools and their metadata in terms of quality indicators and quality dimentions. It contains all the tools for research software quality that align, adapt, and extend to the specific needs of various research communities.
 
 This is the temporary location of EVERSE techradar content - published under: https://shraddha-bajare.github.io/techradar
 
