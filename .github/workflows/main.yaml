@@ -32,6 +32,7 @@ jobs:
           key: ${{ runner.os }}-techradar-${{ hashFiles('**/package-lock.json') }}
       - run: npm ci
       - run: npm run build
+      # - run: if [ -n "$(git status --porcelain)" ]; then echo 'workspace is dirty after rebuilding' ; git status ; git diff ; exit 1 ; fi
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -40,7 +41,7 @@ jobs:
 
   deploy-pages:
     needs: build
-    if: github.ref == 'refs/heads/main'
+    # if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
