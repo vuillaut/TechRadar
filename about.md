@@ -38,4 +38,4 @@ The tools in the technology watch are from EVERSE work package 3 collected tools
 ### Contributing to the EVERSE Technology Radar
 
 Contributions and source code of the EVERSE Tech Radar are on
-GitHub: [EVERSE Tech Radar on GitHub](https://github.com/shraddha-bajare/techradar)
+GitHub: [EVERSE Tech Radar on GitHub](https://github.com/EVERSE-ResearchSoftware/TechRadar)

@@ -1,7 +1,7 @@
 {
   "basePath": "/techradar",
-  "baseUrl": "https://shraddha-bajare.github.io/techradar",
-  "editUrl": "https://github.dev/shraddha-bajare/techradar/blob/main/radar/{release}/{id}.md",
+  "baseUrl": "https://github.com/EVERSE-ResearchSoftware/TechRadar",
+  "editUrl": "https://github.dev/EVERSE-ResearchSoftware/TechRadar/blob/main/radar/{release}/{id}.md",
   "logoFile": "logo.svg",
   "jsFile": "",
   "toggles": {
@@ -96,11 +96,7 @@
   },
   "social": [
     {
-      "href": "www.linkedin.com/in/shraddha-bajare-28076a1b4",
-      "icon": "linkedIn"
-    },
-    {
-      "href": "https://github.com/shraddha-bajare",
+      "href": "https://github.com/EVERSE-ResearchSoftware/TechRadar",
       "icon": "github"
     }
   ],
