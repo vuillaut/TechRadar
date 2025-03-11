@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - add-aoe-techradar-base-code
 
 permissions:
   contents: read
