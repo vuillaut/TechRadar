@@ -1,6 +1,6 @@
 {
-  "basePath": "/techradar",
-  "baseUrl": "https://github.com/EVERSE-ResearchSoftware/TechRadar",
+  "basePath": "/TechRadar",
+  "baseUrl": "https://github.com/TechRadar.github.io/TechRadar",
   "editUrl": "https://github.dev/EVERSE-ResearchSoftware/TechRadar/blob/main/radar/{release}/{id}.md",
   "logoFile": "logo.svg",
   "jsFile": "",
