@@ -23,8 +23,8 @@
   },
   "quadrants": [
     {
-      "id": "source-code-management",
-      "title": "Source Code Management",
+      "id": "source-code",
+      "title": "Source Code",
       "description": "This quadrant includes Source code management (SCM) tools related software development, using this developers can track and manage changes to software code over time.",
       "color": "#84BFA4"
     },
