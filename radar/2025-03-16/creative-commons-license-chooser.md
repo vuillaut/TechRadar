@@ -1,7 +1,7 @@
 ---
 
 title: "Creative Commons License Chooser"
-ring: analysis code
+ring: analysis code # not linked to any ring in collected doc sheet
 quadrant: platforms-and-services
 tags: ['Documentation']
 ---

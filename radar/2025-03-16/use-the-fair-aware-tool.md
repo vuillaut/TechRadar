@@ -1,7 +1,7 @@
 ---
 
 title: "Use the FAIR-Aware tool"
-ring: prototype tools
+ring: prototype tools # not linked to all rings in collected doc sheet
 quadrant: fairness
 tags: ['Documentation']
 ---

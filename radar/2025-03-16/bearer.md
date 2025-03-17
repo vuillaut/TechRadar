@@ -1,7 +1,7 @@
 ---
 
 title: "Bearer"
-ring: analysis code
+ring: analysis code # not linked to any ring in collected doc sheet
 quadrant: source-code
 tags: ['Security']
 ---

@@ -1,7 +1,7 @@
 ---
 
 title: "Hadolint"
-ring: research software infra
+ring: analysis code
 quadrant: source-code
 tags: ['Code analysis']
 ---

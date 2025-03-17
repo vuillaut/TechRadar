@@ -1,8 +1,8 @@
 ---
 
 title: "SOMEF"
-ring: research software infra
-quadrant: documentation
+ring: research software infra # not linked to any ring in collected doc sheet
+quadrant: documentation 
 tags: ['Documentation']
 ---
 https://github.com/KnowledgeCaptureAndDiscovery/somef

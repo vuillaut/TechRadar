@@ -1,7 +1,7 @@
 ---
 
 title: "Gcov"
-ring: research software infra
+ring: research software infra # not linked to any ring in collected doc sheet
 quadrant: fairness
 tags: ['Code analysis', ' Resource efficiency']
 ---

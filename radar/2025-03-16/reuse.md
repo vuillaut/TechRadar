@@ -1,7 +1,7 @@
 ---
 
 title: "REUSE"
-ring: research software infra
+ring: analysis code
 quadrant: platform-and-services
 tags: []
 ---

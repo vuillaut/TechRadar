@@ -1,7 +1,7 @@
 ---
 
 title: "SonarQube"
-ring: research software infra
+ring: analysis code
 quadrant: platforms-and-services
 tags: ['Security', 'Code analysis']
 ---

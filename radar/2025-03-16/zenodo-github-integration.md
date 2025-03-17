@@ -1,7 +1,7 @@
 ---
 
 title: "Zenodo GitHub Integration"
-ring: prototype tools
+ring: analysis code
 quadrant: documentation
 tags: ['Documentation']
 ---

@@ -1,7 +1,7 @@
 ---
 
 title: "Apptainer (formerly Singularity)"
-ring: prototype tools
+ring: analysis code
 quadrant: platforms-and-services
 tags: ['Usability', ' Reproducability', ' Portability']
 ---

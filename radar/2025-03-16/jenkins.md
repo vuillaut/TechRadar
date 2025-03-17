@@ -1,7 +1,7 @@
 ---
 
 title: "Jenkins"
-ring: prototype tools
+ring: analysis code
 quadrant: fairness
 tags: ['Security', ' Code analysis', ' Functionnal sustainability', ' Long-term usability']
 ---

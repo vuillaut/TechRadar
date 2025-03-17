@@ -1,7 +1,7 @@
 ---
 
 title: "eOSSR"
-ring: prototype tools
+ring: analysis code
 quadrant: source-code
 tags: ['Documentation', ' Portability']
 ---

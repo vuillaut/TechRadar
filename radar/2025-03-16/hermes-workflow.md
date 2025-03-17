@@ -1,7 +1,7 @@
 ---
 
-title: "HERMES Workflow"
-ring: prototype tools
+title: "HERMES Workflow" 
+ring: prototype tools # not linked to any ring in collected doc sheet
 quadrant: platform-and-services
 tags: ['Documentation']
 ---

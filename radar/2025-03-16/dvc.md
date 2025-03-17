@@ -1,7 +1,7 @@
 ---
 
 title: "DVC"
-ring: prototype tools
+ring: analysis code
 quadrant: platform-and-services
 tags: ['Reproducibility', ' Long-term usability']
 ---

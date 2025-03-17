@@ -1,7 +1,7 @@
 ---
 
 title: "tortellini-action"
-ring: research software infra
+ring: analysis code
 quadrant: fairness
 tags: ['licensing']
 ---

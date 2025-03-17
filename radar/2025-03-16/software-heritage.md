@@ -1,7 +1,7 @@
 ---
 
 title: "Software Heritage"
-ring: prototype tools
+ring: prototype tools # not linked to any ring in collected doc sheet
 quadrant: platform-and-services
 tags: []
 ---

@@ -1,7 +1,7 @@
 ---
 
 title: "CFFINIT Generator"
-ring: analysis code
+ring: analysis code # not linked to any ring in collected doc sheet
 quadrant: documentation
 tags: ['Documentation']
 ---

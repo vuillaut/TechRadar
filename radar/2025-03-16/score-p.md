@@ -1,7 +1,7 @@
 ---
 
 title: "Score-P"
-ring: prototype tools
+ring: research software infra 
 quadrant: fairness
 tags: ['Resource efficiency']
 ---

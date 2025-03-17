@@ -1,7 +1,7 @@
 ---
 
 title: "Jupyter"
-ring: analysis code
+ring: prototype tools
 quadrant: source-code
 tags: ['Maintainability', ' Documentation', ' Usability']
 ---
