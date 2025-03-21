@@ -26,14 +26,9 @@ The tools in the technology watch are from EVERSE work package 3 collected tools
 
 #### Each of the items is classified in one of these rings:
 
-- **analysis code:** We wholeheartedly recommend this technology. It has been extensively used in many teams
-  for an extended period, proving its stability and utility.
-- **prototype tools:** We have successfully implemented this technology and suggest taking a closer look at it
-  in this category. The aim here is to scrutinize these items more closely with the intention of
-  elevating them to the 'Adopt' level.
-- **research infrastructure software:** We have experimented with this technology and find it promising. We recommend
-  exploring these items when you encounter a specific need for the technology in your project.
-
+- **analysis code:** 
+- **prototype tools:** 
+- **research infrastructure software:** 
 
 ### Contributing to the EVERSE Technology Radar
 
