@@ -11,6 +11,6 @@
     "schema:applicationCategory": { "id": "rs:AnalysisCode", "type": "@id"},
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
-    "rs:howToUse": ["CI-CD","command-line"],
+    "rs:howToUse": ["CI/CD","command-line"],
     "schema:license": { "@id": "https://spdx.org/licenses/GPL-2.0-only.html", "@type": "@id"}      
   }
