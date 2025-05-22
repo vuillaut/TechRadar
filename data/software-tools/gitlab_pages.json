@@ -9,7 +9,7 @@
   "schema:description": "GitLab Pages is a feature of GitLab that allows users to publish static websites directly from their Git repositories.",
   "schema:url": "https://docs.gitlab.com/user/project/pages/",
   "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id"},
-  "schema:isAccessibleForFree": "false",
+  "schema:isAccessibleForFree": false,
   "rs:hasQualityDimension": {
     "@id": "rs:Sustainability",
     "@type": "@id"

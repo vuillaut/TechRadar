@@ -9,7 +9,7 @@
   "schema:description": "The CFFINIT Generator is a user-friendly web application designed to help researchers and developers create valid CITATION.cff files. CITATION.cff files are plain text files with human- and machine-readable citation metadata for software (and datasets).",
   "schema:applicationCategory": { "id": "rs:PrototypeTool", "type": "@id"},
   "schema:url": "https://citation-file-format.github.io/cff-initializer-javascript/#/",
-  "schema:isAccessibleForFree": "true",
+  "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
   "rs:howToUse": ["online-service"],
   "schema:license": { "@id": "https://spdx.org/licenses/Apache-2.0.html", "@type": "@id"}
