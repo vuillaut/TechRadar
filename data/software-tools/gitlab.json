@@ -10,7 +10,7 @@
     "schema:url": "https://gitlab.com/",
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": [
-      "rs:FAIRness"
+      "FAIRness"
     ],
     "rs:howToUse": ["CI/CD", "command-line", "online-service"]
   }
