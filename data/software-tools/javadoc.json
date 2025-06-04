@@ -10,7 +10,7 @@
     "schema:url": "https://www.oracle.com/java/technologies/javase/javadoc-tool.html",
     "schema:applicationCategory": ["AnalysisCode"],
     "schema:isAccessibleForFree": true,
-    "rs:hasQualityDimension": ["rs:Documentation"],
+    "rs:hasQualityDimension": ["Maintainability"],
     "rs:howToUse": ["CI/CD", "command-line", "online-service"],
     "schema:license": ["MIT"]
       
