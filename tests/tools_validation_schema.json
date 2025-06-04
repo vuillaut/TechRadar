@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "EVERSE Research Software (RS) Tool Schema",
+  "title": "EVERSE Research Software (RS) Tools Validation Schema",
   "description": "Schema for validating software tool entries in the EVERSE Research Software context",
   "type": "object",
   "properties": {
@@ -145,7 +145,11 @@
     "@id",
     "schema:name",
     "schema:description",
-    "schema:url"
+    "schema:license",
+    "schema:url",
+    "schema:applicationCategory",
+    "schema:hasQualityDimension",
+    "rs:howToUse"
   ],
   "additionalProperties": false
 }
