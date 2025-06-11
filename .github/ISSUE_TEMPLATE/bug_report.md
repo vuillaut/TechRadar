@@ -1,8 +1,8 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+about: Report a technical issue with the TechRadar dashboard
+title: '[BUG] - '
+labels: bug
 assignees: ''
 
 ---
