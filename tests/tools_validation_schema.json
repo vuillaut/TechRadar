@@ -58,10 +58,7 @@
         "enum": [
           "rs:AnalysisCode", 
           "rs:PrototypeTool", 
-          "rs:ResearchInfrastructureSoftware",
-          "AnalysisCode", 
-          "PrototypeTool", 
-          "ResearchInfrastructureSoftware"
+          "rs:ResearchInfrastructureSoftware"
         ]
       }
     },
@@ -85,17 +82,17 @@
       "items": {
         "type": "string",
         "enum": [
-          "Compatibility",
-          "FAIRness",
-          "Flexibility",
-          "Functional suitability",
-          "Interaction Capability",
-          "Maintainability",
-          "Performance Efficiency",
-          "Reliability",
-          "Safety",
-          "Security",
-          "Sustainability"
+          "rs:Compatibility",
+          "rs:FAIRness",
+          "rs:Flexibility",
+          "rs:Functional suitability",
+          "rs:Interaction Capability",
+          "rs:Maintainability",
+          "rs:Performance Efficiency",
+          "rs:Reliability",
+          "rs:Safety",
+          "rs:Security",
+          "rs:Sustainability"
         ]
       }
     },
