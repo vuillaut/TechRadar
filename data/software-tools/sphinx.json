@@ -8,7 +8,11 @@
     "schema:name": "sphinx",
     "schema:description": "Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.",
     "schema:url": "https://www.sphinx-doc.org",
+<<<<<<< issue-41
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
+=======
+    "schema:applicationCategory": {"@id":"rs:AnalysisCode", "@type": "@id"}, 
+>>>>>>> intermidiate_branch_with_reviewed_tools
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
     "rs:howToUse": ["command-line", "CI/CD"],

@@ -9,7 +9,10 @@
     "schema:description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",
     "schema:url": "https://www.softwareheritage.org",
     "schema:isAccessibleForFree": true,
+<<<<<<< issue-41
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
+=======
+>>>>>>> intermidiate_branch_with_reviewed_tools
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service","command-line"]
   }

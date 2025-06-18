@@ -8,7 +8,11 @@
     "schema:name": "Pelican",
     "schema:description": "A static site generator written in Python, designed for building content-focused websites.",
     "schema:url": "https://blog.getpelican.com/",
+<<<<<<< issue-41
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
+=======
+    "schema:applicationCategory": {"@id": "rs:AnalysisCode", "@type": "@id"},
+>>>>>>> intermidiate_branch_with_reviewed_tools
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {
       "@id": "rs:Documentation",
