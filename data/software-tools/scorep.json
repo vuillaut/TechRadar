@@ -12,6 +12,7 @@
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD", "command-line"],
+    "rs:appliesToProgrammingLanguage": ["C", "C++"],
     "schema:license": { "@id": "https://spdx.org/licenses/0BSD.html", "@type": "@id"}
       
   }

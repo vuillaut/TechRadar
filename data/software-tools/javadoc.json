@@ -12,6 +12,7 @@
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD", "command-line"],
+    "rs:appliesToProgrammingLanguage": ["Java"],
     "schema:license": { "@id": "", "@type": "@id"}
       
   }

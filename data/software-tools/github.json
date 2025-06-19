@@ -15,6 +15,7 @@
       "@type": "@id"
     },
     "rs:howToUse": ["online-service", "CI/CD", "command-line"], 
+    "rs:usedBy": ["ENVRI-FAIR", "ESCAPE", "EOSC-Life", "PaNOSC", "SSHOC"],
     "schema:license": { "@id": "MIT", "@type": "@id"}
   }
   
