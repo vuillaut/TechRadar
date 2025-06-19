@@ -10,7 +10,10 @@
     "schema:url": "https://github.com/softwaresaved/fuji/",
     "schema:applicationCategory": { "id": "rs:ResearchInfrastructureSoftware", "type": "@id"},
     "schema:isAccessibleForFree": true,
-    "rs:hasQualityDimension": ["Sustainability"],
+    "rs:hasQualityDimension": {
+      "@id": "rs:Sustainability",
+      "@type": "@id"
+    },    
     "rs:howToUse": ["CI/CD","command-line"],
     "schema:license": ["https://spdx.org/licenses/0BSD.html"]
       
