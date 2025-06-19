@@ -11,5 +11,6 @@
     "schema:isAccessibleForFree": true,
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
-    "rs:howToUse": ["online-service","command-line"]
+    "rs:howToUse": ["online-service","command-line"],
+    "schema:license": { "@id": "AGPL v3", "@type": "@id"}
   }

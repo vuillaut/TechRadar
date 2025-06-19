@@ -14,6 +14,7 @@
       "@id": "rs:FAIRness",
       "@type": "@id"
     },
-    "rs:howToUse": ["online-service", "CI/CD", "command-line"]
+    "rs:howToUse": ["online-service", "CI/CD", "command-line"], 
+    "schema:license": { "@id": "MIT", "@type": "@id"}
   }
   

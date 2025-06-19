@@ -11,5 +11,6 @@
     "schema:isAccessibleForFree": true,
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
-    "rs:howToUse": ["CI/CD", "command-line", "online-service"]
+    "rs:howToUse": ["CI/CD", "command-line", "online-service"],
+    "schema:license": {"@id": " https://ohwr.org/cernohl/", "@type": "@id"}
   }

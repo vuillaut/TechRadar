@@ -13,4 +13,6 @@
     "rs:hasQualityDimension": {
       "@id": "rs:FAIRness",
       "@type": "@id"
-    }}
+    },
+    "schema:license": { "@id": "MIT", "@type": "@id"}
+}
