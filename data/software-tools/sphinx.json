@@ -10,7 +10,7 @@
     "schema:url": "https://www.sphinx-doc.org",
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
     "schema:isAccessibleForFree": true,
-    "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
+    "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["command-line", "CI/CD"],
     "schema:license": { "@id": "https://spdx.org/licenses/BSD-2-Clause.html", "@type": "@id"}
       

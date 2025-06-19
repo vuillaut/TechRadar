@@ -11,7 +11,7 @@
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {
-      "@id": "rs:Documentation",
+      "@id": "rs:Sustainability",
       "@type": "@id"
     },
     "rs:howToUse": ["CI/CD", "command-line"],

@@ -10,7 +10,7 @@
     "schema:url": "https://www.oracle.com/java/technologies/javase/javadoc-tool.html",
     "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
     "schema:isAccessibleForFree": true,
-    "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
+    "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD", "command-line"],
     "schema:license": { "@id": "", "@type": "@id"}
       
