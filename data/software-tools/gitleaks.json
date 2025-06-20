@@ -3,11 +3,11 @@
         "schema": "http://schema.org/",
         "rs" : "https://w3id.org/everse/rs#"
     },
-    "@id": "https://black.readthedocs.io/en/stable",
+    "@id": "https://gitleaks.io/",
     "@type": "schema:SoftwareApplication",
-    "schema:name": "Black",
-    "schema:description": "Black is an opinionated code formatter for Python that automatically reformats your code to follow a consistent and readable style, with minimal configuration. It helps reduce style-related discussions and ensures uniform code formatting across projects.",
-    "schema:url": "https://github.com/psf/black",
+    "schema:name": "Gitleaks",
+    "schema:description": "Gitleaks is an open source secret scanner for git repositories, files, directories, and stdin. With over 20 million docker downloads, 19k GitHub stars, 14 million GitHub downloads, thousands of weekly clones, and over 850k homebrew installs, gitleaks is the most trusted open source secret scanner among security professionals, enterprises, and developers.",
+    "schema:url": "https://github.com/gitleaks/gitleaks",
     "schema:isAccessibleForFree": true,
     "schema:license": { "@id": "https://spdx.org/licenses/MIT.html", "@type": "@id"},
     "schema:applicationCategory": [
@@ -16,5 +16,5 @@
         { "@id": "rs:AnalysisCode", "@type": "@id" }
     ],
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
-    "rs:howToUse": ["command-line"]
+    "rs:howToUse": ["CI/CD", "command-line"]
 }
