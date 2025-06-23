@@ -15,6 +15,5 @@
       "@type": "@id"
     },    
     "rs:howToUse": ["CI/CD","command-line"],
-    "schema:license": ["https://spdx.org/licenses/0BSD.html"]
-      
+    "schema:license": { "@id": "https://spdx.org/licenses/0BSD", "@type": "@id"}       
   }

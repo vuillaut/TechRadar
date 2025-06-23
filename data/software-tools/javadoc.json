@@ -13,6 +13,6 @@
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD", "command-line"],
     "rs:appliesToProgrammingLanguage": ["Java"],
-    "schema:license": { "@id": "", "@type": "@id"}
+    "schema:license": { "@id": "https://www.oracle.com/downloads/licenses/no-fee-license", "@type": "@id"}
       
   }

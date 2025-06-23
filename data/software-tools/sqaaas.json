@@ -12,6 +12,6 @@
     "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id"},
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service", "CI/CD"],
-    "schema:license": { "@id": "https://www.gnu.org/licenses/gpl-3.0.en.html", "@type": "@id"}
+    "schema:license": { "@id": "https://www.gnu.org/licenses/gpl-3.0.en", "@type": "@id"}
       
   }

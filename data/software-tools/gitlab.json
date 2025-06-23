@@ -14,5 +14,5 @@
       "@id": "rs:FAIRness",
       "@type": "@id"
     },
-    "schema:license": { "@id": "MIT", "@type": "@id"}
+    "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id"}
 }

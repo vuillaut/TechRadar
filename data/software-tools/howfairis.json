@@ -12,6 +12,6 @@
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:FAIRness", "@type": "@id"},
     "rs:howToUse": ["command-line"],
-    "schema:license": { "@id": "https://spdx.org/licenses/Apache-2.0.html", "@type": "@id"}
+    "schema:license": { "@id": "https://spdx.org/licenses/Apache-2.0", "@type": "@id"}
       
   }

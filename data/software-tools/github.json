@@ -16,6 +16,6 @@
     },
     "rs:howToUse": ["online-service", "CI/CD", "command-line"], 
     "rs:usedBy": ["ENVRI", "ESCAPE", "EOSC-Life", "PaNOSC", "SSHOC"],
-    "schema:license": { "@id": "MIT", "@type": "@id"}
+    "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id"}
   }
   

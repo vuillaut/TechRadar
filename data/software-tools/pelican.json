@@ -16,7 +16,7 @@
     },
     "rs:howToUse": ["CI/CD", "command-line"],
     "schema:license": {
-      "@id": "https://www.gnu.org/licenses/agpl-3.0.html",
+      "@id": "https://www.gnu.org/licenses/agpl-3.0",
       "@type": "@id"
     }
   }

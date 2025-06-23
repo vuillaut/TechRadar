@@ -15,5 +15,5 @@
     "@type": "@id"
   },
   "rs:howToUse": ["CI/CD", "command-line", "online-service"],
-  "schema:license": { "@id": "MIT", "@type": "@id"}
+  "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id"}
 }

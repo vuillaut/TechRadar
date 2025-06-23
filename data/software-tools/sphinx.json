@@ -13,6 +13,6 @@
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["command-line", "CI/CD"],
     "rs:appliesToProgrammingLanguage": ["Python"],
-    "schema:license": { "@id": "https://spdx.org/licenses/BSD-2-Clause.html", "@type": "@id"}
+    "schema:license": { "@id": "https://spdx.org/licenses/BSD-2-Clause", "@type": "@id"}
       
   }

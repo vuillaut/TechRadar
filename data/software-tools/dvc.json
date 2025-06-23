@@ -12,5 +12,5 @@
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["CI/CD","command-line"],
-    "schema:license": { "@id": "https://spdx.org/licenses/Apache-2.0.html", "@type": "@id"}      
+    "schema:license": { "@id": "https://spdx.org/licenses/Apache-2.0", "@type": "@id"}      
   }
