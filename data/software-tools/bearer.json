@@ -13,5 +13,5 @@
     "rs:howToUse": ["online-service"],
     "rs:appliesToProgrammingLanguage": ["JavaScript/TypeScript", "Ruby", "PHP", "Java", "Go", "Python"],
     "schema:license": { "@id": "https://spdx.org/licenses/Elastic-2.0", "@type": "@id"},
-    "schema:applicationCategory": { "id": "rs:AnalysisCode", "type": "@id"}
+    "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id"}
   }

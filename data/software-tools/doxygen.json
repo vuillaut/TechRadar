@@ -8,7 +8,7 @@
     "schema:name": "doxygen",
     "schema:description": "Doxygen is a documentation generator for annotated source code. It helps developers automatically produce software documentation from the comments and structure of their code. Supports languages like C, C++, Java, Python, PHP, Fortran, etc",
     "schema:url": "https://www.doxygen.nl/",
-    "schema:applicationCategory": { "id": "rs:AnalysisCode", "type": "@id"},
+    "schema:applicationCategory": { "@id": "rs:AnalysisCode", "type": "@id"},
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Documentation", "@type": "@id"},
     "rs:howToUse": ["CI/CD","command-line"],
