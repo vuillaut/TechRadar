@@ -10,7 +10,11 @@
   "schema:url": "https://guix.gnu.org/",
   "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "type": "@id" },
   "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": ["rs:Maintainability", "rs:Sustainability", "rs:Reliability"],
+  "rs:hasQualityDimension": [
+        { "@id": "rs:Maintainability", "@type": "@id" },
+        { "@id": "rs:Sustainability", "@type": "@id" },
+        { "@id": "rs:Reliability", "@type": "@id" }
+],
   "rs:howToUse": ["command-line", "online-service"],
   "schema:license": { "@id": "https://spdx.org/licenses/GPL-3.0-or-later", "@type": "@id" }
 }
