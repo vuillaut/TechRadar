@@ -1,4 +1,5 @@
 {
+
     "@context": {
       "schema": "http://schema.org/",
       "rs": "https://w3id.org/everse/rs#"
@@ -8,12 +9,12 @@
     "schema:name": "GitLab Pages",
     "schema:description": "A feature of GitLab that allows users to publish static websites directly from their Git repositories.",
     "schema:url": "https://about.gitlab.com/stages-devops-lifecycle/pages/",
-    "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id"},
-    "schema:isAccessibleForFree": "free",
+    "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
+    "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {
-      "@id": "rs:Documentation",
+      "@id": "rs:Sustainability",
       "@type": "@id"
     },
-    "rs:howToUse": ["CI/CD", "command-line", "online-service"]
+    "rs:howToUse": ["CI/CD", "online-service"],
+    "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id"}
   }
-  
