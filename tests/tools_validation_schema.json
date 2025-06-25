@@ -69,7 +69,7 @@
         "type": [ "string", "object" ]
       }
     },
-    "codemeta:maintainer": {
+    "maintainer": {
       "description": "The maintainer(s) of the software",
       "type": [ "string", "array", "object" ],
       "items": {
