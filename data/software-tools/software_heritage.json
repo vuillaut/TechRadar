@@ -9,8 +9,8 @@
   "description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",
   "url": "https://www.softwareheritage.org",
   "isAccessibleForFree": true,
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "rs:hasQualityDimension": { "@id": "rs:Sustainability", "@type": "@id" },
-  "rs:howToUse": [ "online-service", "command-line" ],
+  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
+  "hasQualityDimension": { "@id": "Sustainability", "@type": "@id" },
+  "howToUse": [ "online-service", "command-line" ],
   "license": { "@id": "https://www.gnu.org/licenses/agpl-3.0", "@type": "@id" }
 }

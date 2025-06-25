@@ -9,9 +9,9 @@
   "description": "Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API",
   "url": "https://playwright.dev/",
   "isAccessibleForFree": true,
-  "applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" },
-  "rs:hasQualityDimension": { "@id": "rs:Sustainability", "@type": "@id" },
-  "rs:howToUse": [ "CI/CD", "command-line" ],
+  "applicationCategory": { "@id": "AnalysisCode", "@type": "@id" },
+  "hasQualityDimension": { "@id": "Sustainability", "@type": "@id" },
+  "howToUse": [ "CI/CD", "command-line" ],
   "license": { "@id": "https://opensource.org/licenses/Apache-2.0", "@type": "@id" }
 
 }

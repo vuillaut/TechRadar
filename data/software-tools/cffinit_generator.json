@@ -9,9 +9,9 @@
   "description": "Generate software citation metadata files with ease. CITATION.cff files are plain text files with human- and machine-readable citation information for software (and datasets).",
   "url": "https://citation-file-format.github.io/cff-initializer-javascript/#/",
   "isAccessibleForFree": true,
-  "rs:hasQualityDimension": { "@id": "rs:Documentation", "@type": "@id" },
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "rs:howToUse": [ "CI/CD", "command-line" ],
+  "hasQualityDimension": { "@id": "Documentation", "@type": "@id" },
+  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
+  "howToUse": [ "CI/CD", "command-line" ],
   "license": { "@id": "https://spdx.org/licenses/Apache-2.0", "@type": "@id" }
 
 }

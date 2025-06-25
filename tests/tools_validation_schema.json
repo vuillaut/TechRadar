@@ -56,9 +56,9 @@
       "items": {
         "type": "string",
         "enum": [
-          "rs:AnalysisCode",
-          "rs:PrototypeTool",
-          "rs:ResearchInfrastructureSoftware"
+          "AnalysisCode",
+          "PrototypeTool",
+          "ResearchInfrastructureSoftware"
         ]
       }
     },
@@ -76,34 +76,34 @@
         "type": [ "string", "object" ]
       }
     },
-    "rs:hasQualityDimension": {
+    "hasQualityDimension": {
       "description": "Quality dimensions addressed by the tool",
       "type": [ "string", "array", "object" ],
       "items": {
         "type": "string",
         "enum": [
-          "rs:Compatibility",
-          "rs:FAIRness",
-          "rs:Flexibility",
-          "rs:Functional suitability",
-          "rs:Interaction Capability",
-          "rs:Maintainability",
-          "rs:Performance Efficiency",
-          "rs:Reliability",
-          "rs:Safety",
-          "rs:Security",
-          "rs:Sustainability"
+          "Compatibility",
+          "FAIRness",
+          "Flexibility",
+          "Functional suitability",
+          "Interaction Capability",
+          "Maintainability",
+          "Performance Efficiency",
+          "Reliability",
+          "Safety",
+          "Security",
+          "Sustainability"
         ]
       }
     },
-    "rs:hasQualityIndicator": {
+    "hasQualityIndicator": {
       "description": "Quality indicators addressed by the tool",
       "type": [ "string", "array", "object" ],
       "items": {
         "type": "string"
       }
     },
-    "rs:howToUse": {
+    "howToUse": {
       "description": "How the software is expected to be used",
       "type": [ "string", "array" ],
       "items": {
@@ -111,7 +111,7 @@
         "enum": [ "CI/CD", "command-line", "online-service" ]
       }
     },
-    "rs:usedBy": {
+    "usedBy": {
       "description": "Science cluster using the tool",
       "type": [ "string", "array" ],
       "items": {
@@ -119,7 +119,7 @@
         "enum": [ "ENVRI", "ESCAPE", "LS-RI", "PaNOSC", "SSHOC", "EOSC-Life" ]
       }
     },
-    "rs:appliesToProgrammingLanguage": {
+    "appliesToProgrammingLanguage": {
       "description": "Programming languages the tool applies to",
       "type": [ "string", "array" ],
       "items": {
@@ -134,7 +134,7 @@
     "license",
     "url",
     "applicationCategory",
-    "rs:hasQualityDimension"
+    "hasQualityDimension"
   ],
   "additionalProperties": false
 }

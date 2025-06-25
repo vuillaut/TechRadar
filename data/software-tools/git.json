@@ -8,9 +8,9 @@
   "name": "Git",
   "description": "Distributed version control system for tracking changes in source code.",
   "url": "https://git-scm.com/",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
-  "rs:hasQualityDimension": { "@id": "rs:Maintainability", "@type": "@id" },
-  "rs:howToUse": [ "command-line", "online-service" ],
+  "hasQualityDimension": { "@id": "Maintainability", "@type": "@id" },
+  "howToUse": [ "command-line", "online-service" ],
   "license": { "@id": "https://spdx.org/licenses/GPL-2.0-only", "@type": "@id" }
 }

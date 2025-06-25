@@ -9,12 +9,12 @@
   "name": "GitLab Pages",
   "description": "A feature of GitLab that allows users to publish static websites directly from their Git repositories.",
   "url": "https://about.gitlab.com/stages-devops-lifecycle/pages/",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
-  "rs:hasQualityDimension": {
-    "@id": "rs:Sustainability",
+  "hasQualityDimension": {
+    "@id": "Sustainability",
     "@type": "@id"
   },
-  "rs:howToUse": [ "CI/CD", "online-service" ],
+  "howToUse": [ "CI/CD", "online-service" ],
   "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
 }
