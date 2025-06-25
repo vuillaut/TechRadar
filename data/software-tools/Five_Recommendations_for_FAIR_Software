@@ -11,6 +11,10 @@
     "schema:isAccessibleForFree": "free",
     "rs:hasQualityDimension": {"@id":"rs:"FAIRness", "@type": "@id"},
     "rs:howToUse": ["online-service"],
-    "schema:license": { "@id": "@type": "@id"}
-      
+    "schema:license": { "@id": "@type": "@id"},
+    "schema:applicationCategory": [
+     { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+     { "@id": "rs:PrototypeTool", "@type": "@id" },
+     { "@id": "rs:AnalysisCode", "@type": "@id" }
+     ] 
   }
