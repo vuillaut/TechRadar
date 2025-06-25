@@ -10,5 +10,6 @@
     "schema:url": "https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content",
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
+    "schema:license": null    
     "rs:howToUse": ["CI/CD","online-service"]
 }
