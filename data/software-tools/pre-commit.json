@@ -10,7 +10,7 @@
   "schema:url": "https://pre-commit.com/",
   "schema:isAccessibleForFree": "true",
   "schema:applicationCategory": { "id": "rs:AnalysisCode","PrototypeTool","ResearchInfrastructureSoftware", "type": "@id"},
-  "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},  
+  "rs:hasQualityDimension": {"@id":"rs:Sustainability""rs:Maintainability", "@type": "@id"},  
   "rs:howToUse": ["command-line"],
   "schema:license": { "@id": "https://spdx.org/licenses/MIT.html", "@type": "@id"}
     
