@@ -10,7 +10,7 @@
   "schema:url": "https://reuse.software",
   "schema:isAccessibleForFree": "true",
   "schema:applicationCategory": { "id": "rs:PrototypeTool","ResearchInfrastructureSoftware", "type": "@id"},
-   "rs:hasQualityDimension": {"@id":"rs:FAIRness","Open", "@type": "@id"},
+   "rs:hasQualityDimension": {"@id":"rs:FAIRness", "@type": "@id"},
   "schema:license": { "@id": "https://www.gnu.org/licenses/old-licenses/gpl-3.0.html","@type": "@id"}
     
 }
