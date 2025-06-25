@@ -11,5 +11,8 @@
     "schema:isAccessibleForFree": true,
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "schema:license": null    
-    "rs:howToUse": ["CI/CD","online-service"]
+    "rs:howToUse": ["CI/CD","online-service"],
+    "schema:applicationCategory": [
+    { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+    { "@id": "rs:PrototypeTool", "@type": "@id" } ]
 }
