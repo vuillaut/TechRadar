@@ -4,20 +4,20 @@
     "rs": "https://w3id.org/everse/rs#"
   },
   "@id": "https://w3id.org/everse/tools/bandit",
-  "@type": "schema:SoftwareApplication",
-  "schema:name": "bandit",
-  "schema:description": "Bandit is a tool designed to find common security issues in Python code.",
-  "schema:url": "https://github.com/PyCQA/bandit",
-  "schema:isAccessibleForFree": true,
+  "@type": "SoftwareApplication",
+  "name": "bandit",
+  "description": "Bandit is a tool designed to find common security issues in Python code.",
+  "url": "https://github.com/PyCQA/bandit",
+  "isAccessibleForFree": true,
   "rs:hasQualityDimension": {
     "@id": "rs:Sustainability",
     "@type": "@id"
   },
-  "rs:howToUse": ["CI/CD", "command-line"],
-  "rs:appliesToProgrammingLanguage": ["Python"],
-  "schema:license": {
+  "rs:howToUse": [ "CI/CD", "command-line" ],
+  "rs:appliesToProgrammingLanguage": [ "Python" ],
+  "license": {
     "@id": "https://opensource.org/licenses/Apache-2.0",
     "@type": "@id"
   },
-  "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id"}
+  "applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" }
 }

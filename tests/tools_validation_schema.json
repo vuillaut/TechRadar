@@ -6,7 +6,7 @@
   "properties": {
     "@context": {
       "description": "The JSON-LD context for term definitions",
-      "type": ["string", "object"]
+      "type": [ "string", "object" ]
     },
     "@id": {
       "description": "Unique identifier for the software tool",
@@ -15,70 +15,70 @@
     },
     "@type": {
       "description": "The type of the entity, typically schema:SoftwareApplication",
-      "type": ["string", "array"],
+      "type": [ "string", "array" ],
       "items": {
         "type": "string"
       }
     },
-    "schema:name": {
+    "name": {
       "description": "The name of the software tool",
       "type": "string"
     },
-    "schema:description": {
+    "description": {
       "description": "A description of the software tool",
       "type": "string"
     },
-    "schema:url": {
+    "url": {
       "description": "URL of the software tool",
       "type": "string",
       "format": "uri"
     },
-    "schema:identifier": {
+    "identifier": {
       "description": "An identifier for the software tool",
-      "type": ["string", "array", "object"],
+      "type": [ "string", "array", "object" ],
       "format": "uri"
     },
-    "schema:isAccessibleForFree": {
+    "isAccessibleForFree": {
       "description": "Whether the software is free to access",
       "type": "boolean"
     },
-    "schema:license": {
+    "license": {
       "description": "License under which the software is released",
-      "type": ["string", "array", "object"],
+      "type": [ "string", "array", "object" ],
       "items": {
         "type": "string",
         "format": "uri"
       }
     },
-    "schema:applicationCategory": {
+    "applicationCategory": {
       "description": "The category of the application",
-      "type": ["string", "array", "object"],
+      "type": [ "string", "array", "object" ],
       "items": {
         "type": "string",
         "enum": [
-          "rs:AnalysisCode", 
-          "rs:PrototypeTool", 
+          "rs:AnalysisCode",
+          "rs:PrototypeTool",
           "rs:ResearchInfrastructureSoftware"
         ]
       }
     },
-    "schema:author": {
+    "author": {
       "description": "The author(s) of the software",
-      "type": ["string", "array", "object"],
+      "type": [ "string", "array", "object" ],
       "items": {
-        "type": ["string", "object"]
+        "type": [ "string", "object" ]
       }
     },
     "codemeta:maintainer": {
       "description": "The maintainer(s) of the software",
-      "type": ["string", "array", "object"],
+      "type": [ "string", "array", "object" ],
       "items": {
-        "type": ["string", "object"]
+        "type": [ "string", "object" ]
       }
     },
     "rs:hasQualityDimension": {
       "description": "Quality dimensions addressed by the tool",
-      "type": ["string", "array", "object"],
+      "type": [ "string", "array", "object" ],
       "items": {
         "type": "string",
         "enum": [
@@ -98,30 +98,30 @@
     },
     "rs:hasQualityIndicator": {
       "description": "Quality indicators addressed by the tool",
-      "type": ["string", "array", "object"],
+      "type": [ "string", "array", "object" ],
       "items": {
         "type": "string"
       }
     },
     "rs:howToUse": {
       "description": "How the software is expected to be used",
-      "type": ["string", "array"],
+      "type": [ "string", "array" ],
       "items": {
         "type": "string",
-        "enum": ["CI/CD", "command-line", "online-service"]
+        "enum": [ "CI/CD", "command-line", "online-service" ]
       }
     },
     "rs:usedBy": {
       "description": "Science cluster using the tool",
-      "type": ["string", "array"],
+      "type": [ "string", "array" ],
       "items": {
         "type": "string",
-        "enum": ["ENVRI", "ESCAPE", "LS-RI", "PaNOSC", "SSHOC", "EOSC-Life"]
+        "enum": [ "ENVRI", "ESCAPE", "LS-RI", "PaNOSC", "SSHOC", "EOSC-Life" ]
       }
     },
     "rs:appliesToProgrammingLanguage": {
       "description": "Programming languages the tool applies to",
-      "type": ["string", "array"],
+      "type": [ "string", "array" ],
       "items": {
         "type": "string"
       }
@@ -129,11 +129,11 @@
   },
   "required": [
     "@id",
-    "schema:name",
-    "schema:description",
-    "schema:license",
-    "schema:url",
-    "schema:applicationCategory",
+    "name",
+    "description",
+    "license",
+    "url",
+    "applicationCategory",
     "rs:hasQualityDimension"
   ],
   "additionalProperties": false
