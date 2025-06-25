@@ -6,7 +6,7 @@
       "@id": "https://example.org/FAIR_aware_tool",
       "@type": "schema:SoftwareApplication",
   "schema:name": "FAIR-Aware tool",
-  "schema:description": "Guided" approach to assess the FAIRness of data",
+  "schema:description": "Guided approach to assess the FAIRness of data",
   "schema:url": "https://dans.knaw.nl/en/satifyd/",
   "schema:identifier": { "@id": "https://example.org/FAIR_aware_tool"},
   "schema:isAccessibleForFree": true,
