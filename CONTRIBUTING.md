@@ -1,5 +1,6 @@
 # Contribution guidelines
 
+## How to contribute 
 
 We welcome contributions to the EVERSE TechRadar in several forms:
 - **Content contributions**: You can contribute by adding new tools and services to the catalog or updating existing entries. Please refer to the [Research Quality Tools and Services Catalog](#research-quality-tools-and-services-catalog) section for more details.
@@ -9,7 +10,20 @@ We welcome contributions to the EVERSE TechRadar in several forms:
 
 ## Research Quality Tools and Services Catalog
 
-You may propose to modify the content of TechRadar content by opening a pull request to add new tools and services or update existing entries. The process is as follows:
+You may propose to modify the content of TechRadar content by opening a pull request to add new tools and services or update existing entries.
+The tools and services must follow a [specific set of criteria](#criteria-for-a-tool-or-service-to-be-added-in-the-techradar) to be included in the TechRadar. The criteria are designed to ensure that the tools and services are relevant, useful, and actively maintained for improving software quality in research.
+
+### Criteria for a tool or service to be added in the TechRadar
+
+1. The tool/service has been designed with the intent of measuring/improving software quality, and it does measure or improve software quality.
+
+2. The tool/service is frequently used on research software and is being actively maintained.
+
+3. The tool/service enables the software it is used on to follow relevant research community standards and best practices.
+
+4. The tool/service has capabilities to analyse and improve software quality throughout the research software lifecycle, from development to long-term sustainability.
+
+### How to add or update a tool or service in the TechRadar
 
 1. **Fork the repository**: Create a fork of the TechRadar repository on GitHub.
 2.  **Create a new branch**: Create a new branch for your changes.
@@ -19,7 +33,6 @@ You may propose to modify the content of TechRadar content by opening a pull req
 6. **Create a pull request**: Open a pull request against the main branch of the TechRadar repository. Provide a clear explanation of the reasons to add or update the tool or service, and any relevant context or information that may help the curation team review your contribution.
 7. **Review and feedback**: The curation team will review your pull request. They may provide feedback or request changes before merging it into the main branch.
 8. **Merge and publish**: Once your pull request is approved, it will be merged into the main branch, and the changes will be reflected in the TechRadar dashboard at the next release.
-
 
 ## Technical contribution
 
