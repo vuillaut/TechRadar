@@ -1,12 +1,23 @@
 # Contribution guidelines
 
+## A list of criteria for a tool or service to be added in the TechRadar
+
+1. The tool/service has been designed with the intent of measuring/improving software quality, and it does measure or improve software quality.
+
+2. The tool/service is frequently used on research software and is being actively maintained.
+
+3. The tool/service enables the software it is used on to follow relevant research community standards and best practices.
+
+4. The tool/service has capabilities to analyse and improve software quality throughout the research software lifecycle, from development to long-term sustainability.
+
+
 ## How to contribute 
 
 **Note:** This section is work in progress
 
-You can add tools and modify the technology watch content by opening a pull request:
+You can add tools and modify the TechRadar content by opening a pull request:
   
-1. Open an issue with the type of tools you would like to see in Technology Watch.
+1. Open a pull request suggesting tools you would like to see in TechRadar satisfying a list of criteria.
   
 2. When you and the editor have agreed on what you will do, you can edit on the GitHub repository by clicking on the pencil icon.
 
