@@ -35,7 +35,7 @@ The catalog of tools and services is presented in a visual dashboard at <https:/
 
 
 ### Development
-
+Make sure you install [Node.js](https://nodejs.org/en) on your system as it will be needed to build and serve TechRadar.
 > [!WARNING]
 > The work is initial representation and is likely to be changed.
 > The current version of Technology Watch is a work in progress.
