@@ -7,7 +7,7 @@ It contains a [catalog of of _tools and services for research software quality_]
 
 ## Research Quality Tools and Services Catalog
 
-The present catalog includes tools and services that incorporate features that address the unique requirements of research software, including (but not limited to):
+The present catalog includes tools and services that incorporate features that address the unique requirements of research software, including but not limited to:
 
 - Analysis of source code to identify potential issues, vulnerabilities, and adherence to coding standards specific to research contexts.
 
@@ -17,7 +17,7 @@ The present catalog includes tools and services that incorporate features that a
 
 - Metrics and measurements tailored to assess both technical aspects and research-oriented factors.
 
-- Capabilities to analyze and improve software quality throughout the research software lifecycle, from development to long-term sustainability.
+- Capabilities to analyze and improve research software quality throughout the research software lifecycle, from development to long-term sustainability.  
 
 These tools aim to enhance the overall quality, reliability, and reusability of research software, ultimately contributing to the reproducibility and impact of scientific research.
 
@@ -27,7 +27,7 @@ We welcome content contributions to the catalog (see our [contribution guideline
 
 After review from our curation team, the entry will be added to [our catalog](data/software-tools) as JSON file.
 
-New versions of the TechRadar will be published regularly.
+New versions of the TechRadar will be published regularly. You can find all the releases at the [releases](https://github.com/EVERSE-ResearchSoftware/TechRadar/releases) page.
 
 ## EVERSE TechRadar dashboard
 
@@ -35,6 +35,11 @@ The catalog of tools and services is presented in a visual dashboard at <https:/
 
 
 ### Development
+
+> [!WARNING]
+> The work is initial representation and is likely to be changed.
+> The current version of Technology Watch is a work in progress.
+> Any content should not be considered final at this stage.
 
 #### Build the TechRadar
 
@@ -52,10 +57,7 @@ npm i
 npm run build
 ```
 
-> [!WARNING]
-> The work is initial representation and is likely to be changed.
-> The current version of Technology Watch is a work in progress.
-> Any content should not be considered final at this stage.
+
 
 ## Funding
 

@@ -11,7 +11,7 @@ We welcome contributions to the EVERSE TechRadar in several forms:
 ## Research Quality Tools and Services Catalog
 
 You may propose to modify the content of TechRadar content by opening a pull request to add new tools and services or update existing entries.
-The tools and services must follow a [specific set of criteria](#criteria-for-a-tool-or-service-to-be-added-in-the-techradar) to be included in the TechRadar. The criteria are designed to ensure that the tools and services are relevant, useful, and actively maintained for improving software quality in research.
+All tools and services must meet the [specific set of criteria](#criteria-for-a-tool-or-service-to-be-added-in-the-techradar) below to be included in the TechRadar. The criteria are designed to ensure that the tools and services are relevant, useful, and actively maintained for improving software quality in research.
 
 ### Criteria for a tool or service to be added in the TechRadar
 
@@ -21,7 +21,7 @@ The tools and services must follow a [specific set of criteria](#criteria-for-a-
 
 3. The tool/service enables the software it is used on to follow relevant research community standards and best practices.
 
-4. The tool/service has capabilities to analyse and improve software quality throughout the research software lifecycle, from development to long-term sustainability.
+4. The tool/service has capabilities to analyse and improve software quality throughout the [research software lifecycle](https://everse.software/RSQKit/life_cycle#the-research-software-lifecycle), from development to long-term sustainability.
 
 ### How to add or update a tool or service in the TechRadar
 
@@ -30,9 +30,9 @@ The tools and services must follow a [specific set of criteria](#criteria-for-a-
 3. **Add or update JSON files**: Add new JSON files for new tools and services or update existing ones in the `data/software-tools` directory. Each JSON file should follow the structure defined in the [RS metadata schema](https://github.com/EVERSE-ResearchSoftware/schemas/tree/main/software). Please be as accurate and exhaustive as possible when filling in the metadata fields.
 4. **Commit your changes**: Commit your changes with a clear and descriptive commit message.
 5. **Push your changes**: Push your changes to your forked repository.
-6. **Create a pull request**: Open a pull request against the main branch of the TechRadar repository. Provide a clear explanation of the reasons to add or update the tool or service, and any relevant context or information that may help the curation team review your contribution.
-7. **Review and feedback**: The curation team will review your pull request. They may provide feedback or request changes before merging it into the main branch.
-8. **Merge and publish**: Once your pull request is approved, it will be merged into the main branch, and the changes will be reflected in the TechRadar dashboard at the next release.
+6. **Create a pull request**: Open a pull request against the main branch of the TechRadar repository. Provide a clear explanation of the reasons to add or update the tool or service, and any relevant context or information that may help the curation team review your contribution. Make sure all the GitHub Workflows are passing. If there are errors, fix them before requesting a review.
+7. **Review and feedback**: Once your pull request is ready to be reviewed, ping the curation team @EVERSE-ResearchSoftware/techradar-curators to review it. The curation team will review your pull request. They may provide feedback or request changes before merging it into the main branch.
+8. **Merge and publish**: Once your pull request is approved, it will be merged by the curation team into the main branch, and the changes will be reflected in the TechRadar dashboard at the next release.
 
 ## Technical contribution
 
