@@ -36,8 +36,7 @@
             "rs:Reliability",
             "rs:Safety",
             "rs:Security",
-            "rs:Sustainability",
-            "rs:Documentation"
+            "rs:Sustainability"
           ]
         }
       },
