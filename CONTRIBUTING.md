@@ -53,4 +53,4 @@ You can contribute to the TechRadar by reporting issues, suggesting improvements
 
 
 ## Joining the curation team
-If you are interested in actively participating in the curation of the TechRadar, you may join the team. To do so, contact us by [opening an issue](https://github.com/EVERSE-ResearchSoftware/TechRadar/issues/new?template=BLANK_ISSUE) and express your interest in joining the curation team. Provide a brief introduction about yourself, your background, and your interest in research software quality.
+If you are interested in actively participating in the curation of the TechRadar, you may join the team. To do so, contact us by [opening an issue](https://github.com/EVERSE-ResearchSoftware/TechRadar/issues/new?template=BLANK_ISSUE) and express your interest in joining the curation team. Provide a brief introduction about yourself, your background, and your interest in research software quality. You should have a background in software engineering or development applied to research. After consideration, you will be added to the [team of curators](https://github.com/orgs/EVERSE-ResearchSoftware/teams/techradar-curators)
