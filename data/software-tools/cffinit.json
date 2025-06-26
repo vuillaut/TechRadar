@@ -1,7 +1,7 @@
 {
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/cffinit",
-  "@type": "schema:SoftwareApplication",
+  "@type": "SoftwareApplication",
   "schema:name": "cffinit",
   "schema:description": "A web application to create CITATION.cff files",
   "schema:url": "https://citation-file-format.github.io/cffinit",
