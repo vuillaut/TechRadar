@@ -15,5 +15,6 @@
   ],
   "schema:isAccessibleForFree": false,
   "rs:hasQualityDimension": { "@id": "rs:Sustainability", "@type": "@id" },
+  "schema:license": { "@id": "https://github.com/customer-terms/github-copilot-product-specific-terms", "@type": "@id"},
   "rs:howToUse": ["command-line"]
 }
