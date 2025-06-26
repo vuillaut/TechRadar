@@ -52,13 +52,27 @@
     },
     "schema:applicationCategory": {
       "description": "The category of the application",
-      "type": ["string", "array", "object"],
+      "type": ["array", "object"],
       "items": {
-        "type": "string",
-        "enum": [
-          "rs:AnalysisCode", 
-          "rs:PrototypeTool", 
-          "rs:ResearchInfrastructureSoftware"
+        "oneOf": [
+          {
+            "type": "string",
+            "enum": [
+              "rs:AnalysisCode", 
+              "rs:PrototypeTool", 
+              "rs:ResearchInfrastructureSoftware"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "@id": {
+                "type": "string",
+                "description": "Identifier for the application category"
+              }
+            },
+            "required": ["@id"]
+          }
         ]
       }
     },
@@ -78,21 +92,35 @@
     },
     "rs:hasQualityDimension": {
       "description": "Quality dimensions addressed by the tool",
-      "type": ["string", "array", "object"],
+      "type": ["array", "object"],
       "items": {
-        "type": "string",
-        "enum": [
-          "rs:Compatibility",
-          "rs:FAIRness",
-          "rs:Flexibility",
-          "rs:Functional suitability",
-          "rs:Interaction Capability",
-          "rs:Maintainability",
-          "rs:Performance Efficiency",
-          "rs:Reliability",
-          "rs:Safety",
-          "rs:Security",
-          "rs:Sustainability"
+        "oneOf": [
+          {
+            "type": "string",
+            "enum": [
+              "rs:Compatibility",
+              "rs:FAIRness",
+              "rs:Flexibility",
+              "rs:Functional suitability",
+              "rs:Interaction Capability",
+              "rs:Maintainability",
+              "rs:Performance Efficiency",
+              "rs:Reliability",
+              "rs:Safety",
+              "rs:Security",
+              "rs:Sustainability"
+            ]
+          },
+          {
+            "type": "object",
+            "properties": {
+              "@id": {
+                "type": "string",
+                "description": "Identifier for the quality dimension"
+              }
+            },
+            "required": ["@id"]
+          }
         ]
       }
     },
