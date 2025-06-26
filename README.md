@@ -53,7 +53,7 @@ Then open here: <http://localhost:3000/techradar>
 #### Build with static files
 
 ```bash
-npm i
+npm install
 npm run build
 ```
 
