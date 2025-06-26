@@ -29,7 +29,7 @@ After review from our curation team, the entry will be added to [our catalog](da
 
 New versions of the TechRadar will be published regularly.
 
-## Technology Radar dashboard
+## EVERSE TechRadar dashboard
 
 The catalog of tools and services is presented in a visual dashboard at <https://github.com/EVERSE-ResearchSoftware/TechRadar>.
 
