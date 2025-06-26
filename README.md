@@ -44,7 +44,7 @@ The catalog of tools and services is presented in a visual dashboard at <https:/
 #### Build the TechRadar
 
 ```bash
-npm i
+npm install
 npm run serve
 ```
 
