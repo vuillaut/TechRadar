@@ -8,7 +8,7 @@
   "schema:name": "RPM Package Manager",
   "schema:description": "Package management system used to install, update, and remove software on Linux distributions.",
   "schema:url": "http://rpm.org/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "type": "@id" },
+  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": [
         { "@id": "rs:Performance Efficiency", "@type": "@id" },

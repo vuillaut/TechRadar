@@ -8,7 +8,7 @@
   "schema:name": "SonarQube",
   "schema:description": "Tool for continuous inspection of code quality and security vulnerabilities.",
   "schema:url": "https://www.sonarqube.org/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "type": "@id" },
+  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": { "@id": "rs:Maintainability", "@type": "@id" },
   "rs:howToUse": ["CI/CD", "online-service"],

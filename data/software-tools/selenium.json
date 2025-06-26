@@ -8,7 +8,7 @@
   "schema:name": "Selenium",
   "schema:description": "Framework for automating web browser interactions for testing purposes.",
   "schema:url": "https://www.selenium.dev/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "type": "@id" },
+  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": { "@id": "rs:Functional suitability", "@type": "@id" },
   "rs:howToUse": ["command-line", "CI/CD"],
