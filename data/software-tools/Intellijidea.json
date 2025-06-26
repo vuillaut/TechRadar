@@ -8,7 +8,7 @@
   "schema:name": "intellijidea",
   "schema:description": "Integrated development environment (IDE) written in Java",
   "schema:url": "https://www.jetbrains.com/fr-fr/idea/",
-  "schema:isAccessibleForFree": "depends",
+  "schema:isAccessibleForFree": true,
   "schema:applicationCategory": { "id": "rs:", "type": "@id"},
   "rs:hasQualityDimension": {"@id":"rs:CodeAnalysis","Maintainability", "@type": "@id"},
   "rs:howToUse": ["CI/CD","command-line","online-service"],
