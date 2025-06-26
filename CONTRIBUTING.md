@@ -2,13 +2,13 @@
 
 ## A list of criteria for a tool or service to be added in the TechRadar
 
-1. The tool has been designed with the intent of measuring/improving software quality and it does measure or improve software quality.
+1. The tool/service has been designed with the intent of measuring/improving software quality, and it does measure or improve software quality.
 
-2. The tool is frequently used on research software and being actively maintained.
+2. The tool/service is frequently used on research software and is being actively maintained.
 
-3. The tool enables the software it is used on to follow relevant research community standards and best practices.
+3. The tool/service enables the software it is used on to follow relevant research community standards and best practices.
 
-4. The tool has capabilities to analyse and improve software quality throughout the research software lifecycle, from development to long-term sustainability.
+4. The tool/service has capabilities to analyse and improve software quality throughout the research software lifecycle, from development to long-term sustainability.
 
 
 ## How to contribute 
