@@ -4,14 +4,11 @@
   "@type": "SoftwareApplication",
   "name": "GitHub",
   "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
-  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": "ResearchInfrastructureSoftware",
   "url": "https://github.com/",
   "isAccessibleForFree": true,
-  "hasQualityDimension": {
-    "@id": "FAIRness",
-    "@type": "@id"
-  },
+  "hasQualityDimension": "FAIRness",
   "howToUse": [ "online-service", "CI/CD", "command-line" ],
   "usedBy": [ "ENVRI", "ESCAPE", "EOSC-Life", "PaNOSC", "SSHOC" ],
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
+  "license": "https://spdx.org/licenses/MIT"
 }

@@ -5,10 +5,10 @@
   "name": "doxygen",
   "description": "Doxygen is a documentation generator for annotated source code. It helps developers automatically produce software documentation from the comments and structure of their code. Supports languages like C, C++, Java, Python, PHP, Fortran, etc",
   "url": "https://www.doxygen.nl/",
-  "applicationCategory": { "@id": "AnalysisCode", "type": "@id" },
+  "applicationCategory": "AnalysisCode",
   "isAccessibleForFree": true,
-  "hasQualityDimension": { "@id": "Documentation", "@type": "@id" },
+  "hasQualityDimension": "Documentation",
   "howToUse": [ "CI/CD", "command-line" ],
   "appliesToProgrammingLanguage": [ "C++", "C", "Python", "PHP", "Java", "C#", "Objective-C", "Fortran", "VHDL", "Splice", "IDL", "Lex" ],
-  "license": { "@id": "https://spdx.org/licenses/GPL-2.0-only", "@type": "@id" }
+  "license": "https://spdx.org/licenses/GPL-2.0-only"
 }

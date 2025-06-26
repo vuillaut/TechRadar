@@ -4,13 +4,10 @@
   "@type": "SoftwareApplication",
   "name": "GitLab CICD",
   "description": "A platform for Integration, Delivery and Deployment.",
-  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": "ResearchInfrastructureSoftware",
   "url": "https://docs.gitlab.com/ci/",
   "isAccessibleForFree": false,
-  "hasQualityDimension": {
-    "@id": "Sustainalibity",
-    "@type": "@id"
-  },
+  "hasQualityDimension": "Sustainalibity",
   "howToUse": [ "CI/CD", "command-line", "online-service" ],
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
+  "license": "https://spdx.org/licenses/MIT"
 }

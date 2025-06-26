@@ -5,12 +5,9 @@
   "name": "GitHub Pages",
   "description": "A static site hosting service by GitHub that allows users to publish websites directly from a GitHub repository.",
   "url": "https://pages.github.com/",
-  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": "ResearchInfrastructureSoftware",
   "isAccessibleForFree": true,
-  "hasQualityDimension": {
-    "@id": "Sustainability",
-    "@type": "@id"
-  },
+  "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "command-line", "online-service" ],
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
+  "license": "https://spdx.org/licenses/MIT"
 }

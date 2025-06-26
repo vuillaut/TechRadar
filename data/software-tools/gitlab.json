@@ -6,10 +6,7 @@
   "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
   "url": "https://gitlab.com/",
   "isAccessibleForFree": false,
-  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
-  "hasQualityDimension": {
-    "@id": "FAIRness",
-    "@type": "@id"
-  },
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
+  "applicationCategory": "ResearchInfrastructureSoftware",
+  "hasQualityDimension": "FAIRness",
+  "license": "https://spdx.org/licenses/MIT"
 }

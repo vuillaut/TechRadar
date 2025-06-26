@@ -5,11 +5,10 @@
   "name": "sphinx",
   "description": "Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.",
   "url": "https://www.sphinx-doc.org",
-  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": "ResearchInfrastructureSoftware",
   "isAccessibleForFree": true,
-  "hasQualityDimension": { "@id": "Sustainability", "@type": "@id" },
+  "hasQualityDimension": "Sustainability",
   "howToUse": [ "command-line", "CI/CD" ],
   "appliesToProgrammingLanguage": [ "Python" ],
-  "license": { "@id": "https://spdx.org/licenses/BSD-2-Clause", "@type": "@id" }
-
+  "license": "https://spdx.org/licenses/BSD-2-Clause"
 }

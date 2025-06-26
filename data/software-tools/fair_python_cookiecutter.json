@@ -4,11 +4,11 @@
   "@type": "SoftwareApplication",
   "name": "Fair Python Cookiecutter",
   "description": "Fair Python Cookiecutter is an opinionated cookiecutter template to kickstart a modern best-practice Python project with FAIR metadata.",
-  "applicationCategory": { "@id": "PrototypeTool", "@type": "@id" },
+  "applicationCategory": "PrototypeTool",
   "url": "https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter",
   "isAccessibleForFree": true,
-  "hasQualityDimension": { "@id": "Sustainability", "@type": "@id" },
+  "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "command-line", "online-service" ],
   "appliesToProgrammingLanguage": [ "Python" ],
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
+  "license": "https://spdx.org/licenses/MIT"
 }

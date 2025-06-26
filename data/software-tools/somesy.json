@@ -6,9 +6,8 @@
   "description": "Somesy (software metadata sync) is a CLI tool to avoid messy software project metadata by keeping it in sync.",
   "url": "https://github.com/Materials-Data-Science-and-Informatics/somesy",
   "isAccessibleForFree": true,
-  "hasQualityDimension": { "@id": "Sustainability", "@type": "@id" },
-  "applicationCategory": { "@id": "ResearchInfrastructureSoftware", "@type": "@id" },
+  "hasQualityDimension": "Sustainability",
+  "applicationCategory": "ResearchInfrastructureSoftware",
   "howToUse": [ "CI/CD", "command-line" ],
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
-
+  "license": "https://spdx.org/licenses/MIT"
 }
