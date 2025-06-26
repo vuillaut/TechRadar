@@ -11,9 +11,9 @@
     "schema:isAccessibleForFree": true,
     "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id"},
     "schema:applicationCategory": [
-        "rs:PrototypeTool",
-        "rs:ResearchInfrastructureSoftware",
-        "rs:AnalysisCode"
+        { "@id": "rs:PrototypeTool", "@type": "@id" },
+        { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+        { "@id": "rs:AnalysisCode", "@type": "@id" }
     ],
     "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
     "rs:howToUse": ["online-service"]
