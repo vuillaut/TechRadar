@@ -42,7 +42,7 @@
     },
     {
       "id": "functional-suitability",
-      "title": "Functional suitability",
+      "title": "Functional Suitability",
       "description": "This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions. ",
       "color": "#F2A25C"
     },
@@ -91,8 +91,8 @@
   ],
   "rings": [
     {
-      "id": "research software infra",
-      "title": "Research software infra",
+      "id": "research infra software",
+      "title": "Research infra software",
       "description": "This involves software that captures broadly accepted ideas, methods and models for use in research, warranting close researcher involvement in their development. This tier represents broadly applicable research software, often with a large and possibly distributed development team.",
       "color": "#5cb449",
       "radius": 0.45,
