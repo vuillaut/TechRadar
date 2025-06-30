@@ -17,24 +17,29 @@ def generate_markdown(json_ld_file, output_dir):
         print(ring)
     else:
         ring = 'Missing application category in Json_LD'
-    quadrant = 'application'  # Default quadrant for tools # TBD
+    segment = 'Sustainability'  # Default segment for tools
     tags = []
 
     # Get tags
-    if 'rs:hasQualityDimension' in json_ld:
-        quality_dimension = json_ld['rs:hasQualityDimension']
-        if isinstance(quality_dimension, dict) and '@id' in quality_dimension:
-            rs_quality_dimension = quality_dimension['@id'].split('/')[-1]
-            tags.append(rs_quality_dimension.split(':')[-1])  # Extracts exact value from the ID
+    # if 'rs:hasQualityDimension' in json_ld:
+    #     quality_dimension = json_ld['rs:hasQualityDimension']
+    #     if isinstance(quality_dimension, dict) and '@id' in quality_dimension:
+    #         rs_quality_dimension = quality_dimension['@id'].split('/')[-1]
+    #         tags.append(rs_quality_dimension.split(':')[-1])  # Extracts exact value from the ID
 
     if 'rs:howToUse' in json_ld:
         how_to_use = json_ld['rs:howToUse']
-        tags.extend(how_to_use)  # Add howToUse tags, e.g., 'web-interface'
+        tags.extend(how_to_use)  # Add howToUse tags, e.g., 'online-service', 'CI/CD'
 
     if 'schema:license' in json_ld:
         license_info = json_ld['schema:license']
         if isinstance(license_info, dict) and '@id' in license_info:
             tags.append(license_info['@id'].split('/')[-1])  # Extracts exact license type, e.g., 'Apache-2.0'
+    
+    if 'rs:appliesToProgrammingLanguage' in json_ld:
+        programming_language = json_ld['rs:appliesToProgrammingLanguage']
+        tags.extend(programming_language)
+
 
     url = json_ld.get('schema:url', '')
     
@@ -45,7 +50,7 @@ def generate_markdown(json_ld_file, output_dir):
     markdown_content = f"""---
 title: "{title}"
 ring: {ring}
-quadrant: {quadrant}
+segment: {segment}
 tags: {tags}
 ---
 {url}
