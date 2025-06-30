@@ -79,11 +79,11 @@ def process_json_ld_files(input_dir, output_dir):
 
 
 # Create new directory for the markdown files
-outdir = Path(f'radar/{datetime.today().strftime("%Y-%m-%d")}')
+outdir = Path(f'../radar/{datetime.today().strftime("%Y-%m-%d")}')
 outdir.mkdir(parents=True, exist_ok=True)
 
 # Example usage
-input_dir = 'data/software-tools'  # Directory where JSON-LD files are stored
+input_dir = '../data/software-tools'  # Directory where JSON-LD files are stored
 output_dir = outdir # Directory where markdown files are stored
 
 process_json_ld_files(input_dir, output_dir)
