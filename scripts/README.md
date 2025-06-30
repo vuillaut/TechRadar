@@ -2,8 +2,8 @@
 
 This Python script processes [JSON-LD](https://json-ld.org/) files representing software tools and generates corresponding Markdown files for TechRadar dashboard. It is designed to support technology radar-style documentation by extracting metadata like tool name, category, tags, and description.
 
-## 📂 Directory Structure
-
+## Directory Structure
+```
 project/
 │
 ├── data/
@@ -14,7 +14,7 @@ project/
 │
 ├── script.py # The main script
 └── README.md # You're here!
-
+```
 
 ## 🧰 Features
 
@@ -57,8 +57,7 @@ python3 generate_markdown.py
 
 ### 4. Output Format (Markdown)
 Each generated file will contain:
-
-markdown
+```
 ---
 title: "Tool Name"
 ring: AnalysisCode/ResearchInfrastructureSoftware/PrototypeTool
@@ -68,3 +67,4 @@ tags: [QualityTag, UsageMethod, LicenseType, Programming language]
 https://example.com
 Tool description here.
 
+```
