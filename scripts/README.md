@@ -47,7 +47,7 @@ python3 --version
 Place your .json files inside the data/software-tools/ directory. Each file should follow the JSON-LD format with relevant metadata.
 
 
-### 3. Run the Script
+### 3. Run the Script Locally
 
 You can run the script from the terminal:
 
@@ -68,3 +68,7 @@ https://example.com
 Tool description here.
 
 ```
+### 5. Open a Pull Request to Add New Markdown Files
+
+Once a new folder containing the markdown files is generated, open a pull request (PR) to merge this addition into the main branch. This PR will be part of preparing a new release of the TechRadar.
+
