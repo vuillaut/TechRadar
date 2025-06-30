@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "schema": "http://schema.org/",
+    "rs": "https://w3id.org/everse/rs#"
+  },
+  "@id": "https://w3id.org/everse/tools/cppunit",
+  "@type": "schema:SoftwareApplication",
+  "schema:name": "CppUnit",
+  "schema:description": "C++ testing tool",
+  "schema:url": "https://freedesktop.org/wiki/Software/cppunit/",
+  "schema:applicationCategory": [
+    { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+    { "@id": "rs:TestingSoftware", "@type": "@id" }
+  ],
+  "schema:isAccessibleForFree": true,
+  "rs:hasQualityDimension": {
+      "@id": "rs:Code analysis",
+      "@type": "@id"
+    },
+  "rs:howToUse": ["library"],
+  "rs:appliesToProgrammingLanguage": ["C++"],
+  "schema:license": {
+    "@id": "Lhttps://www.gnu.org/licenses/lgpl-3.0.htmlGPL",
+    "@type": "@id"
+  }
+}
