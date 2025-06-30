@@ -31,9 +31,9 @@ WIP
 
 #### Each of the items is classified in one of these rings:
 
-- **analysis code:** 
-- **prototype tools:** 
-- **research infrastructure software:** 
+- **Analysis Code** 
+- **Prototype Tools** 
+- **Research Infrastructure Software** 
 
 ### Contributing to the EVERSE Technology Radar
 
