@@ -8,7 +8,7 @@
   "schema:name": "gcov",
   "schema:description": "Gcov is a test coverage analysis tool, it considers which lines are actually executed and how often",
   "schema:url": "https://gcc.gnu.org/onlinedocs/gcc/Gcov.html",
-  "schema:isAccessibleForFree": "true",
+  "schema:isAccessibleForFree": true,
   "schema:applicationCategory": { "id": "rs:AnalysisCode","PrototypeTool","ResearchInfrastructureSoftware", "type": "@id"},
   "rs:hasQualityDimension": {"@id":"rs:ResourceEfficiency","CodeAnalysis", "@type": "@id"},
   "rs:howToUse": ["CI/CD","command-line"],
