@@ -8,7 +8,7 @@
   "schema:name": "poetry",
   "schema:description": "Python packaging and dependency management made easy",
   "schema:url": "https://python-poetry.org/",
-  "schema:isAccessibleForFree": "true",
+  "schema:isAccessibleForFree": true,
   "schema:applicationCategory": { "id": "rs:PrototypeTool","ResearchInfrastructureSoftware", "type": "@id"},
   "rs:hasQualityDimension": {"@id":"rs:Usability","Portability", "@type": "@id"},
   "rs:howToUse": ["CI/CD","command-line"],
