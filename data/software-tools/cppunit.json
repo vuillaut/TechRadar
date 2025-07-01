@@ -11,10 +11,10 @@
   "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-      "@id": "rs:Code analysis",
+      "@id": "rs:Functional suitability",
       "@type": "@id"
     },
-  "rs:howToUse": ["library"],
+  "rs:howToUse": ["command-line"],
   "rs:appliesToProgrammingLanguage": ["C++"],
   "schema:license": {
     "@id": "Lhttps://www.gnu.org/licenses/lgpl-3.0.htmlGPL",

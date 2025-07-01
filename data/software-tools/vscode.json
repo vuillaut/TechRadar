@@ -10,11 +10,11 @@
   "schema:url": "https://code.visualstudio.com/",
   "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
-    { "@id": "rs:Code analysis", "@type": "@id" },
-    { "@id": "rs:Maintainability", "@type": "@id" }
-  ],
-  "rs:howToUse": ["desktop-application", "online-service"],
+  "rs:hasQualityDimension": {
+      "@id": "rs:Intercation Capability",
+      "@type": "@id"
+    },
+  "rs:howToUse": ["command-line"],
   "schema:license": {
     "@id": "https://code.visualstudio.com/license",
     "@type": "@id"

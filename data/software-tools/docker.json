@@ -10,11 +10,11 @@
   "schema:url": "https://www.docker.com/",
   "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
-    { "@id": "rs:Long-term usability", "@type": "@id" },
-    { "@id": "rs:FAIRness", "@type": "@id" }
-  ],
-  "rs:howToUse": ["command-line", "desktop-application", "online-service"],
+  "rs:hasQualityDimension": {
+      "@id": "rs:Compatibility",
+      "@type": "@id"
+    },
+  "rs:howToUse": ["command-line", "online-service"],
   "schema:license": {
     "@id": "https://www.apache.org/licenses/LICENSE-2.0",
     "@type": "@id"
