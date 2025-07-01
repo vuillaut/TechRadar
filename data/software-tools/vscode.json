@@ -11,7 +11,7 @@
   "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-      "@id": "rs:Intercation Capability",
+      "@id": "rs:Interaction Capability",
       "@type": "@id"
     },
   "rs:howToUse": ["command-line"],

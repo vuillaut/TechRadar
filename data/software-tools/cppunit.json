@@ -11,7 +11,7 @@
   "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-      "@id": "rs:Functional suitability",
+      "@id": "rs:Functional Suitability",
       "@type": "@id"
     },
   "rs:howToUse": ["command-line"],
