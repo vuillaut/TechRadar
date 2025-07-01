@@ -8,7 +8,7 @@
   "schema:name": "valgrind",
   "schema:description": "Detects memory management and threading bugs, run profiling to see how to speed up your programs",
   "schema:url": "https://valgrind.org/",
-  "schema:isAccessibleForFree": "true",
+  "schema:isAccessibleForFree": true,
   "schema:applicationCategory": { "id": "rs:AnalysisCode","PrototypeTool","ResearchInfrastructureSoftware", "type": "@id"},
   "rs:hasQualityDimension": {"@id":"rs:CodeAnalysis","ResourceEfficiency", "@type": "@id"},
   "schema:license": { "@id": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html","@type": "@id"}
