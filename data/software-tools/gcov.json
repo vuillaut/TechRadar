@@ -5,7 +5,7 @@
   },
       "@id": "https://w3id.org/everse/tools/gcov",
       "@type": "schema:SoftwareApplication",
-  "schema:name": "pypi",
+  "schema:name": "gcov",
   "schema:description": "Code coverage analysis - which lines are actually executed and how often",
   "schema:url": "https://gcc.gnu.org/onlinedocs/gcc/Gcov.html",
   "schema:isAccessibleForFree": "true",
