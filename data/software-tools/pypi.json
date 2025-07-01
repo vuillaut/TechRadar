@@ -8,7 +8,7 @@
   "schema:name": "pypi",
   "schema:description": "The Python Package Index (PyPI) is the official third-party software repository for software for the Python programming language and helps find and install software developed and shared by the Python community. ",
   "schema:url": "https://pypi.org/",
-  "schema:isAccessibleForFree": "true",
+  "schema:isAccessibleForFree": true,
   "schema:applicationCategory": { "id": "rs:PrototypeTool","ResearchInfrastructureSoftware", "type": "@id"},
   "rs:hasQualityDimension": {"@id":"rs:Usability","Portability", "@type": "@id"},
   "rs:howToUse": ["CI/CD","command-line","online-service"],
