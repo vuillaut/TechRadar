@@ -15,7 +15,9 @@ It contains a [catalog of of _tools and services for research software quality_]
 WIP
 
 
-#### The segments are:
+#### Segments
+
+The segments correspond to [the EVERSE Quality Dimensions](https://everse.software/indicators/website/dimensions.html):
 
 - **Compatibility:** This segment covers tools and services that assess the degree to which a product, system, or component can exchange information with other products, systems, or components, and/or perform its required functions while sharing a common environment and resources.
 - **FAIRness:** This segment covers tools and services that evaluate FAIRness, which refers to the extent to which research software aligns with the FAIR principles: Findable, Accessible, Interoperable, and Reusable.
@@ -29,8 +31,9 @@ WIP
 - **Security:** This segment covers tools and services that measure the degree to which a product or system defends against attack patterns by malicious actors, while protecting information and data to ensure that individuals or other systems have the appropriate level of access based on their types and authorization levels.
 - **Sustainability:** This segment covers tools and services that assess the capacity of software to endure, ensuring its availability on future platforms and its ability to meet evolving needs over time.
 
-#### Each of the items is classified in one of these rings:
+#### Rings
 
+The rings correspond to [the three-tier model of research software](https://everse.software/RSQKit/three_tier_view):
 - **Analysis Code** 
 - **Prototype Tools** 
 - **Research Infrastructure Software** 
@@ -38,4 +41,6 @@ WIP
 ### Contributing to the EVERSE Technology Radar
 
 Contributions and source code of the EVERSE Tech Radar are on
-GitHub: [EVERSE Tech Radar on GitHub](https://github.com/EVERSE-ResearchSoftware/TechRadar) and [EVERSE AOE Tech Radar fork](https://github.com/EVERSE-ResearchSoftware/aoe_technology_radar)
+GitHub: [EVERSE Tech Radar on GitHub](https://github.com/EVERSE-ResearchSoftware/TechRadar) and [EVERSE AOE Tech Radar fork](https://github.com/EVERSE-ResearchSoftware/aoe_technology_radar).
+
+Please see our [contribuing guidelines](CONTRIBUTING.md)
