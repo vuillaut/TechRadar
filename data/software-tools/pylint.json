@@ -10,7 +10,7 @@
   "schema:url": "https://pylint.pycqa.org/",
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-    "@id": "rs:Functional Suitability",
+    "@id": "rs:Maintainability",
     "@type": "@id"
   },
   "rs:howToUse": ["command-line", "CI/CD"],
@@ -19,8 +19,16 @@
     "@id": "https://opensource.org/licenses/GPL-2.0-only",
     "@type": "@id"
   },
-  "schema:applicationCategory": {
+  "schema:applicationCategory": [{
     "@id": "rs:AnalysisCode",
     "@type": "@id"
-  }
+  }, 
+  {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  }, 
+  {
+    "@id": "rs:PrototypeTool",
+    "@type": "@id"
+  }]
 }
