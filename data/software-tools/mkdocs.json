@@ -10,7 +10,7 @@
   "schema:url": "https://www.mkdocs.org/",
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-    "@id": "rs:Sustainability",
+    "@id": "rs:Interaction Capability",
     "@type": "@id"
   },
   "rs:howToUse": ["command-line", "CI/CD"],
@@ -19,8 +19,12 @@
     "@id": "https://opensource.org/licenses/BSD-2-Clause",
     "@type": "@id"
   },
-  "schema:applicationCategory": {
+  "schema:applicationCategory": [{
     "@id": "rs:ResearchInfrastructureSoftware",
     "@type": "@id"
-  }
+  }, 
+  {
+    "@id": "rs:PrototypeTool",
+    "@type": "@id"
+  }]
 }

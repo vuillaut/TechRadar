@@ -10,7 +10,7 @@
   "schema:url": "https://chooser-beta.creativecommons.org/",
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-    "@id": "rs:Sustainability",
+    "@id": "rs:FAIRness",
     "@type": "@id"
   },
   "rs:howToUse": ["online-service"],

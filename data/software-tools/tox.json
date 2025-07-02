@@ -10,7 +10,7 @@
   "schema:url": "https://tox.wiki/",
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-    "@id": "rs:Sustainability",
+    "@id": "rs:Interaction Capability",
     "@type": "@id"
   },
   "rs:howToUse": ["command-line", "CI/CD"],

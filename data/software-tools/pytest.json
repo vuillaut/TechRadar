@@ -10,7 +10,7 @@
   "schema:url": "https://docs.pytest.org/",
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-    "@id": "rs:Sustainability",
+    "@id": "rs:Maintainability",
     "@type": "@id"
   },
   "rs:howToUse": ["command-line", "CI/CD"],
@@ -19,8 +19,12 @@
     "@id": "https://opensource.org/licenses/MIT",
     "@type": "@id"
   },
-  "schema:applicationCategory": {
+  "schema:applicationCategory": [{
     "@id": "rs:AnalysisCode",
     "@type": "@id"
-  }
+  },
+  {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  }]
 }
