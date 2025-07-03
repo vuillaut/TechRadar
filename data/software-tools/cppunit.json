@@ -8,10 +8,13 @@
   "schema:name": "CppUnit",
   "schema:description": "C++ testing tool",
   "schema:url": "https://freedesktop.org/wiki/Software/cppunit/",
-  "schema:applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" },
+  "schema:applicationCategory": [
+    { "@id": "rs:PrototypeTool", "@type": "@id" },
+    { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" }
+  ],
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-      "@id": "rs:Functional Suitability",
+      "@id": "rs:Maintainability",
       "@type": "@id"
     },
   "rs:howToUse": ["command-line"],

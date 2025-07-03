@@ -10,10 +10,10 @@
   "schema:url": "https://apptainer.org/",
   "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": {
-      "@id": "rs:Compatibility",
-      "@type": "@id"
-    },
+  "rs:hasQualityDimension": [
+    { "@id": "rs:Compatibility", "@type": "@id" },
+    { "@id": "rs:Flexibility", "@type": "@id" }
+  ],
   "rs:howToUse": ["command-line"],
   "schema:license": {
     "@id": "https://opensource.org/license/bsd-3-clause",
