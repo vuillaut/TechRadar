@@ -8,6 +8,10 @@ We welcome contributions to the EVERSE TechRadar in several forms:
 - **General contributions**: You can also contribute by [reporting issues](https://github.com/EVERSE-ResearchSoftware/TechRadar/issues/new/choose), suggesting improvements, or providing feedback on the TechRadar dashboard.
 - **Joining the curation team**:  If you are interested in actively participating in the curation of the TechRadar, you may join the team. Please contact us via the [GitHub issues](https://github.com/EVERSE-ResearchSoftware/TechRadar/issues/new/choose).
 
+
+If you have doubts about a potential contribution, you may consider opening [an issue](https://github.com/EVERSE-ResearchSoftware/TechRadar/issues) or [discussion](https://github.com/EVERSE-ResearchSoftware/TechRadar/discussions) to discuss the matter before starting to implement anything.
+
+
 ## Research Quality Tools and Services Catalog
 
 You may propose to modify the content of TechRadar content by opening a pull request to add new tools and services or update existing entries.
