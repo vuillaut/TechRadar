@@ -57,7 +57,19 @@ npm install
 npm run build
 ```
 
+#### Run lint and formatting check on tools -> /data/software-tools/*.json
 
+```bash
+npm install
+npm run lint-prettier:check
+```
+
+#### Run lint and formatting fix
+
+```bash
+npm install
+npm run lint-prettier:fix
+```
 
 ## Funding
 
