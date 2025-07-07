@@ -11,28 +11,15 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout the code
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-      
-      - name: Install jsonld-lint
-        run: |
-          npm install -g jsonld-lint
-          npm list -g --depth=0
-          echo "npm bin path: $(npm bin -g)"
-          which jsonld-lint || echo "jsonld-lint not found"
-
-      - name: Debug environment variables and paths
-        run: |
-          echo "PATH: $PATH"
-          echo "npm bin global path: $(npm bin -g)"
-          ls -al $(npm bin -g)
-          which jsonld-lint
-
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+      - run: npm install -g jsonld-lint
       - name: Run JSON-LD lint checks on each .jsonld file
         run: |
           for file in ./data/software-tools/*.json; do
