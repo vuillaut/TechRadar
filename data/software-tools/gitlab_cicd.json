@@ -4,7 +4,7 @@
   "@type": "SoftwareApplication",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "description": "A platform for Integration, Delivery and Deployment.",
-  "hasQualityDimension": { "@id": "dim:Sustainalibity", "@type": "@id" },
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "command-line", "online-service" ],
   "isAccessibleForFree": false,
   "license": "https://spdx.org/licenses/MIT",
