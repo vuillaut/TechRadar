@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  prettier:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -33,9 +33,9 @@ jobs:
         run: npm install
 
       - name: Check code formatting with Prettier
-        run: npn run lint-prettier:check
+        run: npm run lint-prettier:check
 
       - name: Fix code formatting with Prettier
-        run: npn run lint-prettier:fix
+        run: npm run lint-prettier:fix
         # Optional: Only run if the check fails (to avoid always formatting)
         continue-on-error: true
