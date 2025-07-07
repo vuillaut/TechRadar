@@ -6,8 +6,8 @@
   "description": "A web application to create CITATION.cff files",
   "url": "https://citation-file-format.github.io/cffinit",
   "isAccessibleForFree": true,
-  "hasQualityDimension": "FAIRness",
+  "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
   "howToUse": [ "online-service" ],
   "license": "https://spdx.org/licenses/Apache-2.0",
-  "applicationCategory": "ResearchInfrastructureSoftware"
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" }
 }
