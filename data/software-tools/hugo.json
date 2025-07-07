@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/hugo",
   "@type": "SoftwareApplication",
-  "name": "Hugo",
-  "description": "A fast and flexible static site generator written in Go, known for its speed and flexibility in creating websites.",
-  "url": "https://gohugo.io/",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "isAccessibleForFree": true,
-  "hasQualityDimension": "Sustainability",
+  "description": "A fast and flexible static site generator written in Go, known for its speed and flexibility in creating websites.",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "command-line" ],
-  "license": "https://opensource.org/licenses/Apache-2.0"
+  "isAccessibleForFree": true,
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "name": "Hugo",
+  "url": "https://gohugo.io/"
 }

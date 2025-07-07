@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/software_heritage",
   "@type": "SoftwareApplication",
-  "name": "Software Heritage",
-  "description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",
-  "url": "https://www.softwareheritage.org",
-  "isAccessibleForFree": true,
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "hasQualityDimension": "Sustainability",
+  "description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "online-service", "command-line" ],
-  "license": "https://www.gnu.org/licenses/agpl-3.0"
+  "isAccessibleForFree": true,
+  "license": "https://www.gnu.org/licenses/agpl-3.0",
+  "name": "Software Heritage",
+  "url": "https://www.softwareheritage.org"
 }

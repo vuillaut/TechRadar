@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/gitlab_pages",
   "@type": "SoftwareApplication",
-  "name": "GitLab Pages",
-  "description": "A feature of GitLab that allows users to publish static websites directly from their Git repositories.",
-  "url": "https://about.gitlab.com/stages-devops-lifecycle/pages/",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "isAccessibleForFree": true,
-  "hasQualityDimension": "Sustainability",
+  "description": "A feature of GitLab that allows users to publish static websites directly from their Git repositories.",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "online-service" ],
-  "license": "https://spdx.org/licenses/MIT"
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/MIT",
+  "name": "GitLab Pages",
+  "url": "https://about.gitlab.com/stages-devops-lifecycle/pages/"
 }

@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/howfairis",
   "@type": "SoftwareApplication",
-  "name": "howfairis",
-  "description": "Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations",
-  "url": "https://github.com/fair-software/howfairis",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "isAccessibleForFree": true,
-  "hasQualityDimension": "FAIRness",
+  "description": "Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations",
+  "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
   "howToUse": [ "command-line" ],
-  "license": "https://spdx.org/licenses/Apache-2.0"
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "name": "howfairis",
+  "url": "https://github.com/fair-software/howfairis"
 }

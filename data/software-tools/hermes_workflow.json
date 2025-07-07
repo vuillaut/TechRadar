@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/hermes_workflow",
   "@type": "SoftwareApplication",
-  "name": "Hermes Workflows",
-  "description": "The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.",
-  "url": "https://hermes.software-metadata.pub/en/latest/",
-  "isAccessibleForFree": true,
-  "hasQualityDimension": "Documentation",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "description": "The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.",
+  "hasQualityDimension": { "@id": "dim:Documentation", "@type": "@id" },
   "howToUse": [ "command-line", "CI/CD" ],
-  "license": "https://spdx.org/licenses/Apache-2.0"
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "name": "Hermes Workflows",
+  "url": "https://hermes.software-metadata.pub/en/latest/"
 }

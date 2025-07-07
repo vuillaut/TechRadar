@@ -2,11 +2,11 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/gitlab",
   "@type": "SoftwareApplication",
-  "name": "GitLab",
-  "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
-  "url": "https://gitlab.com/",
-  "isAccessibleForFree": false,
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "hasQualityDimension": "FAIRness",
-  "license": "https://spdx.org/licenses/MIT"
+  "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
+  "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
+  "isAccessibleForFree": false,
+  "license": "https://spdx.org/licenses/MIT",
+  "name": "GitLab",
+  "url": "https://gitlab.com/"
 }

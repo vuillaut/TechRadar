@@ -2,13 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/github",
   "@type": "SoftwareApplication",
-  "name": "GitHub",
-  "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "url": "https://github.com/",
-  "isAccessibleForFree": true,
-  "hasQualityDimension": "FAIRness",
+  "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
+  "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
   "howToUse": [ "online-service", "CI/CD", "command-line" ],
-  "usedBy": [ "ENVRI", "ESCAPE", "EOSC-Life", "PaNOSC", "SSHOC" ],
-  "license": "https://spdx.org/licenses/MIT"
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/MIT",
+  "name": "GitHub",
+  "url": "https://github.com/",
+  "usedBy": [ "ENVRI", "ESCAPE", "EOSC-Life", "PaNOSC", "SSHOC" ]
 }

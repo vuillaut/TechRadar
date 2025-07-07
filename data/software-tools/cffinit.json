@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/cffinit",
   "@type": "SoftwareApplication",
-  "name": "cffinit",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "description": "A web application to create CITATION.cff files",
-  "url": "https://citation-file-format.github.io/cffinit",
-  "isAccessibleForFree": true,
   "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
   "howToUse": [ "online-service" ],
+  "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/Apache-2.0",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" }
+  "name": "cffinit",
+  "url": "https://citation-file-format.github.io/cffinit"
 }

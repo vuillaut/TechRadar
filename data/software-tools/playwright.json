@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/playwright",
   "@type": "SoftwareApplication",
-  "name": "Playwright",
-  "description": "Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API",
-  "url": "https://playwright.dev/",
-  "isAccessibleForFree": true,
   "applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" },
-  "hasQualityDimension": "Sustainability",
+  "description": "Framework for Web testing and automation, allowing testing using Chromium, Firefox and WebKit with a single API",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "command-line" ],
-  "license": "https://opensource.org/licenses/Apache-2.0"
+  "isAccessibleForFree": true,
+  "license": "https://opensource.org/licenses/Apache-2.0",
+  "name": "Playwright",
+  "url": "https://playwright.dev/"
 }

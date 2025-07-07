@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/sqaaas",
   "@type": "SoftwareApplication",
-  "name": "SQAaas",
-  "description": "Software Quality Assessment as a Service - the Quality Assessment & Awarding building block analysing the level of completeness with the FAIR4RS reference criteria for any given release of your software",
-  "url": "https://sqaaas.eosc-synergy.eu/",
-  "isAccessibleForFree": true,
   "applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" },
-  "hasQualityDimension": "Sustainability",
+  "description": "Software Quality Assessment as a Service - the Quality Assessment & Awarding building block analysing the level of completeness with the FAIR4RS reference criteria for any given release of your software",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "online-service", "CI/CD" ],
-  "license": "https://www.gnu.org/licenses/gpl-3.0.en"
+  "isAccessibleForFree": true,
+  "license": "https://www.gnu.org/licenses/gpl-3.0.en",
+  "name": "SQAaas",
+  "url": "https://sqaaas.eosc-synergy.eu/"
 }

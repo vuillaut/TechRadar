@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/github_pages",
   "@type": "SoftwareApplication",
-  "name": "GitHub Pages",
-  "description": "A static site hosting service by GitHub that allows users to publish websites directly from a GitHub repository.",
-  "url": "https://pages.github.com/",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "isAccessibleForFree": true,
-  "hasQualityDimension": "Sustainability",
+  "description": "A static site hosting service by GitHub that allows users to publish websites directly from a GitHub repository.",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "command-line", "online-service" ],
-  "license": "https://spdx.org/licenses/MIT"
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/MIT",
+  "name": "GitHub Pages",
+  "url": "https://pages.github.com/"
 }

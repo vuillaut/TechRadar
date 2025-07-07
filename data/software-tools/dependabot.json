@@ -2,13 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/dependabot",
   "@type": "SoftwareApplication",
-  "name": "Dependabot",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "type": "@id" },
+  "appliesToProgrammingLanguage": [ "Ruby", "JavaScript", "Python", "PHP", "Dart", "Elixir", "Elm", "Go", "Rust", "Java", ".NET" ],
   "description": "Automated dependency update tool for GitHub repositories. Dependabot version updates are automated pull requests that keep your dependencies updated, even when they don't have any vulnerabilities.",
-  "url": "https://github.com/dependabot",
-  "isAccessibleForFree": true,
   "hasQualityDimension": { "@id": "dim:Security", "@type": "@id" },
   "howToUse": [ "CI/CD", "command-line" ],
-  "appliesToProgrammingLanguage": [ "Ruby", "JavaScript", "Python", "PHP", "Dart", "Elixir", "Elm", "Go", "Rust", "Java", ".NET" ],
+  "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/MIT",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "type": "@id" }
+  "name": "Dependabot",
+  "url": "https://github.com/dependabot"
 }

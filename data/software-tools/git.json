@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/git",
   "@type": "SoftwareApplication",
-  "name": "Git",
-  "description": "Distributed version control system for tracking changes in source code.",
-  "url": "https://git-scm.com/",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "isAccessibleForFree": true,
-  "hasQualityDimension": "Maintainability",
+  "description": "Distributed version control system for tracking changes in source code.",
+  "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
   "howToUse": [ "command-line", "online-service" ],
-  "license": "https://spdx.org/licenses/GPL-2.0-only"
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/GPL-2.0-only",
+  "name": "Git",
+  "url": "https://git-scm.com/"
 }
