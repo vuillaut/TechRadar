@@ -7,7 +7,7 @@
   "url": "https://github.com/Materials-Data-Science-and-Informatics/somesy",
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "howToUse": [ "CI/CD", "command-line" ],
   "license": "https://spdx.org/licenses/MIT"
 }

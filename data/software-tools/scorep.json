@@ -5,7 +5,7 @@
   "name": "Score-P",
   "description": "The Score-P (Scalable Performance Measurement Infrastructure for Parallel Codes) measurement infrastructure is a highly scalable and easy-to-use tool suite for profiling and event trace recording of HPC applications.",
   "url": "https://gitlab.com/score-p/scorep",
-  "applicationCategory": "AnalysisCode",
+  "applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "command-line" ],

@@ -5,7 +5,7 @@
   "name": "GitHub Pages",
   "description": "A static site hosting service by GitHub that allows users to publish websites directly from a GitHub repository.",
   "url": "https://pages.github.com/",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "command-line", "online-service" ],

@@ -7,7 +7,7 @@
   "url": "https://github.com/KnowledgeCaptureAndDiscovery/somef",
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "howToUse": [ "command-line", "CI/CD" ],
   "license": "https://spdx.org/licenses/MIT"
 }

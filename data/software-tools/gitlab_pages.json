@@ -5,7 +5,7 @@
   "name": "GitLab Pages",
   "description": "A feature of GitLab that allows users to publish static websites directly from their Git repositories.",
   "url": "https://about.gitlab.com/stages-devops-lifecycle/pages/",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "online-service" ],

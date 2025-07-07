@@ -5,7 +5,7 @@
   "name": "Pelican",
   "description": "A static site generator written in Python, designed for building content-focused websites.",
   "url": "https://blog.getpelican.com/",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "command-line" ],

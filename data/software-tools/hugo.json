@@ -5,7 +5,7 @@
   "name": "Hugo",
   "description": "A fast and flexible static site generator written in Go, known for its speed and flexibility in creating websites.",
   "url": "https://gohugo.io/",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "command-line" ],

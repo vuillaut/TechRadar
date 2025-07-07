@@ -4,7 +4,7 @@
   "@type": "SoftwareApplication",
   "name": "GitHub",
   "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "url": "https://github.com/",
   "isAccessibleForFree": true,
   "hasQualityDimension": "FAIRness",

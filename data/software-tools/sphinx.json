@@ -5,7 +5,7 @@
   "name": "sphinx",
   "description": "Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.",
   "url": "https://www.sphinx-doc.org",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
   "howToUse": [ "command-line", "CI/CD" ],

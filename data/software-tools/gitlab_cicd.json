@@ -4,7 +4,7 @@
   "@type": "SoftwareApplication",
   "name": "GitLab CICD",
   "description": "A platform for Integration, Delivery and Deployment.",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "url": "https://docs.gitlab.com/ci/",
   "isAccessibleForFree": false,
   "hasQualityDimension": "Sustainalibity",

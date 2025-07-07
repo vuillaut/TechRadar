@@ -5,7 +5,7 @@
   "name": "DVC",
   "description": "Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.",
   "url": "https://dvc.org/",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Sustainability",
   "howToUse": [ "CI/CD", "command-line" ],

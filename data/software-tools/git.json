@@ -5,7 +5,7 @@
   "name": "Git",
   "description": "Distributed version control system for tracking changes in source code.",
   "url": "https://git-scm.com/",
-  "applicationCategory": "ResearchInfrastructureSoftware",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "isAccessibleForFree": true,
   "hasQualityDimension": "Maintainability",
   "howToUse": [ "command-line", "online-service" ],
