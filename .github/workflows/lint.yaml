@@ -17,18 +17,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "lts/*"
+          node-version: '16'
       
       - name: Install jsonld-lint
         run: |
-          npm install
-
-      - name: Debug environment variables and paths
-        run: |
-          echo "PATH: $PATH"
-          echo "npm global binaries path: $(npm prefix -g)/bin"
-          ls -al $(npm prefix -g)/bin
-          which jsonld-lint
+          npm install -g jsonld-lint
 
       - name: Run JSON-LD lint checks on each .jsonld file
         run: |
