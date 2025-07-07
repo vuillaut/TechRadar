@@ -7,7 +7,7 @@
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": [ "online-service", "CI/CD" ],
   "isAccessibleForFree": true,
-  "license": "https://www.gnu.org/licenses/gpl-3.0.en",
+  "license": "https://spdx.org/licenses/AGPL-3.0-or-later",
   "name": "SQAaas",
   "url": "https://sqaaas.eosc-synergy.eu/"
 }
