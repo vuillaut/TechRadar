@@ -6,9 +6,9 @@
   "description": "Bandit is a tool designed to find common security issues in Python code.",
   "url": "https://github.com/PyCQA/bandit",
   "isAccessibleForFree": true,
-  "hasQualityDimension": "Sustainability",
+  "hasQualityDimension": { "@id": "dim:sustainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "command-line" ],
   "appliesToProgrammingLanguage": [ "Python" ],
   "license": "https://opensource.org/licenses/Apache-2.0",
-  "applicationCategory": "AnalysisCode"
+  "applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" }
 }
