@@ -1,4 +1,4 @@
-name: Prettier Formatting Check & Fix
+name: Prettier Formatting Check
 
 on:
   push:
@@ -36,18 +36,8 @@ jobs:
         id: check_format
         run: |
           npm run lint-prettier:check
-        continue-on-error: true  # Allows the workflow to continue even if this step fails
 
-      - name: Fix code formatting with Prettier
-        if: steps.check_format.outcome == 'failure'  # Run only if check_format failed
-        run: |
-          npm run lint-prettier:fix
-        
-      - name: Commit changes if Prettier fixed formatting
-        if: steps.check_format.outcome == 'failure'  # Run only if check_format failed
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "fix: apply Prettier formatting" || echo "No changes to commit"
-          git push
+      # - name: Fix code formatting with Prettier
+      #   if: steps.check_format.outcome == 'failure'  # Run only if check_format failed
+      #   run: |
+      #     npm run lint-prettier:fix
