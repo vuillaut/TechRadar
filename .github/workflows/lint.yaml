@@ -14,37 +14,23 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
 
       - name: Install jsonld-lint
         run: |
-          npm install -g jsonld-lint
-      
-      - name: List globally installed npm packages
-        run: npm list -g --depth=0
-      
-      - name: Add npm global bin to PATH
-        run: |
-          echo "$(npm bin -g)" >> $GITHUB_PATH
-      
-      - name: Check current working directory
-        run: pwd
+          npm install jsonld-lint
 
-      - name: List files in data/software-tools
-        run: ls ./data/software-tools
-
-      - name: Run JSON-LD lint checks
+      - name: Run JSON-LD lint checks on each .jsonld file
         run: |
           for file in ./data/software-tools/*.json; do
-            if [ -f "$file" ]; then
+            if [ -f "$file" ]; then  # Ensure it's a regular file
               echo "Linting $file..."
-              jsonld-lint "$file"
+              npx jsonld-lint "$file"
             fi
           done
-
+      
       # - name: Set up Python 3.12
       #   uses: actions/setup-python@v5
       #   with:
