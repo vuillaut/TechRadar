@@ -26,17 +26,17 @@
           "type": "string",
           "description": "Identifier for the quality dimension",
           "enum": [
-            "rs:Compatibility",
-            "rs:FAIRness",
-            "rs:Flexibility",
-            "rs:Functional Suitability",
-            "rs:Interaction Capability",
-            "rs:Maintainability",
-            "rs:Performance Efficiency",
-            "rs:Reliability",
-            "rs:Safety",
-            "rs:Security",
-            "rs:Sustainability"
+            "dim:Compatibility",
+            "dim:FAIRness",
+            "dim:Flexibility",
+            "dim:Functional Suitability",
+            "dim:Interaction Capability",
+            "dim:Maintainability",
+            "dim:Performance Efficiency",
+            "dim:Reliability",
+            "dim:Safety",
+            "dim:Security",
+            "dim:Sustainability"
           ]
         }
       },
