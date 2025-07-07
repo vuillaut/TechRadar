@@ -25,10 +25,9 @@ jobs:
 
       - name: Debug environment variables and paths
         run: |
-          echo "npm global binaries path: $(npm bin -g)"
-          echo "npm local binaries path: $(npm bin)"
-          ls -al $(npm bin)
-          which npx
+          echo "PATH: $PATH"
+          echo "npm global binaries path: $(npm prefix -g)/bin"
+          ls -al $(npm prefix -g)/bin
           which jsonld-lint
 
       - name: Run JSON-LD lint checks on each .jsonld file
