@@ -4,7 +4,7 @@
   "@type": "SoftwareApplication",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "description": "The HERMES workflow enables automated publication of rich research software metadata and artifacts to publication repositories using open source tooling.",
-  "hasQualityDimension": { "@id": "dim:Documentation", "@type": "@id" },
+  "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
   "howToUse": [ "command-line", "CI/CD" ],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/Apache-2.0",
