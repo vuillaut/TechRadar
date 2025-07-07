@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  lint:
+  lint_and_format:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,10 +32,22 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Check code formatting with Prettier
-        run: npm run lint-prettier:check
+      - name: Check tools jsonld formatting with Prettier
+        id: check_format
+        run: |
+          npm run lint-prettier:check
+        continue-on-error: true  # Allows the workflow to continue even if this step fails
 
       - name: Fix code formatting with Prettier
-        run: npm run lint-prettier:fix
-        # Optional: Only run if the check fails (to avoid always formatting)
-        continue-on-error: true
+        if: steps.check_format.outcome == 'failure'  # Run only if check_format failed
+        run: |
+          npm run lint-prettier:fix
+        
+      - name: Commit changes if Prettier fixed formatting
+        if: steps.check_format.outcome == 'failure'  # Run only if check_format failed
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "fix: apply Prettier formatting" || echo "No changes to commit"
+          git push
