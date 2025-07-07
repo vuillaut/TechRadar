@@ -18,19 +18,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '16'
-      
-      - name: Install jsonld-lint
-        run: |
-          npm install -g jsonld-lint
-
-      - name: Run JSON-LD lint checks on each .jsonld file
-        run: |
-          for file in ./data/software-tools/*.json; do
-            if [ -f "$file" ]; then  # Ensure it's a regular file
-              echo "Linting $file..."
-              npx jsonld-lint "$file"
-            fi
-          done
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            .techradar
+          key: ${{ runner.os }}-techradar-${{ hashFiles('**/package-lock.json') }}
+      - run: npm install
+      - run: npm run lint
+  
       
       # - name: Set up Python 3.12
       #   uses: actions/setup-python@v5
