@@ -7,7 +7,7 @@
   "hasQualityDimension": [ { "@id": "dim:Maintainability", "@type": "@id" }, { "@id": "dim:Sustainability", "@type": "@id" }, { "@id": "dim:Reliability", "@type": "@id" } ],
   "howToUse": [ "command-line", "online-service" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/GPL-3.0-or-later", "@type": "@id" },
+  "license": "https://spdx.org/licenses/GPL-3.0-or-later",
   "name": "GNU Guix",
   "url": "https://guix.gnu.org/"
 }

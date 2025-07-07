@@ -7,7 +7,7 @@
   "hasQualityDimension": { "@id": "dim:Functional Suitability", "@type": "@id" },
   "howToUse": [ "command-line", "CI/CD" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/Apache-2.0", "@type": "@id" },
+  "license": "https://spdx.org/licenses/Apache-2.0",
   "name": "Selenium",
   "rs:appliesToProgrammingLanguage": [ "Java", "Python", "JavaScript", "C#" ],
   "url": "https://www.selenium.dev/"

@@ -6,7 +6,7 @@
   "hasQualityDimension": [ { "@id": "dim:Security", "@type": "@id" }, { "@id": "dim:Sustainability", "@type": "@id" }, { "@id": "dim:Maintainability", "@type": "@id" } ],
   "howToUse": [ "command-line", "online-service" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/MPL-2.0", "@type": "@id" },
+  "license": "https://spdx.org/licenses/MPL-2.0",
   "name": "SCANOSS",
   "url": "https://www.scanoss.com/"
 }

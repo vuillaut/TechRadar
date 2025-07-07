@@ -7,7 +7,7 @@
   "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "online-service" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/GPL-3.0-only", "@type": "@id" },
+  "license": "https://spdx.org/licenses/GPL-3.0-only",
   "name": "SonarQube",
   "rs:appliesToProgrammingLanguage": [ "Java", "Python", "JavaScript", "C#", "C++" ],
   "url": "https://www.sonarqube.org/"

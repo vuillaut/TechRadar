@@ -7,7 +7,7 @@
   "hasQualityDimension": [ { "@id": "dim:PerformanceEfficiency", "@type": "@id" }, { "@id": "dim:Maintainability", "@type": "@id" } ],
   "howToUse": [ "command-line" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/GPL-2.0-only", "@type": "@id" },
+  "license": "https://spdx.org/licenses/GPL-2.0-only",
   "name": "RPM Package Manager",
   "url": "http://rpm.org/"
 }

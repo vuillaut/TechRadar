@@ -7,7 +7,7 @@
   "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
   "howToUse": [ "CI/CD", "online-service" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" },
+  "license": "https://spdx.org/licenses/MIT",
   "name": "Travis CI",
   "url": "https://travis-ci.com/"
 }

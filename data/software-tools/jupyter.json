@@ -7,7 +7,7 @@
   "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
   "howToUse": [ "online-service" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/BSD-3-Clause", "@type": "@id" },
+  "license": "https://spdx.org/licenses/BSD-3-Clause",
   "name": "Jupyter",
   "rs:appliesToProgrammingLanguage": [ "Python", "R", "Julia" ],
   "url": "https://jupyter.org/"

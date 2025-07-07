@@ -7,7 +7,7 @@
   "hasQualityDimension": [ { "@id": "dim:Performance Efficiency", "@type": "@id" }, { "@id": "dim:Flexibility", "@type": "@id" }, { "@id": "dim:Security", "@type": "@id" } ],
   "howToUse": [ "command-line" ],
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/LGPL-2.1-or-later", "@type": "@id" },
+  "license": "https://spdx.org/licenses/LGPL-2.1-or-later",
   "name": "Nix",
   "url": "https://nixos.org/"
 }
