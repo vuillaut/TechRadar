@@ -4,7 +4,7 @@
   "@type": "SoftwareApplication",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "description": "Package management system used to install, update, and remove software on Linux distributions.",
-  "hasQualityDimension": [ { "@id": "dim:PerformanceEfficiency", "@type": "@id" }, { "@id": "dim:Maintainability", "@type": "@id" } ],
+  "hasQualityDimension": [ { "@id": "dim:Performance Efficiency", "@type": "@id" }, { "@id": "dim:Maintainability", "@type": "@id" } ],
   "howToUse": [ "command-line" ],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/GPL-2.0-only",
