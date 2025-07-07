@@ -34,7 +34,12 @@ jobs:
 
       - name: Run JSON-LD lint checks
         run: |
-          find ./data/software-tools -name "*.jsonld" jsonld-lint
+          for file in ./data/software-tools/*.json; do
+            if [ -f "$file" ]; then
+              echo "Linting $file..."
+              jsonld-lint "$file"
+            fi
+          done
 
       # - name: Set up Python 3.12
       #   uses: actions/setup-python@v5
