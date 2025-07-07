@@ -21,7 +21,12 @@ jobs:
 
       - name: Install jsonld-lint
         run: |
-          npm install jsonld-lint
+          npm install -g jsonld-lint
+      
+      - name: Verify jsonld-lint installation
+        run: |
+          which jsonld-lint
+          jsonld-lint --version
 
       - name: Run JSON-LD lint checks on each .jsonld file
         run: |
