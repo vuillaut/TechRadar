@@ -9,6 +9,6 @@
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/Apache-2.0",
   "name": "Selenium",
-  "rs:appliesToProgrammingLanguage": [ "Java", "Python", "JavaScript", "C#" ],
+  "appliesToProgrammingLanguage": [ "Java", "Python", "JavaScript", "C#" ],
   "url": "https://www.selenium.dev/"
 }
