@@ -9,6 +9,6 @@
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/GPL-3.0-only",
   "name": "SonarQube",
-  "rs:appliesToProgrammingLanguage": [ "Java", "Python", "JavaScript", "C#", "C++" ],
+  "appliesToProgrammingLanguage": [ "Java", "Python", "JavaScript", "C#", "C++" ],
   "url": "https://www.sonarqube.org/"
 }
