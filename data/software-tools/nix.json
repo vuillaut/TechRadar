@@ -1,17 +1,17 @@
 {
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/nix",
-  "@type": "schema:SoftwareApplication",
-  "schema:name": "Nix",
-  "schema:description": "Tool for reproducible builds and declarative system configuration using the Nix language.",
-  "schema:url": "https://nixos.org/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "schema:isAccessibleForFree": true,
+  "@type": "SoftwareApplication",
+  "name": "Nix",
+  "description": "Tool for reproducible builds and declarative system configuration using the Nix language.",
+  "url": "https://nixos.org/",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "isAccessibleForFree": true,
   "rs:hasQualityDimension": [
     { "@id": "rs:Performance Efficiency", "@type": "@id" },
     { "@id": "rs:Flexibility", "@type": "@id" },
     { "@id": "rs:Security", "@type": "@id" }
   ],
   "rs:howToUse": [ "command-line" ],
-  "schema:license": { "@id": "https://spdx.org/licenses/LGPL-2.1-or-later", "@type": "@id" }
+  "license": { "@id": "https://spdx.org/licenses/LGPL-2.1-or-later", "@type": "@id" }
 }

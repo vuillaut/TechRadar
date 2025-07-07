@@ -1,14 +1,14 @@
 {
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/selenium",
-  "@type": "schema:SoftwareApplication",
-  "schema:name": "Selenium",
-  "schema:description": "Framework for automating web browser interactions for testing purposes.",
-  "schema:url": "https://www.selenium.dev/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "schema:isAccessibleForFree": true,
+  "@type": "SoftwareApplication",
+  "name": "Selenium",
+  "description": "Framework for automating web browser interactions for testing purposes.",
+  "url": "https://www.selenium.dev/",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "isAccessibleForFree": true,
   "rs:hasQualityDimension": { "@id": "rs:Functional Suitability", "@type": "@id" },
   "rs:howToUse": [ "command-line", "CI/CD" ],
   "rs:appliesToProgrammingLanguage": [ "Java", "Python", "JavaScript", "C#" ],
-  "schema:license": { "@id": "https://spdx.org/licenses/Apache-2.0", "@type": "@id" }
+  "license": { "@id": "https://spdx.org/licenses/Apache-2.0", "@type": "@id" }
 }
