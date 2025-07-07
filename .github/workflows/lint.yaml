@@ -24,7 +24,7 @@ jobs:
 
       - name: Run JSON-LD lint checks
         run: |
-          find ../../data/software-tools -name "*.jsonld" -print0 | xargs -0 -n1 jsonld-lint
+          find ./data/software-tools -name "*.jsonld" -print0 | xargs -0 -n1 jsonld-lint
 
       # - name: Set up Python 3.12
       #   uses: actions/setup-python@v5
