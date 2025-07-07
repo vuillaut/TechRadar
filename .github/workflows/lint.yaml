@@ -21,18 +21,15 @@ jobs:
       
       - name: Install jsonld-lint
         run: |
-          npm install -g jsonld-lint
-          npm list -g --depth=0
-          echo "npm global binaries path:"
-          echo $(npm prefix -g)/bin
-          which jsonld-lint || echo "jsonld-lint not found"
-      
-      - name: Debug environment variables and paths
-        run: |
-          echo "PATH: $PATH"
-          echo "npm global binaries path: $(npm prefix -g)/bin"
-          ls -al $(npm prefix -g)/bin
-          which jsonld-lint
+          npm install jsonld-lint  # Install jsonld-lint locally
+          npm list --depth=0
+
+      # - name: Debug environment variables and paths
+      #   run: |
+      #     echo "PATH: $PATH"
+      #     echo "npm global binaries path: $(npm prefix -g)/bin"
+      #     ls -al $(npm prefix -g)/bin
+      #     which jsonld-lint
 
       - name: Run JSON-LD lint checks on each .jsonld file
         run: |
