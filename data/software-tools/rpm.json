@@ -1,8 +1,5 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/rpm",
   "@type": "schema:SoftwareApplication",
   "schema:name": "RPM Package Manager",
@@ -11,8 +8,8 @@
   "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": [
-        { "@id": "rs:Performance Efficiency", "@type": "@id" },
-        { "@id": "rs:Maintainability", "@type": "@id" }  ],
-  "rs:howToUse": ["command-line"],
+    { "@id": "rs:Performance Efficiency", "@type": "@id" },
+    { "@id": "rs:Maintainability", "@type": "@id" } ],
+  "rs:howToUse": [ "command-line" ],
   "schema:license": { "@id": "https://spdx.org/licenses/GPL-2.0-only", "@type": "@id" }
 }
