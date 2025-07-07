@@ -2,12 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/travis",
   "@type": "SoftwareApplication",
-  "name": "Travis CI",
-  "description": "A continuous integration service used to build and test software projects hosted on GitHub.",
-  "url": "https://travis-ci.com/",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "description": "A continuous integration service used to build and test software projects hosted on GitHub.",
+  "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
+  "howToUse": [ "CI/CD", "online-service" ],
   "isAccessibleForFree": true,
-  "rs:hasQualityDimension": { "@id": "rs:Maintainability", "@type": "@id" },
-  "rs:howToUse": [ "CI/CD", "online-service" ],
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" }
+  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" },
+  "name": "Travis CI",
+  "url": "https://travis-ci.com/"
 }

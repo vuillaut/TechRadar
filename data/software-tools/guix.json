@@ -2,16 +2,12 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/guix",
   "@type": "SoftwareApplication",
-  "name": "GNU Guix",
+  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
   "description": "Functional package manager for reproducible software deployment and system configuration.",
-  "url": "https://guix.gnu.org/",
+  "hasQualityDimension": [ { "@id": "dim:Maintainability", "@type": "@id" }, { "@id": "dim:Sustainability", "@type": "@id" }, { "@id": "dim:Reliability", "@type": "@id" } ],
+  "howToUse": [ "command-line", "online-service" ],
   "isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
-    { "@id": "rs:Maintainability", "@type": "@id" },
-    { "@id": "rs:Sustainability", "@type": "@id" },
-    { "@id": "rs:Reliability", "@type": "@id" }
-  ],
-  "rs:howToUse": [ "command-line", "online-service" ],
   "license": { "@id": "https://spdx.org/licenses/GPL-3.0-or-later", "@type": "@id" },
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" }
+  "name": "GNU Guix",
+  "url": "https://guix.gnu.org/"
 }

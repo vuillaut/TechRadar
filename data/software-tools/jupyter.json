@@ -2,13 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/jupyter",
   "@type": "SoftwareApplication",
-  "name": "Jupyter",
-  "description": "Open-source web application for creating and sharing live code, equations, visualizations, and narrative text.",
-  "url": "https://jupyter.org/",
   "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "description": "Open-source web application for creating and sharing live code, equations, visualizations, and narrative text.",
+  "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
+  "howToUse": [ "online-service" ],
   "isAccessibleForFree": true,
-  "rs:hasQualityDimension": { "@id": "rs:Maintainability", "@type": "@id" },
-  "rs:howToUse": [ "online-service" ],
+  "license": { "@id": "https://spdx.org/licenses/BSD-3-Clause", "@type": "@id" },
+  "name": "Jupyter",
   "rs:appliesToProgrammingLanguage": [ "Python", "R", "Julia" ],
-  "license": { "@id": "https://spdx.org/licenses/BSD-3-Clause", "@type": "@id" }
+  "url": "https://jupyter.org/"
 }
