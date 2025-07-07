@@ -6,9 +6,9 @@
   "description": "Bearer CLI is a static application security testing (SAST) tool that scans your source code and analyzes your data flows to discover, filter and prioritize security and privacy risks.",
   "url": "https://github.com/bearer/bearer",
   "isAccessibleForFree": true,
-  "hasQualityDimension": "Sustainability",
+  "hasQualityDimension": { "@id": "dim:sustainability", "@type": "@id" },
   "howToUse": [ "online-service" ],
-  "appliesToProgrammingLanguage": [ "JavaScript/TypeScript", "Ruby", "PHP", "Java", "Go", "Python" ],
+  "appliesToProgrammingLanguage": [ "JavaScript", "TypeScript", "Ruby", "PHP", "Java", "Go", "Python" ],
   "license": "https://spdx.org/licenses/Elastic-2.0",
-  "applicationCategory": "AnalysisCode"
+  "applicationCategory": { "@id": "rs:AnalysisCode", "@type": "@id" }
 }
