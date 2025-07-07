@@ -25,6 +25,10 @@ jobs:
       
       - name: List globally installed npm packages
         run: npm list -g --depth=0
+      
+      - name: Add npm global bin to PATH
+        run: |
+          echo "::add-path::$(npm bin -g)"
 
       - name: Check current working directory
         run: pwd
