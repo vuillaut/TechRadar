@@ -19,12 +19,14 @@
     "@id": "https://opensource.org/licenses/BSD-2-Clause",
     "@type": "@id"
   },
-  "schema:applicationCategory": [{
-    "@id": "rs:ResearchInfrastructureSoftware",
-    "@type": "@id"
-  }, 
-  {
-    "@id": "rs:PrototypeTool",
-    "@type": "@id"
-  }]
+  "schema:applicationCategory": [
+    {
+      "@id": "rs:ResearchInfrastructureSoftware",
+      "@type": "@id"
+    },
+    {
+      "@id": "rs:PrototypeTool",
+      "@type": "@id"
+    }
+  ]
 }
