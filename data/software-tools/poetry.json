@@ -18,7 +18,7 @@
       "@id": "rs:ResearchInfrastructureSoftware", 
       "@type": "@id" 
     }
-      ]
+      ],
   "rs:howToUse": ["CI/CD","command-line"],
   "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id"}
     
