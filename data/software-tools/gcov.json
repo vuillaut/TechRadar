@@ -1,10 +1,10 @@
 {
   "@context": {
     "schema": "http://schema.org/",
-    "rs" : "https://w3id.org/everse/rs#"
+    "rs": "https://w3id.org/everse/rs#"
   },
-      "@id": "https://w3id.org/everse/tools/gcov",
-      "@type": "schema:SoftwareApplication",
+  "@id": "https://w3id.org/everse/tools/gcov",
+  "@type": "schema:SoftwareApplication",
   "schema:name": "gcov",
   "schema:description": "Gcov is a test coverage analysis tool, it considers which lines are actually executed and how often",
   "schema:url": "https://gcc.gnu.org/onlinedocs/gcc/Gcov.html",
@@ -16,12 +16,11 @@
   ],
   "rs:hasQualityDimension": [
     {
-      "@id":"rs:ResourceEfficiency",
-      "@type": "@id"},
-    {"@id":"rs:CodeAnalysis",
-      "@type": "@id"}
+      "@id": "rs:ResourceEfficiency",
+      "@type": "@id"
+    },
+    { "@id": "rs:CodeAnalysis", "@type": "@id" }
   ],
-  "rs:howToUse": ["CI/CD","command-line"],
-  "schema:license": { "@id": "GPL", "@type": "@id"}
-    
+  "rs:howToUse": ["CI/CD", "command-line"],
+  "schema:license": { "@id": "GPL", "@type": "@id" }
 }
