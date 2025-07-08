@@ -5,16 +5,16 @@
   },
   "@id": "https://choosealicense.com/",
   "@type": "schema:SoftwareApplication",
-  "schema:name": "Choose a License",
-  "schema:description": "Choose a License is a website that helps developers understand and select open-source software licenses. It provides clear explanations of common licenses, their permissions and limitations, making it easier to choose the right one for your project.",
-  "schema:url": "https://github.com/github/choosealicense.com",
-  "schema:isAccessibleForFree": true,
-  "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" },
-  "schema:applicationCategory": [
+  "name": "Choose a License",
+  "description": "Choose a License is a website that helps developers understand and select open-source software licenses. It provides clear explanations of common licenses, their permissions and limitations, making it easier to choose the right one for your project.",
+  "url": "https://github.com/github/choosealicense.com",
+  "isAccessibleForFree": true,
+  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" },
+  "applicationCategory": [
     { "@id": "rs:PrototypeTool", "@type": "@id" },
     { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
     { "@id": "rs:AnalysisCode", "@type": "@id" }
   ],
-  "rs:hasQualityDimension": { "@id": "rs:Sustainability", "@type": "@id" },
-  "rs:howToUse": ["online-service"]
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
+  "howToUse": ["online-service"]
 }
