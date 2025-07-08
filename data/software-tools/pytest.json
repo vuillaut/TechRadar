@@ -1,0 +1,26 @@
+{
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/pytest",
+  "@type": "schema:SoftwareApplication",
+  "name": "pytest",
+  "description": "pytest is a framework that makes building simple and scalable test cases easy in Python.",
+  "url": "https://docs.pytest.org/",
+  "isAccessibleForFree": true,
+  "hasQualityDimension": {
+    "@id": "dim:Maintainability",
+    "@type": "@id"
+  },
+  "howToUse": ["command-line", "CI/CD"],
+  "appliesToProgrammingLanguage": ["Python"],
+  "license": "https://opensource.org/licenses/MIT",
+  "applicationCategory": [
+    {
+      "@id": "rs:AnalysisCode",
+      "@type": "@id"
+    },
+    {
+      "@id": "rs:ResearchInfrastructureSoftware",
+      "@type": "@id"
+    }
+  ]
+}
