@@ -1,20 +1,20 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/guix",
-  "@type": "schema:SoftwareApplication",
-  "schema:name": "GNU Guix",
-  "schema:description": "Functional package manager for reproducible software deployment and system configuration.",
-  "schema:url": "https://guix.gnu.org/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
-        { "@id": "rs:Maintainability", "@type": "@id" },
-        { "@id": "rs:Sustainability", "@type": "@id" },
-        { "@id": "rs:Reliability", "@type": "@id" }
-],
-  "rs:howToUse": ["command-line", "online-service"],
-  "schema:license": { "@id": "https://spdx.org/licenses/GPL-3.0-or-later", "@type": "@id" }
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "Functional package manager for reproducible software deployment and system configuration.",
+  "hasQualityDimension": [
+    { "@id": "dim:Maintainability", "@type": "@id" },
+    { "@id": "dim:Sustainability", "@type": "@id" },
+    { "@id": "dim:Reliability", "@type": "@id" }
+  ],
+  "howToUse": ["command-line", "online-service"],
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/GPL-3.0-or-later",
+  "name": "GNU Guix",
+  "url": "https://guix.gnu.org/"
 }
