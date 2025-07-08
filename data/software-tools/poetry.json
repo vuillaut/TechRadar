@@ -10,10 +10,15 @@
   "schema:url": "https://python-poetry.org/",
   "schema:isAccessibleForFree": true,
   "schema:applicationCategory": [
-    { "@id": "rs:PrototypeTool", "@type": "@id" },
-    { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" }
-      ],
-  "rs:hasQualityDimension": {"@id":"rs:Usability","Portability", "@type": "@id"},
+    { 
+      "@id": "rs:PrototypeTool", 
+      "@type": "@id" 
+    },
+    { 
+      "@id": "rs:ResearchInfrastructureSoftware", 
+      "@type": "@id" 
+    }
+      ]
   "rs:howToUse": ["CI/CD","command-line"],
   "schema:license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id"}
     
