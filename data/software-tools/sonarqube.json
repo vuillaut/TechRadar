@@ -1,0 +1,17 @@
+{
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/sonarqube",
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "Tool for continuous inspection of code quality and security vulnerabilities.",
+  "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
+  "howToUse": ["CI/CD", "online-service"],
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/GPL-3.0-only",
+  "name": "SonarQube",
+  "appliesToProgrammingLanguage": ["Java", "Python", "JavaScript", "C#", "C++"],
+  "url": "https://www.sonarqube.org/"
+}

@@ -1,16 +1,16 @@
 {
   "@context": "https://w3id.org/everse/rs#",
-  "@id": "https://w3id.org/everse/tools/howfairis",
+  "@id": "https://w3id.org/everse/tools/cffinit",
   "@type": "SoftwareApplication",
   "applicationCategory": {
     "@id": "rs:ResearchInfrastructureSoftware",
     "@type": "@id"
   },
-  "description": "Command line tool to analyze a GitHub or GitLab repository's compliance with the fair-software.eu recommendations",
+  "description": "A web application to create CITATION.cff files",
   "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
-  "howToUse": ["command-line"],
+  "howToUse": ["online-service"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/Apache-2.0",
-  "name": "howfairis",
-  "url": "https://github.com/fair-software/howfairis"
+  "name": "cffinit",
+  "url": "https://citation-file-format.github.io/cffinit"
 }

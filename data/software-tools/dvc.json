@@ -1,16 +1,16 @@
 {
   "@context": "https://w3id.org/everse/rs#",
-  "@id": "https://w3id.org/everse/tools/hugo",
+  "@id": "https://dvc.org/",
   "@type": "SoftwareApplication",
   "applicationCategory": {
     "@id": "rs:ResearchInfrastructureSoftware",
     "@type": "@id"
   },
-  "description": "A fast and flexible static site generator written in Go, known for its speed and flexibility in creating websites.",
+  "description": "Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.",
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": ["CI/CD", "command-line"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/Apache-2.0",
-  "name": "Hugo",
-  "url": "https://gohugo.io/"
+  "name": "DVC",
+  "url": "https://dvc.org/"
 }

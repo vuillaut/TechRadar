@@ -1,18 +1,15 @@
 {
-    "@context": {
-      "schema": "http://schema.org/",
-      "rs": "https://w3id.org/everse/rs#"
-    },
-    "@id": "https://w3id.org/everse/tools/gitlab",
-    "@type": "schema:SoftwareApplication",
-    "schema:name": "GitLab",
-    "schema:description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
-    "schema:url": "https://gitlab.com/",
-    "schema:isAccessibleForFree": "paid",
-    "rs:hasQualityDimension": {
-      "@id": "rs:FAIRness",
-      "@type": "@id"
-    },
-    "rs:howToUse": ["CI/CD", "command-line", "online-service"]
-  }
-  
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/gitlab",
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "A platform for version control and collaboration, allowing developers to manage and store their code repositories, track changes, and collaborate with others.",
+  "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
+  "isAccessibleForFree": false,
+  "license": "https://spdx.org/licenses/MIT",
+  "name": "GitLab",
+  "url": "https://gitlab.com/"
+}

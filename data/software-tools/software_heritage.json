@@ -1,14 +1,16 @@
 {
-    "@context": {
-      "schema": "http://schema.org/",
-      "rs" : "https://w3id.org/everse/rs#"
-    },
-    "@id": "https://w3id.org/everse/tools/software_heritage",
-    "@type": "schema:SoftwareApplication",
-    "schema:name": "Software Heritage",
-    "schema:description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",
-    "schema:url": "https://www.softwareheritage.org",
-    "schema:isAccessibleForFree": "free",
-    "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
-    "rs:howToUse": ["CI/CD","command-line"]
-  }
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/software_heritage",
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "Collects, preserves, curates and makes available software in source code form as cultural heritage",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
+  "howToUse": ["online-service", "command-line"],
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/AGPL-3.0-or-later",
+  "name": "Software Heritage",
+  "url": "https://www.softwareheritage.org"
+}

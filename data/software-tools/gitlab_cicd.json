@@ -1,18 +1,16 @@
 {
-    "@context": {
-      "schema": "http://schema.org/",
-      "rs": "https://w3id.org/everse/rs#"
-    },
-    "@id": "https://w3id.org/everse/tools/gitlab_cicd",
-    "@type": "schema:SoftwareApplication",
-    "schema:name": "GitLab CICD",
-    "schema:description": "A platform for Integration, Delivery and Deployment.",
-    "schema:url": "https://docs.gitlab.com/ee/ci/pipelines/",
-    "schema:isAccessibleForFree": "paid",
-    "rs:hasQualityDimension": {
-      "@id": "rs:Sustainalibity",
-      "@type": "@id"
-    },
-    "rs:howToUse": ["CI/CD", "command-line", "online-service"]
-  }
-  
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/gitlab_cicd",
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "A platform for Integration, Delivery and Deployment.",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
+  "howToUse": ["CI/CD", "command-line", "online-service"],
+  "isAccessibleForFree": false,
+  "license": "https://spdx.org/licenses/MIT",
+  "name": "GitLab CICD",
+  "url": "https://docs.gitlab.com/ci/"
+}
