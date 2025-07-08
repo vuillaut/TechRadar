@@ -7,11 +7,11 @@ def get_items(field):
     """
     Extract items from a field that can be:
     field e.g applicationCategory, hasqualityDimension 
-    - a dict with '@id' e.g { "@id": "rs:Maintainability", "@type": "@id" }
+    - a dict with '@id' e.g { "@id": "dim:Maintainability", "@type": "@id" }
     - a list of dicts with '@id' e.g. [
-        { "@id": "rs:Maintainability", "@type": "@id" },
-        { "@id": "rs:Sustainability", "@type": "@id" },
-        { "@id": "rs:Reliability", "@type": "@id" }
+        { "@id": "dim:Maintainability", "@type": "@id" },
+        { "@id": "dim:Sustainability", "@type": "@id" },
+        { "@id": "dim:Reliability", "@type": "@id" }
   ]
     - a list of strings e.g [ "Maintainability", "Sustainability"]
     - a single string  e.g "Maintainability
@@ -35,34 +35,39 @@ def get_items(field):
         items.append(field)
     return items
 
+def resolve_application_category(categories):
+        if len(categories) > 1:
+            if "AnalysisCode" in categories:
+                return "AnalysisCode"
+            elif "PrototypeTool" in categories:
+                return "PrototypeTool"
+            else:
+                return "ResearchInfrastructureSoftware"
+        elif len(categories) == 1:
+            return categories[0]
+        return "Unknown"
+
 def generate_markdown(json_ld_file, output_dir):
     """Generates markdown from a JSON-LD file."""
     with open(json_ld_file, 'r') as file:
         json_ld = json.load(file)
 
     # Fetch title
-    title = json_ld.get('schema:name', 'Unknown Title')
+    title = json_ld.get('name', 'Unknown Title')
     # Fetch url
-    url = json_ld.get('schema:url', '')
+    url = json_ld.get('url', '')
     # Fetch description
-    description = json_ld.get('schema:description', "No description available")
+    description = json_ld.get('description', "No description available")
 
     # Extract applicationCategory
-    application_category_field = json_ld.get('schema:applicationCategory', [])
+    application_category_field = json_ld.get('applicationCategory', [])
     application_categories = get_items(application_category_field)
-    # TODO: Need to modify conditions for tools with multi-tier case
-    if "AnalysisCode" in application_categories:
-        application_category = "AnalysisCode"
-    elif application_categories:
-        application_category = application_categories[0]
-    else:
-        application_category = "Unknown"
-
+    application_category = resolve_application_category(application_categories)
     if not application_categories:
         print('Tool is missing application category in Json_LD')
 
     # Extract hasQualityDimension
-    quality_dimension_field = json_ld.get('rs:hasQualityDimension', [])
+    quality_dimension_field = json_ld.get('hasQualityDimension', [])
     quality_dimensions = get_items(quality_dimension_field)
     # TODO: Need to modify conditions for tools with multi-quality dimensions case
     if not quality_dimensions:
@@ -70,17 +75,17 @@ def generate_markdown(json_ld_file, output_dir):
 
     # Extract tags
     tags = []
-    if 'rs:howToUse' in json_ld:
-        how_to_use = json_ld['rs:howToUse']
+    if 'howToUse' in json_ld:
+        how_to_use = json_ld['howToUse']
         tags.extend(how_to_use)  # Add howToUse tags, e.g., 'online-service', 'CI/CD'
 
-    if 'schema:license' in json_ld:
-        license_info = json_ld['schema:license']
+    if 'license' in json_ld:
+        license_info = json_ld['license']
         if isinstance(license_info, dict) and '@id' in license_info:
             tags.append(license_info['@id'].split('/')[-1])  # Extracts exact license type, e.g., 'Apache-2.0'
     
-    if 'rs:appliesToProgrammingLanguage' in json_ld:
-        programming_language = json_ld['rs:appliesToProgrammingLanguage']
+    if 'appliesToProgrammingLanguage' in json_ld:
+        programming_language = json_ld['appliesToProgrammingLanguage']
         tags.extend(programming_language)
 
 

@@ -99,8 +99,8 @@
       "strokeWidth": 3
     },
     {
-      "id": "PrototypeTools",
-      "title": "Prototype tools",
+      "id": "PrototypeTool",
+      "title": "Prototype tool",
       "description": "This refers to research software that demonstrates a new idea, method or model for use beyond the project in which it originated, often as a substantive intellectual contribution or proof of concept. These tools are designed to answer multiple research questions and are typically developed and used by more than one person.",
       "color": "#faa03d",
       "radius": 0.75,
