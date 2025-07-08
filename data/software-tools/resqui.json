@@ -6,29 +6,28 @@
   "@id": "https://w3id.org/everse/tools/resqui",
   "@type": "schema:SoftwareApplication",
   "name": "resqui",
-  "schema:name": "resqui",
-  "schema:description": "A command line tool to check a bunch of indicators related to research software quality.",
-  "schema:url": "https://github.com/EVERSE-ResearchSoftware/resqui",
-  "schema:applicationCategory": [
+  "description": "A command line tool to check a bunch of indicators related to research software quality.",
+  "url": "https://github.com/EVERSE-ResearchSoftware/resqui",
+  "applicationCategory": [
     { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
     { "@id": "rs:AnalysisCode", "@type": "@id" },
     { "@id": "rs:PrototypeTool", "@type": "@id" }
   ],
-  "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
-    { "@id": "rs:Compatibility", "@type": "@id" },
-    { "@id": "rs:FAIRness", "@type": "@id" },
-    { "@id": "rs:Flexibility", "@type": "@id" },
-    { "@id": "rs:FunctionalSuitability", "@type": "@id" },
-    { "@id": "rs:InteractionCapability", "@type": "@id" },
-    { "@id": "rs:Maintainability", "@type": "@id" },
-    { "@id": "rs:PerformanceEfficiency", "@type": "@id" },
-    { "@id": "rs:Reliability", "@type": "@id" },
-    { "@id": "rs:Safety", "@type": "@id" },
-    { "@id": "rs:Security", "@type": "@id" },
-    { "@id": "rs:Sustainability", "@type": "@id" }
+  "isAccessibleForFree": true,
+  "hasQualityDimension": [
+    { "@id": "dim:Compatibility", "@type": "@id" },
+    { "@id": "dim:FAIRness", "@type": "@id" },
+    { "@id": "dim:Flexibility", "@type": "@id" },
+    { "@id": "dim:FunctionalSuitability", "@type": "@id" },
+    { "@id": "dim:InteractionCapability", "@type": "@id" },
+    { "@id": "dim:Maintainability", "@type": "@id" },
+    { "@id": "dim:PerformanceEfficiency", "@type": "@id" },
+    { "@id": "dim:Reliability", "@type": "@id" },
+    { "@id": "dim:Safety", "@type": "@id" },
+    { "@id": "dim:Security", "@type": "@id" },
+    { "@id": "dim:Sustainability", "@type": "@id" }
   ],
-  "rs:hasQualityIndicator": [
+  "hasQualityIndicator": [
     {
       "@id": "https://w3id.org/everse/i/indicators/software_has_license",
       "@type": "@id"
@@ -54,8 +53,8 @@
       "@type": "@id"
     }
   ],
-  "rs:howToUse": ["command-line"],
-  "schema:license": {
+  "howToUse": ["command-line"],
+  "license": {
     "@id": "https://opensource.org/licenses/MIT",
     "@type": "@id"
   }
