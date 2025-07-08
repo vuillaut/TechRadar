@@ -6,19 +6,18 @@
   "@id": "https://github.com/features/copilot",
   "@type": "schema:SoftwareApplication",
   "name": "GitHub Copilot",
-  "schema:name": "GitHub Copilot",
-  "schema:description": "GitHub Copilot is an AI-powered code completion and automatic programming assistant developed by GitHub and OpenAI. It supports users across multiple integrated development environments (IDEs) including Visual Studio Code, Visual Studio, Neovim, and JetBrains by providing intelligent code suggestions and autocompletion to boost developer productivity.",
-  "schema:url": "https://github.com/features/copilot",
-  "schema:applicationCategory": [
+  "description": "GitHub Copilot is an AI-powered code completion and automatic programming assistant developed by GitHub and OpenAI. It supports users across multiple integrated development environments (IDEs) including Visual Studio Code, Visual Studio, Neovim, and JetBrains by providing intelligent code suggestions and autocompletion to boost developer productivity.",
+  "url": "https://github.com/features/copilot",
+  "applicationCategory": [
     { "@id": "rs:PrototypeTool", "@type": "@id" },
     { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
     { "@id": "rs:AnalysisCode", "@type": "@id" }
   ],
-  "schema:isAccessibleForFree": false,
-  "rs:hasQualityDimension": { "@id": "rs:Sustainability", "@type": "@id" },
-  "schema:license": {
+  "isAccessibleForFree": false,
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
+  "license": {
     "@id": "https://github.com/customer-terms/github-copilot-product-specific-terms",
     "@type": "@id"
   },
-  "rs:howToUse": ["command-line"]
+  "howToUse": ["command-line"]
 }
