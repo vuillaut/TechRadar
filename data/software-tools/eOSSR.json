@@ -14,7 +14,7 @@
     { "@id": "rs:AnalysisCode", "@type": "@id" }
   ],
   "isAccessibleForFree": true,
-  "rs:hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
+  "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
   "howToUse": ["CI/CD", "command-line", "online-service"],
   "usedBy": ["ESCAPE"],
   "license": {
