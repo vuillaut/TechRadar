@@ -5,6 +5,7 @@
   },
   "@id": "https://w3id.org/everse/tools/resqui",
   "@type": "schema:SoftwareApplication",
+  "name": "resqui",
   "schema:name": "resqui",
   "schema:description": "A command line tool to check a bunch of indicators related to research software quality.",
   "schema:url": "https://github.com/EVERSE-ResearchSoftware/resqui",
