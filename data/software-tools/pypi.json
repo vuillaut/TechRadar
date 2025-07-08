@@ -24,8 +24,8 @@
       "@type": "@id"},
     {"@id":"rs:Portability",
       "@type": "@id"}   
-  ]
+  ],
   "rs:howToUse": ["CI/CD","command-line","online-service"],
-  "schema:license": { "@id": "@type": "@id"}
+  "schema:license": { "@id":, "@type": "@id"}
     
 }
