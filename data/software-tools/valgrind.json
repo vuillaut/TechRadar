@@ -22,7 +22,7 @@
       "@id": "rs:ResearchInfrastructureSoftware",
       "@type": "@id"
     }
-  ]
+  ],
  "rs:hasQualityDimension": [
    {
       "@id": "rs:CodeAnalysis",
@@ -32,7 +32,7 @@
       "@id": "rs:ResourceEfficiency",
       "@type": "@id"
     }
- ]
+ ],
  "schema:license": { "@id": "https://www.gnu.org/licenses/old-licenses/gpl-2.0", "@type": "@id"}
     
 }
