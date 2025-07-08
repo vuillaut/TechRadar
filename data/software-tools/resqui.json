@@ -18,7 +18,7 @@
     { "@id": "dim:Compatibility", "@type": "@id" },
     { "@id": "dim:FAIRness", "@type": "@id" },
     { "@id": "dim:Flexibility", "@type": "@id" },
-    { "@id": "dim:FunctionalSuitability", "@type": "@id" },
+    { "@id": "dim:Functional Suitability", "@type": "@id" },
     { "@id": "dim:InteractionCapability", "@type": "@id" },
     { "@id": "dim:Maintainability", "@type": "@id" },
     { "@id": "dim:PerformanceEfficiency", "@type": "@id" },
