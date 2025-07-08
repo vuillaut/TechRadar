@@ -1,20 +1,20 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/kubernetes",
-  "@type": "schema:SoftwareApplication",
-  "schema:name": "Kubernetes",
-  "schema:description": "Open-source system for automating deployment, scaling, and management of containerized applications.",
-  "schema:url": "https://kubernetes.io/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
-        { "@id": "rs:Maintainability", "@type": "@id" },
-        { "@id": "rs:Sustainability", "@type": "@id" },
-        { "@id": "rs:Reliability", "@type": "@id" }
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "Open-source system for automating deployment, scaling, and management of containerized applications.",
+  "hasQualityDimension": [
+    { "@id": "dim:Maintainability", "@type": "@id" },
+    { "@id": "dim:Sustainability", "@type": "@id" },
+    { "@id": "dim:Reliability", "@type": "@id" }
   ],
-"rs:howToUse": ["command-line", "online-service", "CI/CD"],
-  "schema:license": { "@id": "https://spdx.org/licenses/Apache-2.0", "@type": "@id" }
+  "howToUse": ["command-line", "online-service", "CI/CD"],
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "name": "Kubernetes",
+  "url": "https://kubernetes.io/"
 }
