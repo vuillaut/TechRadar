@@ -19,16 +19,18 @@
     "@id": "https://opensource.org/licenses/MIT",
     "@type": "@id"
   },
-  "schema:applicationCategory": [{
-    "@id": "rs:AnalysisCode",
-    "@type": "@id"
-  }, 
-  {
-    "@id": "rs:ResearchInfrastructureSoftware",
-    "@type": "@id"
-  }, 
-  {
-    "@id": "rs:PrototypeTool",
-    "@type": "@id"
-  }]
+  "schema:applicationCategory": [
+    {
+      "@id": "rs:AnalysisCode",
+      "@type": "@id"
+    },
+    {
+      "@id": "rs:ResearchInfrastructureSoftware",
+      "@type": "@id"
+    },
+    {
+      "@id": "rs:PrototypeTool",
+      "@type": "@id"
+    }
+  ]
 }
