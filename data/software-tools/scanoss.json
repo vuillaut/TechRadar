@@ -1,16 +1,19 @@
 {
   "@id": "https://w3id.org/everse/tools/scanoss",
-  "@type": "schema:SoftwareApplication",
-  "schema:name": "SCANOSS",
-  "schema:description": "Software composition analysis tool for detecting open-source components and licenses.",
-  "schema:url": "https://www.scanoss.com/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
-        { "@id": "rs:Security", "@type": "@id" },
-        { "@id": "rs:Sustainability", "@type": "@id" },
-        { "@id": "rs:Maintainability", "@type": "@id" }
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "Software composition analysis tool for detecting open-source components and licenses.",
+  "hasQualityDimension": [
+    { "@id": "dim:Security", "@type": "@id" },
+    { "@id": "dim:Sustainability", "@type": "@id" },
+    { "@id": "dim:Maintainability", "@type": "@id" }
   ],
-  "rs:howToUse": ["command-line", "online-service"],
-  "schema:license": { "@id": "https://spdx.org/licenses/MPL-2.0", "@type": "@id" }
+  "howToUse": ["command-line", "online-service"],
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/MPL-2.0",
+  "name": "SCANOSS",
+  "url": "https://www.scanoss.com/"
 }

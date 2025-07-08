@@ -1,17 +1,16 @@
 {
-    "@context": {
-      "schema": "http://schema.org/",
-      "rs" : "https://w3id.org/everse/rs#"
-    },
-    "@id": "https://w3id.org/everse/tools/codemeta_generator",
-    "@type": "schema:SoftwareApplication",
-    "schema:name": "CodeMeta Generator",
-    "schema:description": "A free, open-source project that creates a minimal metadata schema for research software and code.",
-    "schema:url": "https://codemeta.github.io/codemeta-generator",
-    "schema:isAccessibleForFree": true,
-    "rs:hasQualityDimension": {"@id":"rs:Sustainability", "@type": "@id"},
-    "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id"},
-    "rs:howToUse": ["CI/CD","command-line"],
-    "schema:license": { "@id": "https://www.gnu.org/licenses/agpl-3.0", "@type": "@id"}
-      
-  }
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/codemeta_generator",
+  "@type": "SoftwareApplication",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "description": "A free, open-source project that creates a minimal metadata schema for research software and code.",
+  "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
+  "howToUse": ["CI/CD", "command-line"],
+  "isAccessibleForFree": true,
+  "license": "https://spdx.org/licenses/AGPL-3.0-or-later",
+  "name": "CodeMeta Generator",
+  "url": "https://codemeta.github.io/codemeta-generator"
+}

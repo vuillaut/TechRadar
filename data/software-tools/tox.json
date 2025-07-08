@@ -1,0 +1,20 @@
+{
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/tox",
+  "@type": "schema:SoftwareApplication",
+  "name": "tox",
+  "description": "Tox is a generic virtualenv management and test command line tool used for testing in multiple Python environments.",
+  "url": "https://tox.wiki/",
+  "isAccessibleForFree": true,
+  "hasQualityDimension": {
+    "@id": "dim:Interaction Capability",
+    "@type": "@id"
+  },
+  "howToUse": ["command-line", "CI/CD"],
+  "appliesToProgrammingLanguage": ["Python"],
+  "license": "https://opensource.org/licenses/MIT",
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  }
+}
