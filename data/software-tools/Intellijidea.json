@@ -9,7 +9,7 @@
   "schema:description": "Integrated development environment (IDE) written in Java",
   "schema:url": "https://www.jetbrains.com/fr-fr/idea/",
   "schema:isAccessibleForFree": true,
-  "schema:applicationCategory": { "id": "rs:", "type": "@id"},
+  "schema:applicationCategory": { "id": "rs:", "@type": "@id"},
   "rs:hasQualityDimension": [
         { 
           "@id": "rs:Maintainability", 
