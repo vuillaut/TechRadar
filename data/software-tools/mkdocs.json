@@ -1,25 +1,19 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/mkdocs",
   "@type": "schema:SoftwareApplication",
-  "schema:name": "MkDocs",
-  "schema:description": "MkDocs is a static site generator that's geared towards project documentation, written in Markdown.",
-  "schema:url": "https://www.mkdocs.org/",
-  "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": {
-    "@id": "rs:Interaction Capability",
+  "name": "MkDocs",
+  "description": "MkDocs is a static site generator that's geared towards project documentation, written in Markdown.",
+  "url": "https://www.mkdocs.org/",
+  "isAccessibleForFree": true,
+  "hasQualityDimension": {
+    "@id": "dim:Interaction Capability",
     "@type": "@id"
   },
-  "rs:howToUse": ["command-line", "CI/CD"],
-  "rs:appliesToProgrammingLanguage": ["Python"],
-  "schema:license": {
-    "@id": "https://opensource.org/licenses/BSD-2-Clause",
-    "@type": "@id"
-  },
-  "schema:applicationCategory": [
+  "howToUse": ["command-line", "CI/CD"],
+  "appliesToProgrammingLanguage": ["Python"],
+  "license": "https://opensource.org/licenses/BSD-2-Clause",
+  "applicationCategory": [
     {
       "@id": "rs:ResearchInfrastructureSoftware",
       "@type": "@id"
