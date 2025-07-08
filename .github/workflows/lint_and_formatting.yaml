@@ -33,11 +33,5 @@ jobs:
         run: npm install
 
       - name: Check tools jsonld formatting with Prettier
-        id: check_format
         run: |
           npm run lint-prettier:check
-
-      # - name: Fix code formatting with Prettier
-      #   if: steps.check_format.outcome == 'failure'  # Run only if check_format failed
-      #   run: |
-      #     npm run lint-prettier:fix
