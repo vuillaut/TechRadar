@@ -17,7 +17,7 @@
       
       "id": "rs:ResearchInfrastructureSoftware", 
       "type": "@id"}
-  ]
+  ],
   "rs:hasQualityDimension": [
     {
       "@id":"rs:Usability",
