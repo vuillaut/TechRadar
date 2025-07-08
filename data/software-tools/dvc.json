@@ -2,10 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://dvc.org/",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "description": "Manage and version images, audio, video, and text files in storage and organize your ML modeling process into a reproducible workflow.",
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
-  "howToUse": [ "CI/CD", "command-line" ],
+  "howToUse": ["CI/CD", "command-line"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/Apache-2.0",
   "name": "DVC",

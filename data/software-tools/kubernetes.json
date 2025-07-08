@@ -2,10 +2,17 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/kubernetes",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "description": "Open-source system for automating deployment, scaling, and management of containerized applications.",
-  "hasQualityDimension": [ { "@id": "dim:Maintainability", "@type": "@id" }, { "@id": "dim:Sustainability", "@type": "@id" }, { "@id": "dim:Reliability", "@type": "@id" } ],
-  "howToUse": [ "command-line", "online-service", "CI/CD" ],
+  "hasQualityDimension": [
+    { "@id": "dim:Maintainability", "@type": "@id" },
+    { "@id": "dim:Sustainability", "@type": "@id" },
+    { "@id": "dim:Reliability", "@type": "@id" }
+  ],
+  "howToUse": ["command-line", "online-service", "CI/CD"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/Apache-2.0",
   "name": "Kubernetes",

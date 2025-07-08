@@ -2,11 +2,14 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/sphinx",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "appliesToProgrammingLanguage": [ "Python" ],
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "appliesToProgrammingLanguage": ["Python"],
   "description": "Documentation generator from reStructuredText files primarily for Python, but also supports other languages - C++, C, JavaScript.",
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
-  "howToUse": [ "command-line", "CI/CD" ],
+  "howToUse": ["command-line", "CI/CD"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/BSD-2-Clause",
   "name": "sphinx",

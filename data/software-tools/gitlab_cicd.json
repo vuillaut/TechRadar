@@ -2,10 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/gitlab_cicd",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "description": "A platform for Integration, Delivery and Deployment.",
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
-  "howToUse": [ "CI/CD", "command-line", "online-service" ],
+  "howToUse": ["CI/CD", "command-line", "online-service"],
   "isAccessibleForFree": false,
   "license": "https://spdx.org/licenses/MIT",
   "name": "GitLab CICD",

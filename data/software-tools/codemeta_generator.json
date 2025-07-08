@@ -2,10 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/codemeta_generator",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "description": "A free, open-source project that creates a minimal metadata schema for research software and code.",
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
-  "howToUse": [ "CI/CD", "command-line" ],
+  "howToUse": ["CI/CD", "command-line"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/AGPL-3.0-or-later",
   "name": "CodeMeta Generator",

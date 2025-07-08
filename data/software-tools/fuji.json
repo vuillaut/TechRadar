@@ -2,10 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/fuji",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "description": "Original version for automated assessment of data FAIRness; extended version (POC only - not all metrics are implemented) for research software based on the FAIR4RS principles.",
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
-  "howToUse": [ "CI/CD", "command-line" ],
+  "howToUse": ["CI/CD", "command-line"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/0BSD",
   "name": "F-UJI",

@@ -2,10 +2,13 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/jenkins",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "description": "Open-source automation server for building, testing, and deploying software.",
   "hasQualityDimension": { "@id": "dim:Maintainability", "@type": "@id" },
-  "howToUse": [ "online-service", "CI/CD" ],
+  "howToUse": ["online-service", "CI/CD"],
   "isAccessibleForFree": true,
   "license": "https://spdx.org/licenses/MIT",
   "name": "Jenkins",

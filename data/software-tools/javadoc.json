@@ -2,11 +2,14 @@
   "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/javadoc",
   "@type": "SoftwareApplication",
-  "applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-  "appliesToProgrammingLanguage": [ "Java" ],
+  "applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
+  "appliesToProgrammingLanguage": ["Java"],
   "description": "Documentation generator for Java used to generate API documentation in HTML format from Java source code",
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
-  "howToUse": [ "CI/CD", "command-line" ],
+  "howToUse": ["CI/CD", "command-line"],
   "isAccessibleForFree": true,
   "license": "https://www.oracle.com/downloads/licenses/no-fee-license",
   "name": "javadoc",
