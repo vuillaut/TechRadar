@@ -11,15 +11,16 @@
   "schema:isAccessibleForFree": true,
   "schema:applicationCategory": { "id": "rs:", "@type": "@id"},
   "rs:hasQualityDimension": [
-        { 
-          "@id": "rs:Maintainability", 
-          "@type": "@id" 
+        {
+          "@id": "rs:Maintainability",
+          "@type": "@id"
         },
-        { 
-          "@id": "rs: CodeAnalysis", 
+        {
+          "@id": "rs: CodeAnalysis",
           "@type": "@id" }
   ],
   "rs:howToUse": ["CI/CD","command-line","online-service"],
   "schema:license": { "@id":, "@type": "@id"}
-    
+
 }
+
