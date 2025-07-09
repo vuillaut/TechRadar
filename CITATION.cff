@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: EVERSE TechRadar
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - name: EVERSE
+    website: 'https://everse.software/'
+  - given-names: Thomas
+    family-names: Vuillaume
+    email: thomas.vuillaume@lapp.in2p3.fr
+    affiliation: 'LAPP, CNRS'
+    orcid: 'https://orcid.org/0000-0002-5686-2078'
+repository-code: 'https://github.com/EVERSE-ResearchSoftware/TechRadar/'
+url: 'https://everse.software/TechRadar/'
+abstract: >-
+  It contains a catalog of of tools and services for
+  research software quality designed to assess, measure, and
+  improve the quality of software developed for research
+  purposes and the TechRadar, a visual dashboard to display
+  the catalog.
+keywords:
+  - software quality
+  - research software
+  - RSE
+license: CC-BY-NC-SA-4.0
