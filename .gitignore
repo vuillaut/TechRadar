@@ -1,6 +1,5 @@
 .DS_Store
 node_modules
-tests/__pycache__/
 .techradar/
-scripts/__pycache__/
+**/__pycache__/
 build/
