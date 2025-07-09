@@ -4,5 +4,10 @@ ring: ResearchInfrastructureSoftware
 segment: Maintainability
 tags: ['CI/CD', 'online-service']
 ---
-https://travis-ci.com/
 A continuous integration service used to build and test software projects hosted on GitHub.
+
+Tool License: https://spdx.org/licenses/MIT
+
+Tool url: https://travis-ci.com/
+
+Application Category (or Categories in case of multi-tier tool): ResearchInfrastructureSoftware

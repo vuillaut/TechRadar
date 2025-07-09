@@ -104,8 +104,13 @@ ring: {application_category}
 segment: {', '.join(quality_dimensions)}
 tags: {tags}
 ---
-{url}
 {description}
+
+Tool License: {license_info}
+
+Tool url: {url}
+
+Application Category (or Categories in case of multi-tier tool): {', '.join(application_categories)}
 """
 
     os.makedirs(output_dir, exist_ok=True)
