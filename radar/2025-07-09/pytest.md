@@ -1,6 +1,6 @@
 ---
 title: "pytest"
-ring: Analysis code
+ring: AnalysisCode
 segment: Maintainability
 tags: ['command-line', 'CI/CD', 'Python']
 ---

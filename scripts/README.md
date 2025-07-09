@@ -12,22 +12,24 @@ project/
 ├── radar/
 │ └── YYYY-MM-DD/ # Markdown files will be generated here
 │
-├── script.py # The main script
+├── generate_techradar_markdowns.py # The main script
 └── README.md # You're here!
 ```
 
 ## 🧰 Features
 
 - Extracts fields from JSON-LD files such as:
-  - `schema:name`
-  - `schema:applicationCategory`
-  - `rs:hasQualityDimension`
-  - `rs:howToUse`
-  - `schema:license`
-  - `schema:url`
-  - `schema:description`
-  - `rs:appliesToProgrammingLanguage`
-- Automatically generates a markdown file for each JSON-LD entry.
+  - `name`
+  - `applicationCategory`
+  - `hasQualityDimension`
+  - `howToUse`
+  - `license`
+  - `url`
+  - `description`
+  - `appliesToProgrammingLanguage`
+- Generates markdown files for each tool, organizing them by quality dimensions and application categories.
+- Supports multi-dimensional tools and generates a separate markdown file for each quality dimension when necessary.
+- Automatically adds tags such as "multi-dimensional" for tools with more than one quality dimension.
 - Stores the output in a timestamped folder under `radar/`.
 
 ## 🚀 Getting Started
@@ -52,6 +54,8 @@ Place your .json files inside the data/software-tools/ directory. Each file shou
 You can run the script from the terminal:
 
 ```bash
+python -m venv venv
+source venv/bin/activate
 python3 generate_markdown.py
 ```
 
@@ -71,4 +75,3 @@ Tool description here.
 ### 5. Open a Pull Request to Add New Markdown Files
 
 Once a new folder containing the markdown files is generated, open a pull request (PR) to merge this addition into the main branch. This PR will be part of preparing a new release of the TechRadar.
-

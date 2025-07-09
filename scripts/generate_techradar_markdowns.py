@@ -6,15 +6,15 @@ from datetime import datetime
 def get_items(field):
     """
     Extract items from a field that can be:
-    field e.g applicationCategory, hasqualityDimension 
+    field e.g applicationCategory, hasQualityDimension 
     - a dict with '@id' e.g { "@id": "dim:Maintainability", "@type": "@id" }
     - a list of dicts with '@id' e.g. [
         { "@id": "dim:Maintainability", "@type": "@id" },
         { "@id": "dim:Sustainability", "@type": "@id" },
         { "@id": "dim:Reliability", "@type": "@id" }
-  ]
+      ]
     - a list of strings e.g [ "Maintainability", "Sustainability"]
-    - a single string  e.g "Maintainability
+    - a single string  e.g "Maintainability"
     Returns a list of strings.
     """
     items = []
@@ -36,8 +36,8 @@ def get_items(field):
     return items
 
 
-def generate_markdown(json_ld_file, output_dir):
-    """Generates markdown from a JSON-LD file."""
+def generate_markdown(json_ld_file, output_dir, quality_dimension=None, is_multi_dim=False):
+    """Generates tools markdown for techradar dashboard from a JSON-LD file."""
     with open(json_ld_file, 'r') as file:
         json_ld = json.load(file)
 
@@ -52,13 +52,14 @@ def generate_markdown(json_ld_file, output_dir):
     application_category_field = json_ld.get('applicationCategory', [])
     application_categories = get_items(application_category_field)
     
+    # Rules in case of multi-tier tools
     if len(application_categories) > 1:
         if "AnalysisCode" in application_categories:
-            application_category = "Analysis code"
-        elif "PrototypeTools" in application_categories:
-            application_category = "Prototype tool"
+            application_category = "AnalysisCode"
+        elif "PrototypeTool" in application_categories:
+            application_category = "PrototypeTool"
         else:
-            application_category = "Research Infra Software"
+            application_category = "ResearchInfrastructureSoftware"
     elif len(application_categories) == 1:
         application_category = application_categories[0]
     else:
@@ -70,10 +71,13 @@ def generate_markdown(json_ld_file, output_dir):
     # Extract hasQualityDimension
     quality_dimension_field = json_ld.get('hasQualityDimension', [])
     quality_dimensions = get_items(quality_dimension_field)
-    # TODO: Need to modify conditions for tools with multi-quality dimensions case
     if not quality_dimensions:
         print('Tool is missing quality dimension in Json_LD')
 
+    # Rule in case of multi-dimension tools
+    if len(quality_dimensions) > 1 and quality_dimension:
+        quality_dimensions = [quality_dimension]
+    
     # Extract tags
     tags = []
     if 'howToUse' in json_ld:
@@ -83,14 +87,17 @@ def generate_markdown(json_ld_file, output_dir):
     if 'license' in json_ld:
         license_info = json_ld['license']
         if isinstance(license_info, dict) and '@id' in license_info:
-            tags.append(license_info['@id'].split('/')[-1])  # Extracts exact license type, e.g., 'Apache-2.0'
+            tags.append(license_info['@id'].split('/')[-1])
     
     if 'appliesToProgrammingLanguage' in json_ld:
         programming_language = json_ld['appliesToProgrammingLanguage']
         tags.extend(programming_language)
 
+    # Add 'multi-dimensional' tag if there are tools with multi-quality dimensions
+    if is_multi_dim:
+        tags.append('multi-dimensional')
 
-    # Prepare markdown content; join lists as comma-separated strings
+    # Prepare markdown content
     markdown_content = f"""---
 title: "{title}"
 ring: {application_category}
@@ -101,32 +108,47 @@ tags: {tags}
 {description}
 """
 
-    # Make sure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
     
-    # Generate markdown file name
     markdown_file_name = f"{title.replace(' ', '_').lower()}.md"
+    
+    if quality_dimension:
+        # Replace spaces in the quality dimension name with underscores
+        formatted_quality_dimension = quality_dimension.replace(' ', '_')
+        markdown_file_name = f"{title.replace(' ', '_').lower()}_{formatted_quality_dimension}.md"
+
+    
     markdown_path = os.path.join(output_dir, markdown_file_name)
     
-    # Write markdown content to file
     with open(markdown_path, 'w') as md_file:
         md_file.write(markdown_content)
         
     print(f"Generated markdown file: {markdown_path}")
+
 
 def process_json_ld_files(input_dir, output_dir):
     """Process all JSON-LD files in the input directory."""
     for json_file in os.listdir(input_dir):
         if json_file.endswith('.json'):
             json_ld_path = os.path.join(input_dir, json_file)
-            generate_markdown(json_ld_path, output_dir)
+            # Extract quality dimensions for this JSON-LD file
+            with open(json_ld_path, 'r') as file:
+                json_ld = json.load(file)
+            quality_dimension_field = json_ld.get('hasQualityDimension', [])
+            quality_dimensions = get_items(quality_dimension_field)
+
+            if len(quality_dimensions) > 1:
+                # For each quality dimension, generate a separate markdown file
+                for dimension in quality_dimensions:
+                    generate_markdown(json_ld_path, output_dir, quality_dimension=dimension, is_multi_dim=True)
+            else:
+                # Else, generate a single markdown file
+                generate_markdown(json_ld_path, output_dir)
 
 
-# Create new directory for the markdown files
 outdir = Path(f'../radar/{datetime.today().strftime("%Y-%m-%d")}')
 outdir.mkdir(parents=True, exist_ok=True)
 
-# Example usage
 input_dir = '../data/software-tools'  # Directory where JSON-LD files are stored
 output_dir = outdir # Directory where markdown files are stored
 
