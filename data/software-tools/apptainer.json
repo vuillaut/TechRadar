@@ -8,7 +8,10 @@
   "schema:name": "Apptainer",
   "schema:description": "Container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments",
   "schema:url": "https://apptainer.org/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "schema:applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": [
     { "@id": "rs:Compatibility", "@type": "@id" },

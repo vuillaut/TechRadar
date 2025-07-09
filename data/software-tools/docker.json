@@ -8,7 +8,10 @@
   "schema:name": "Docker",
   "schema:description": "Docker provides a suite of development tools, services, trusted content, and automations, used individually or together, to accelerate the delivery of secure applications.",
   "schema:url": "https://www.docker.com/",
-  "schema:applicationCategory": { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+  "schema:applicationCategory": {
+    "@id": "rs:ResearchInfrastructureSoftware",
+    "@type": "@id"
+  },
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": [
     { "@id": "rs:Compatibility", "@type": "@id" },

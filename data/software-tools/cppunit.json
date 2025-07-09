@@ -14,9 +14,9 @@
   ],
   "schema:isAccessibleForFree": true,
   "rs:hasQualityDimension": {
-      "@id": "rs:Maintainability",
-      "@type": "@id"
-    },
+    "@id": "rs:Maintainability",
+    "@type": "@id"
+  },
   "rs:howToUse": ["command-line"],
   "rs:appliesToProgrammingLanguage": ["C++"],
   "schema:license": {
