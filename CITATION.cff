@@ -23,6 +23,11 @@ authors:
     family-names: Bajare
     email: shraddha.bajare@skao.int
     affiliation: 'Square Kilometre Array Observatory'
+  - given-names: Elena
+    family-names: Breitmoser
+    email: e.breitmoser@epcc.ed.ac.uk
+    affiliation: 'University of Edinburgh'
+    oricd: 'https://orcid.org/0000-0003-1295-9326'
 repository-code: 'https://github.com/EVERSE-ResearchSoftware/TechRadar/'
 url: 'https://everse.software/TechRadar/'
 abstract: >-
