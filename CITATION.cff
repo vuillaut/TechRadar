@@ -8,13 +8,17 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - name: EVERSE
+  - name: EVERSE 
     website: 'https://everse.software/'
   - given-names: Thomas
     family-names: Vuillaume
     email: thomas.vuillaume@lapp.in2p3.fr
     affiliation: 'LAPP, CNRS'
     orcid: 'https://orcid.org/0000-0002-5686-2078'
+  - affiliation: "Netherlands eScience Center"
+    family-names: Diblen
+    given-names: Faruk
+    orcid: "https://orcid.org/0000-0002-0989-929X"
 repository-code: 'https://github.com/EVERSE-ResearchSoftware/TechRadar/'
 url: 'https://everse.software/TechRadar/'
 abstract: >-
