@@ -35,17 +35,6 @@ def get_items(field):
         items.append(field)
     return items
 
-def resolve_application_category(categories):
-        if len(categories) > 1:
-            if "AnalysisCode" in categories:
-                return "AnalysisCode"
-            elif "PrototypeTool" in categories:
-                return "PrototypeTool"
-            else:
-                return "ResearchInfrastructureSoftware"
-        elif len(categories) == 1:
-            return categories[0]
-        return "Unknown"
 
 def generate_markdown(json_ld_file, output_dir):
     """Generates markdown from a JSON-LD file."""
@@ -62,7 +51,19 @@ def generate_markdown(json_ld_file, output_dir):
     # Extract applicationCategory
     application_category_field = json_ld.get('applicationCategory', [])
     application_categories = get_items(application_category_field)
-    application_category = resolve_application_category(application_categories)
+    
+    if len(application_categories) > 1:
+        if "AnalysisCode" in application_categories:
+            application_category = "Analysis code"
+        elif "PrototypeTools" in application_categories:
+            application_category = "Prototype tool"
+        else:
+            application_category = "Research Infra Software"
+    elif len(application_categories) == 1:
+        application_category = application_categories[0]
+    else:
+        application_category = "Unknown"
+
     if not application_categories:
         print('Tool is missing application category in Json_LD')
 
@@ -92,8 +93,8 @@ def generate_markdown(json_ld_file, output_dir):
     # Prepare markdown content; join lists as comma-separated strings
     markdown_content = f"""---
 title: "{title}"
-rings: {application_category}
-segments: {', '.join(quality_dimensions)}
+ring: {application_category}
+segment: {', '.join(quality_dimensions)}
 tags: {tags}
 ---
 {url}
