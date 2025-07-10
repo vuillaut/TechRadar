@@ -5,21 +5,21 @@
   },
   "@id": "https://w3id.org/everse/tools/cppunit",
   "@type": "schema:SoftwareApplication",
-  "schema:name": "CppUnit",
-  "schema:description": "C++ testing tool",
-  "schema:url": "https://freedesktop.org/wiki/Software/cppunit/",
-  "schema:applicationCategory": [
+  "name": "CppUnit",
+  "description": "C++ testing tool",
+  "url": "https://freedesktop.org/wiki/Software/cppunit/",
+  "applicationCategory": [
     { "@id": "rs:PrototypeTool", "@type": "@id" },
     { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" }
   ],
-  "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": {
+  "isAccessibleForFree": true,
+  "hasQualityDimension": {
     "@id": "rs:Maintainability",
     "@type": "@id"
   },
-  "rs:howToUse": ["command-line"],
-  "rs:appliesToProgrammingLanguage": ["C++"],
-  "schema:license": {
+  "howToUse": ["command-line"],
+  "appliesToProgrammingLanguage": ["C++"],
+  "license": {
     "@id": "https://www.gnu.org/licenses/lgpl-3.0",
     "@type": "@id"
   }

@@ -5,20 +5,20 @@
   },
   "@id": "https://w3id.org/everse/tools/singularityce",
   "@type": "schema:SoftwareApplication",
-  "schema:name": "SingularityCE",
-  "schema:description": "container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments",
-  "schema:url": "https://sylabs.io/singularity/",
-  "schema:applicationCategory": {
+  "name": "SingularityCE",
+  "description": "container platform designed for ease-of-use on shared systems and in high performance computing (HPC) environments",
+  "url": "https://sylabs.io/singularity/",
+  "applicationCategory": {
     "@id": "rs:ResearchInfrastructureSoftware",
     "@type": "@id"
   },
-  "schema:isAccessibleForFree": true,
-  "rs:hasQualityDimension": [
+  "isAccessibleForFree": true,
+  "hasQualityDimension": [
     { "@id": "rs:Compatibility", "@type": "@id" },
     { "@id": "rs:Flexibility", "@type": "@id" }
   ],
   "rs:howToUse": ["command-line"],
-  "schema:license": {
+  "license": {
     "@id": "https://opensource.org/license/bsd-3-clause",
     "@type": "@id"
   }
