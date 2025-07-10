@@ -14,8 +14,8 @@
   },
   "isAccessibleForFree": true,
   "hasQualityDimension": [
-    { "@id": "rs:Compatibility", "@type": "@id" },
-    { "@id": "rs:Flexibility", "@type": "@id" }
+    { "@id": "dim:Compatibility", "@type": "@id" },
+    { "@id": "dim:Flexibility", "@type": "@id" }
   ],
   "howToUse": ["command-line", "online-service"],
   "license": {

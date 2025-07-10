@@ -14,7 +14,7 @@
   ],
   "isAccessibleForFree": true,
   "hasQualityDimension": {
-    "@id": "rs:Maintainability",
+    "@id": "dim:Maintainability",
     "@type": "@id"
   },
   "howToUse": ["command-line"],
