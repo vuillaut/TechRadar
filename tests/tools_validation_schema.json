@@ -49,6 +49,7 @@
     "@id": {
       "type": "string",
       "description": "Identifier for the quality indicator",
+      "format": "uri"
     }
   },
   "required": ["@id"]
