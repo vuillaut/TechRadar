@@ -48,7 +48,7 @@
   "properties": {
     "@id": {
       "type": "string",
-      "description": ""Identifier for the quality indicator",
+      "description": "Identifier for the quality indicator",
     }
   },
   "required": ["@id"]
