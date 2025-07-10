@@ -41,7 +41,18 @@
         }
       },
       "required": [ "@id" ]
+    }, 
+    
+"qualityIndicatorObject": {
+  "type": "object",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "format": "uri"
     }
+  },
+  "required": ["@id"]
+}
   },
   "properties": {
     "@context": {
