@@ -19,5 +19,5 @@
     "@id": "https://github.com/customer-terms/github-copilot-product-specific-terms",
     "@type": "@id"
   },
-  "howToUse": ["command-line"]
+  "howToUse": ["online-service"]
 }
