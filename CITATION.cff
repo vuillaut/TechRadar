@@ -19,6 +19,11 @@ authors:
     family-names: Diblen
     given-names: Faruk
     orcid: "https://orcid.org/0000-0002-0989-929X"
+  - given-names: Azza
+    family-names: Gamgami
+    email: azza.gamgami@lapp.in2p3.fr
+    affiliation: 'LAPP, CNRS'
+    orcid: 'https://orcid.org/0009-0003-7084-3900'
   - given-names: Shraddha
     family-names: Bajare
     email: shraddha.bajare@skao.int
