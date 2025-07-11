@@ -13,8 +13,9 @@
   "howToUse": ["command-line", "CI/CD"],
   "appliesToProgrammingLanguage": ["Java"],
   "license": "https://opensource.org/licenses/LGPL-2.1",
-  "applicationCategory": {
-    "@id": "rs:AnalysisCode",
-    "@type": "@id"
-  }
+  "applicationCategory": [
+    { "@id": "rs:PrototypeTool", "@type": "@id" },
+    { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
+    { "@id": "rs:AnalysisCode", "@type": "@id" }
+  ]
 }
