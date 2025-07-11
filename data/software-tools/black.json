@@ -1,19 +1,15 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://black.readthedocs.io/en/stable",
   "@type": "schema:SoftwareApplication",
   "name": "Black",
   "description": "Black is an opinionated code formatter for Python that automatically reformats your code to follow a consistent and readable style, with minimal configuration. It helps reduce style-related discussions and ensures uniform code formatting across projects.",
   "url": "https://github.com/psf/black",
   "isAccessibleForFree": true,
-  "license": { "@id": "https://spdx.org/licenses/MIT", "@type": "@id" },
+  "license": "https://spdx.org/licenses/MIT",
   "applicationCategory": [
     { "@id": "rs:PrototypeTool", "@type": "@id" },
-    { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
-    { "@id": "rs:AnalysisCode", "@type": "@id" }
+    { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" }
   ],
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "howToUse": ["CI/CD", "command-line"]
