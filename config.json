@@ -148,19 +148,19 @@
   ],
   "imprint": "https://www.aoe.com/en/imprint.html",
   "labels": {
-    "title": "EVERSE Technology Watch - This is a development version and does not reflect EVERSE recommendations yet.",
+    "title": "EVERSE Technology Radar",
     "imprint": "Legal Information",
-    "quadrant": "Quadrant",
-    "quadrantOverview": "Quadrant Overview",
+    "quadrant": "Segment",
+    "quadrantOverview": "Segments Overview",
     "zoomIn": "Zoom in",
     "filterByTag": "Filter by Tag",
-    "footer": "Preliminary work for Technology Watch(TW), developed as part of EVERSE project, referencing AOE tech radar. It is likely to be changed, it contains a collection of software quality tools and their metadata in terms of quality indicators and quality dimentions. It contains all the tools for research software quality that align, adapt, and extend to the specific needs of various research communities.",
+    "footer": "Technology Radar for tools and services for research software quality developed as part of the EVERSE project, referencing AOE tech radar.",
     "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
     "notFound": "404 - Page not found",
-    "pageAbout": "How to use EVERSE Technology Watch?",
+    "pageAbout": "EVERSE Technology Radar",
     "pageOverview": "Technologies Overview",
     "pageSearch": "Search",
     "searchPlaceholder": "What are you looking for?",
-    "metaDescription": "Stay at the forefront of web dev software and trends with EVERSE Technology Watch. Explore insights on sode code management, methods, platforms and more."
+    "metaDescription": "Find tools and services for research software quality with the EVERSE Technology Radar."
   }
 }
