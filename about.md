@@ -1,21 +1,21 @@
-# How to use the EVERSE Technology Watch
+# EVERSE Technology Radar
 
-### Introduction
+## Introduction
 
-Technology Watch(TW), developed as part of EVERSE project, is preliminary work done referencing AOE tech radar. It contains collection of research software quality tools and their metadata in terms of quality indicators and quality dimentions. It contains all the tools for research software quality that align, adapt, and extend to the specific needs of various research communities.
-
-
-### What is the EVERSE Technology Watch?
-
-This is preliminary work done as part of [EVERSE project](https://everse.software/) Technology Watch.
-It contains a [catalog of of _tools and services for research software quality_](#research-quality-tools-and-services-catalog) designed to assess, measure, and improve the quality of software developed for research purposes and the [TechRadar](#technology-radar-dashboard), a visual dashboard to display the catalog. The EVERSE Technology Watch offers a comprehensive overview of various research software quality tools and services. These tools and services are systematically categorized and presented in alignment with the established quality dimensions as segments. It is important to note that the watch does not encompass all existing tools and services; rather, it concentrates on tools that satisfies a set of criteria.
-
-### How it is created
-
-WIP
+The EVERSE Technology Radar is developed as part of the [EVERSE](https://everse.software/) project to collect and classify tools and services that can measure or improve Research Software Quality.
 
 
-#### Segments
+## What is the EVERSE Technology Radar?
+
+It contains a [catalogue of_tools and services for research software quality_](#research-quality-tools-and-services-catalog) designed to assess, measure, and improve the quality of software developed for research purposes and the [TechRadar](#technology-radar-dashboard), a visual dashboard to display the catalogue. The EVERSE Technology Radar offers a comprehensive overview of various research software quality tools and services. These tools and services are systematically categorised and presented in alignment with the established quality dimensions as segments. It is important to note that the radar does not encompass all existing tools and services; rather, it concentrates on tools that satisfy a set of criteria.
+
+## How it is created
+
+The tools and services appearing in the TechRadar can be proposed by anyone, but are reviewed by the TechRadar [curation team](#curation-team) before addition.
+Please see [instructions below](#contributing-to-the-everse-technology-radar).
+
+
+### Segments
 
 The segments correspond to [the EVERSE Quality Dimensions](https://everse.software/indicators/website/dimensions.html):
 
@@ -31,16 +31,31 @@ The segments correspond to [the EVERSE Quality Dimensions](https://everse.softwa
 - **Security:** This segment covers tools and services that measure the degree to which a product or system defends against attack patterns by malicious actors, while protecting information and data to ensure that individuals or other systems have the appropriate level of access based on their types and authorization levels.
 - **Sustainability:** This segment covers tools and services that assess the capacity of software to endure, ensuring its availability on future platforms and its ability to meet evolving needs over time.
 
-#### Rings
+### Rings
 
-The rings correspond to [the three-tier model of research software](https://everse.software/RSQKit/three_tier_view):
-- **Analysis Code** 
-- **Prototype Tools** 
-- **Research Infrastructure Software** 
+The rings reflect the [three-tier model of research software](https://everse.software/RSQKit/three_tier_view):
 
-### Contributing to the EVERSE Technology Radar
+* **Analysis Code**
+* **Prototype Tools**
+* **Research Infrastructure Software**
+
+Not all research software needs to meet the same quality requirements — these depend on the software’s development tier.
+Some quality tools and services are tailored to more advanced or mature tiers than others.
+
+This ring-based categorization is designed to help you identify the tools and practices most relevant to your software’s tier and specific needs.
+
+Note: if a tool is relevant to multiple tiers, it is placed only in the **lowest applicable tier** (i.e. the one closer to the radar core).
+
+
+## Contributing to the EVERSE Technology Radar
 
 Contributions and source code of the EVERSE Tech Radar are on
 GitHub: [EVERSE Tech Radar on GitHub](https://github.com/EVERSE-ResearchSoftware/TechRadar) and [EVERSE AOE Tech Radar fork](https://github.com/EVERSE-ResearchSoftware/aoe_technology_radar).
 
-Please see our [contribuing guidelines](CONTRIBUTING.md)
+Please see our [contributing guidelines](CONTRIBUTING.md)
+
+## Curation team
+
+The curation team can be seen here: https://github.com/orgs/EVERSE-ResearchSoftware/teams/techradar-curators/
+
+
