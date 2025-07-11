@@ -125,12 +125,15 @@
       ]
     },
     "hasQualityIndicator": {
-      "description": "Quality indicators addressed by the tool",
-      "type": [ "string", "array", "object" ],
-      "items": {
-        "type": "string"
-      }
-    },
+  "description": "Quality indicators addressed by the tool",
+  "oneOf": [
+    { "$ref": "#/definitions/qualityIndicatorObject" },
+    {
+      "type": "array",
+      "items": { "$ref": "#/definitions/qualityIndicatorObject" }
+    }
+  ]
+},
     "howToUse": {
       "description": "How the software is expected to be used",
       "type": [ "string", "array" ],
