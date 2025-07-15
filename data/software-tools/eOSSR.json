@@ -14,5 +14,5 @@
   "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
   "howToUse": ["CI/CD", "command-line", "online-service"],
   "usedBy": ["ESCAPE"],
-  "license":"https://opensource.org/licenses/MIT"
+  "license": "https://opensource.org/licenses/MIT"
 }
