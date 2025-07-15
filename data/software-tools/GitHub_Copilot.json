@@ -1,8 +1,4 @@
-{
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://github.com/features/copilot",
   "@type": "schema:SoftwareApplication",
   "name": "GitHub Copilot",
@@ -15,9 +11,6 @@
   ],
   "isAccessibleForFree": false,
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
-  "license": {
-    "@id": "https://github.com/customer-terms/github-copilot-product-specific-terms",
-    "@type": "@id"
-  },
+  "license":"https://github.com/customer-terms/github-copilot-product-specific-terms",
   "howToUse": ["online-service"]
 }
