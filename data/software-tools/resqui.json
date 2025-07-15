@@ -1,8 +1,5 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/resqui",
   "@type": "schema:SoftwareApplication",
   "name": "resqui",
@@ -54,8 +51,5 @@
     }
   ],
   "howToUse": ["command-line"],
-  "license": {
-    "@id": "https://opensource.org/licenses/MIT",
-    "@type": "@id"
-  }
+  "license": "https://opensource.org/licenses/MIT"
 }
