@@ -1,8 +1,5 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://escape-ossr.gitlab.io/eossr",
   "@type": "schema:SoftwareApplication",
   "name": "eOSSR",
@@ -17,8 +14,5 @@
   "hasQualityDimension": { "@id": "dim:FAIRness", "@type": "@id" },
   "howToUse": ["CI/CD", "command-line", "online-service"],
   "usedBy": ["ESCAPE"],
-  "license": {
-    "@id": "https://opensource.org/licenses/MIT",
-    "@type": "@id"
-  }
+  "license":"https://opensource.org/licenses/MIT"
 }
