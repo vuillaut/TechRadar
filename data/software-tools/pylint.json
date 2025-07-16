@@ -1,0 +1,30 @@
+{
+  "@context": "https://w3id.org/everse/rs#",
+  "@id": "https://w3id.org/everse/tools/pylint",
+  "@type": "schema:SoftwareApplication",
+  "name": "Pylint",
+  "description": "Pylint is a source-code, bug and quality checker for the Python programming language.",
+  "url": "https://pylint.pycqa.org/",
+  "isAccessibleForFree": true,
+  "hasQualityDimension": {
+    "@id": "dim:Maintainability",
+    "@type": "@id"
+  },
+  "howToUse": ["command-line", "CI/CD"],
+  "appliesToProgrammingLanguage": ["Python"],
+  "license": "https://opensource.org/licenses/GPL-2.0-only",
+  "applicationCategory": [
+    {
+      "@id": "rs:AnalysisCode",
+      "@type": "@id"
+    },
+    {
+      "@id": "rs:ResearchInfrastructureSoftware",
+      "@type": "@id"
+    },
+    {
+      "@id": "rs:PrototypeTool",
+      "@type": "@id"
+    }
+  ]
+}

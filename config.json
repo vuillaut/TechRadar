@@ -23,67 +23,67 @@
   },
   "segments": [
     {
-      "id": "compatibility",
+      "id": "Compatibility",
       "title": "Compatibility",
       "description": "Degree to which a product, system or component can exchange information with other products, systems or components, and/or perform its required functions while sharing the same common environment and resources.",
       "color": "#4E79A7"
     },
     {
-      "id": "fairness",
+      "id": "FAIRness",
       "title": "FAIRness",
       "description": "FAIRness refers to the degree to which research software adheres to the FAIR principles: Findable, Accessible, Interoperable, and Reusable.",
       "color": "#F28E2B"
     },
     {
-      "id": "flexibility",
+      "id": "Flexibility",
       "title": "Flexibility",
       "description": "Degree to which a product can be adapted to changes in its requirements, contexts of use or system environment. ",
       "color": "#E15759"
     },
     {
-      "id": "functional-suitability",
+      "id": "Functional Suitability",
       "title": "Functional Suitability",
       "description": "This characteristic represents the degree to which a product or system provides functions that meet stated and implied needs when used under specified conditions. ",
       "color": "#76B7B2"
     },
     {
-      "id": "interaction-capability",
+      "id": "Interaction Capability",
       "title": "Interaction Capability",
       "description": "This characteristic represents the degree to which a product or system supports users in performing their tasks and achieving specified goals.",
       "color": "#59A14F"
     },
     {
-      "id": "maintainability",
+      "id": "Maintainability",
       "title": "Maintainability",
       "description": "This characteristic represents the degree of effectiveness and efficiency with which a product or system can be modified to improve it, correct it or adapt it to changes in environment, and in requirements.",
       "color": "#EDC948"
     },
     {
-      "id": "performance-efficiency",
+      "id": "Performance Efficiency",
       "title": "Performance Efficiency",
       "description": "This characteristic represents the degree to which a product performs its functions within specified time and throughput parameters and is efficient in the use of resources (such as CPU, memory, storage, network devices, energy, materials...) under specified conditions.",
       "color": "#B07AA1"
     },
     {
-      "id": "reliability",
+      "id": "Reliability",
       "title": "Reliability",
       "description": "Degree to which a system, product or component performs specified functions under specified conditions for a specified period of time.",
       "color": "#FF9DA7"
     },
     {
-      "id": "safety",
+      "id": "Safety",
       "title": "Safety",
       "description": "This characteristic represents the degree to which a product under defined conditions to avoid a state in which human life, health, property, or the environment is endangered.",
       "color": "#9C755F"
     },
     {
-      "id": "security",
+      "id": "Security",
       "title": "Security",
       "description": "Degree to which a product or system defends against attack patterns by malicious actors and protects information and data so that persons or other products or systems have the degree of data access appropriate to their types and levels of authorization.",
       "color": "#BAB0AC"
     },
     {
-      "id": "sustainability",
+      "id": "Sustainability",
       "title": "Sustainability",
       "description": "The capacity of the software to endure. In other words, sustainability means that the software will continue to be available in the future, on new platforms, meeting new needs.",
       "color": "#5FA2CE"
@@ -91,28 +91,28 @@
   ],
   "rings": [
     {
-      "id": "research infra software",
-      "title": "Research infra software",
+      "id": "AnalysisCode",
+      "title": "Analysis Code",
       "description": "This involves software that captures broadly accepted ideas, methods and models for use in research, warranting close researcher involvement in their development. This tier represents broadly applicable research software, often with a large and possibly distributed development team.",
-      "color": "#5cb449",
-      "radius": 0.45,
-      "strokeWidth": 3
+      "color": "#029df7",
+      "radius": 0.35,
+      "strokeWidth": 1
     },
     {
-      "id": "prototype tools",
-      "title": "Prototype tools",
+      "id": "PrototypeTool",
+      "title": "Prototype Tool",
       "description": "This refers to research software that demonstrates a new idea, method or model for use beyond the project in which it originated, often as a substantive intellectual contribution or proof of concept. These tools are designed to answer multiple research questions and are typically developed and used by more than one person.",
       "color": "#faa03d",
-      "radius": 0.75,
+      "radius": 0.60,
       "strokeWidth": 2
     },
     {
-      "id": "analysis code",
-      "title": "Analysis code",
+      "id": "ResearchInfrastructureSoftware",
+      "title": "Research Infra Software",
       "description": "This involves software that captures broadly accepted ideas, methods and models for use in research, warranting close researcher involvement in their development. This tier represents broadly applicable research software, often with a large and possibly distributed development team.",
-      "color": "#029df7",
+      "color": "#5cb449",
       "radius": 1,
-      "strokeWidth": 1
+      "strokeWidth": 3
     }
   ],
   "flags": {
@@ -133,30 +133,34 @@
     }
   },
   "chart": {
-    "size": 800,
+    "size": 1000,
     "blipSize": 12
   },
   "social": [
     {
       "href": "https://github.com/EVERSE-ResearchSoftware/TechRadar",
       "icon": "github"
+    },
+    {
+      "href": "https://github.com/orgs/EVERSE-ResearchSoftware/teams/techradar-curators/",
+      "icon": "github"
     }
   ],
   "imprint": "https://www.aoe.com/en/imprint.html",
   "labels": {
-    "title": "EVERSE Technology Watch - This is a development version and does not reflect EVERSE recommendations yet.",
+    "title": "EVERSE Technology Radar",
     "imprint": "Legal Information",
-    "quadrant": "Quadrant",
-    "quadrantOverview": "Quadrant Overview",
+    "quadrant": "Segment",
+    "quadrantOverview": "Segments Overview",
     "zoomIn": "Zoom in",
     "filterByTag": "Filter by Tag",
-    "footer": "Preliminary work for Technology Watch(TW), developed as part of EVERSE project, referencing AOE tech radar. It is likely to be changed, it contains a collection of software quality tools and their metadata in terms of quality indicators and quality dimentions. It contains all the tools for research software quality that align, adapt, and extend to the specific needs of various research communities.",
+    "footer": "Technology Radar for tools and services for research software quality developed as part of the EVERSE project, referencing AOE tech radar.",
     "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
     "notFound": "404 - Page not found",
-    "pageAbout": "How to use EVERSE Technology Watch?",
+    "pageAbout": "EVERSE Technology Radar",
     "pageOverview": "Technologies Overview",
     "pageSearch": "Search",
     "searchPlaceholder": "What are you looking for?",
-    "metaDescription": "Stay at the forefront of web dev software and trends with EVERSE Technology Watch. Explore insights on sode code management, methods, platforms and more."
+    "metaDescription": "Find tools and services for research software quality with the EVERSE Technology Radar."
   }
 }
