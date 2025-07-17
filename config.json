@@ -138,11 +138,15 @@
   },
   "social": [
     {
-      "href": "https://github.com/EVERSE-ResearchSoftware/TechRadar",
-      "icon": "github"
+      "href": "https://bsky.app/profile/eosc-everse.bsky.social",
+      "icon": "x"
     },
     {
-      "href": "https://github.com/orgs/EVERSE-ResearchSoftware/teams/techradar-curators/",
+      "href": "https://www.linkedin.com/company/eosc-everse",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://github.com/EVERSE-ResearchSoftware/TechRadar",
       "icon": "github"
     }
   ],
