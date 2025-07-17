@@ -7,6 +7,7 @@ schema = load_local_schema("tests/tools_validation_schema.json")
 
 # 1. A tool that should pass validation
 valid_tool = {
+    "@context": "https://w3id.org/everse/rs#",
     "@id": "https://example.com/tool/valid",
     "name": "Valid Tool",
     "description": "This is a valid tool.",
@@ -18,7 +19,17 @@ valid_tool = {
 
 # 2. Tools that should not pass validation
 invalid_tools = [
-    # Missing required property: schema:name
+    # Missing required property: name
+    {
+        "@context": "https://w3id.org/everse/rs#",
+        "@id": "https://example.com/tool/invalid1",
+        "description": "This tool is missing a name.",
+        "url": "https://example.com/tool/invalid1",
+        "license": "https://opensource.org/licenses/MIT",
+        "applicationCategory": {"@id": "rs:AnalysisCode"},
+        "hasQualityDimension": {"@id": "dim:FAIRness"}
+    },
+    # Missing required property: context
     {
         "@id": "https://example.com/tool/invalid1",
         "description": "This tool is missing a name.",
@@ -27,8 +38,9 @@ invalid_tools = [
         "applicationCategory": {"@id": "rs:AnalysisCode"},
         "hasQualityDimension": {"@id": "dim:FAIRness"}
     },
-    # Missing required property: schema:description
+    # Missing required property: description
     {
+        "@context": "https://w3id.org/everse/rs#",
         "@id": "https://example.com/tool/invalid2",
         "name": "Tool without description",
         "url": "https://example.com/tool/invalid2",
@@ -36,8 +48,9 @@ invalid_tools = [
         "applicationCategory": {"@id": "rs:AnalysisCode"},
         "hasQualityDimension": {"@id": "dim:FAIRness"}
     },
-    # Missing required property: schema:license
+    # Missing required property: license
     {
+        "@context": "https://w3id.org/everse/rs#",
         "@id": "https://example.com/tool/invalid3",
         "name": "Tool without license",
         "description": "This tool is missing a license.",
@@ -45,8 +58,9 @@ invalid_tools = [
         "applicationCategory": {"@id": "rs:AnalysisCode"},
         "hasQualityDimension": {"@id": "dim:FAIRness"}
     },
-    # Missing required property: schema:url
+    # Missing required property: url
     {
+        "@context": "https://w3id.org/everse/rs#",
         "@id": "https://example.com/tool/invalid4",
         "name": "Tool without url",
         "description": "This tool is missing a url.",
@@ -56,6 +70,7 @@ invalid_tools = [
     },
     # Invalid applicationCategory
     {
+        "@context": "https://w3id.org/everse/rs#",
         "@id": "https://example.com/tool/invalid5",
         "name": "Invalid Category Tool",
         "description": "This tool has an invalid application category.",
@@ -66,6 +81,7 @@ invalid_tools = [
     },
     # Invalid quality dimension as a string
     {
+        "@context": "https://w3id.org/everse/rs#",
         "@id": "https://example.com/tool/invalid6",
         "name": "Invalid Quality Dimension",
         "description": "This tool has an invalid quality dimension.",
@@ -76,6 +92,7 @@ invalid_tools = [
     },
     # Invalid quality dimension as an object without @id
     {
+        "@context": "https://w3id.org/everse/rs#",
         "@id": "https://example.com/tool/invalid7",
         "name": "Invalid Quality Dimension Object",
         "description": "This tool has an invalid quality dimension object.",

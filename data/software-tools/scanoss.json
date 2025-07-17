@@ -1,4 +1,5 @@
 {
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/scanoss",
   "@type": "SoftwareApplication",
   "applicationCategory": {
