@@ -46,7 +46,7 @@
   "properties": {
     "@context": {
       "description": "The JSON-LD context for term definitions",
-      "type": [ "string", "object" ]
+      "type": "string"
     },
     "@id": {
       "description": "Unique identifier for the software tool",
@@ -159,6 +159,7 @@
     }
   },
   "required": [
+    "@context",
     "@id",
     "name",
     "description",
