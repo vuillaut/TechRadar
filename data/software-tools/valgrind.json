@@ -1,15 +1,12 @@
 {
-  "@context": {
-    "schema": "http://schema.org/",
-    "rs": "https://w3id.org/everse/rs#"
-  },
+  "@context": "https://w3id.org/everse/rs#",
   "@id": "https://w3id.org/everse/tools/valgrind",
   "@type": "schema:SoftwareApplication",
-  "schema:name": "valgrind",
-  "schema:description": "Detects memory management and threading bugs, run profiling to see how to speed up your programs",
-  "schema:url": "https://valgrind.org/",
-  "schema:isAccessibleForFree": true,
-  "schema:applicationCategory": [
+  "name": "valgrind",
+  "description": "Detects memory management and threading bugs, run profiling to see how to speed up your programs",
+  "url": "https://valgrind.org/",
+  "isAccessibleForFree": true,
+  "applicationCategory": [
     {
       "@id": "rs:AnalysisCode",
       "@type": "@id"
@@ -23,7 +20,7 @@
       "@type": "@id"
     }
   ],
-  "rs:hasQualityDimension": [
+  "hasQualityDimension": [
     {
       "@id": "rs:CodeAnalysis",
       "@type": "@id"
@@ -33,8 +30,5 @@
       "@type": "@id"
     }
   ],
-  "schema:license": {
-    "@id": "https://www.gnu.org/licenses/old-licenses/gpl-2.0",
-    "@type": "@id"
-  }
+  "license": "https://www.gnu.org/licenses/old-licenses/gpl-2.0"
 }
