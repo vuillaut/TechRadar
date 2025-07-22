@@ -6,6 +6,10 @@
   "description": "Python packaging and dependency management made easy",
   "url": "https://python-poetry.org/",
   "isAccessibleForFree": true,
+  "hasQualityDimesnsion ": [
+    { "@id": "dim:Maintainability", "@type": "@id" },
+    { "@id": "dim:Sustainability", "@type": "@id" }
+  ],
   "applicationCategory": [
     {
       "@id": "rs:PrototypeTool",
