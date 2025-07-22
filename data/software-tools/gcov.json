@@ -19,5 +19,5 @@
     { "@id": "rs:CodeAnalysis", "@type": "@id" }
   ],
   "howToUse": ["CI/CD", "command-line"],
-  "license": { "@id": "GPL", "@type": "@id" }
+  "license": "https://choosealicense.com/licenses/gpl-2.0/"
 }
