@@ -1,31 +1,29 @@
-
 {
   "@context": "https://w3id.org/everse/rs#",
-      "@id": "https://w3id.org/everse/tools/pypi",
-      "@type": "schema:SoftwareApplication",
+  "@id": "https://w3id.org/everse/tools/pypi",
+  "@type": "schema:SoftwareApplication",
   "name": "pypi",
-  "description": "The Python Package Index (PyPI) is the official third-party software repository for software for the Python programming language and helps find and inst\
-all software developed and shared by the Python community. ",
+  "description": "The Python Package Index (PyPI) is the official third-party software repository for software for the Python programming language and helps f\
+ind and install software developed and shared by the Python community. ",
   "url": "https://pypi.org/",
   "isAccessibleForFree": true,
   "applicationCategory": [
     {
       "@id": "rs:PrototypeTool",
-      "@type": "@id"},
+      "@type": "@id"
+    },
     {
-
       "@id": "rs:ResearchInfrastructureSoftware",
-      "t@ype": "@id"}
+      "t@ype": "@id"
+    }
   ],
   "hasQualityDimension": [
     {
-      "@id":"rs:Usability",
-      "@type": "@id"},
-    {"@id":"rs:Portability",
-      "@type": "@id"}
+      "@id": "rs:Usability",
+      "@type": "@id"
+    },
+    { "@id": "rs:Portability", "@type": "@id" }
   ],
   "howToUse": ["CI/CD", "command-line", "online-service"],
   "license": "https://github.com/pypi/warehouse/blob/main/LICENSE"
-
 }
-
