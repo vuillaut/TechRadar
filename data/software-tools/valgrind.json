@@ -22,11 +22,19 @@
   ],
   "hasQualityDimension": [
     {
-      "@id": "rs:CodeAnalysis",
+      "@id": "dim:Reliability",
       "@type": "@id"
     },
     {
-      "@id": "rs:ResourceEfficiency",
+      "@id": "dim:Performance Efficiency",
+      "@type": "@id"
+    },
+    {
+      "@id": "dim:Sustainability",
+      "@type": "@id"
+    },
+    {
+      "@id": "dim:Maintainability",
       "@type": "@id"
     }
   ],
