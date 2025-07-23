@@ -18,10 +18,10 @@
   ],
   "hasQualityDimension": [
     {
-      "@id": "rs:Usability",
+      "@id": "dim:Maintainability",
       "@type": "@id"
     },
-    { "@id": "rs:Portability", "@type": "@id" }
+    { "@id": "dim:Flexbility", "@type": "@id" }
   ],
   "howToUse": ["CI/CD", "command-line", "online-service"],
   "license": "https://github.com/pypi/warehouse/blob/main/LICENSE"
