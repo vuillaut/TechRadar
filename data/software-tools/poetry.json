@@ -6,7 +6,7 @@
   "description": "Python packaging and dependency management made easy",
   "url": "https://python-poetry.org/",
   "isAccessibleForFree": true,
-  "hasQualityDimension ": [
+  "hasQualityDimension": [
     { "@id": "dim:Maintainability", "@type": "@id" },
     { "@id": "dim:Sustainability", "@type": "@id" }
   ],
