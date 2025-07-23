@@ -13,10 +13,10 @@
   ],
   "hasQualityDimension": [
     {
-      "@id": "rs:ResourceEfficiency",
+      "@id": "dim:Maintainability",
       "@type": "@id"
     },
-    { "@id": "rs:CodeAnalysis", "@type": "@id" }
+    { "@id": "dim:Sustainability", "@type": "@id" }
   ],
   "howToUse": ["CI/CD", "command-line"],
   "license": "https://choosealicense.com/licenses/gpl-2.0/"
