@@ -28,6 +28,7 @@ authors:
     family-names: Bajare
     email: shraddha.bajare@skao.int
     affiliation: 'Square Kilometre Array Observatory'
+    orcid: 'https://orcid.org/0009-0002-4488-7697'
   - given-names: Elena
     family-names: Breitmoser
     email: e.breitmoser@epcc.ed.ac.uk
@@ -38,6 +39,10 @@ authors:
     email: nikosp41@certh.gr
     affiliation: 'Centre for Research and Technology Hellas'
     oricd: 'https://orcid.org/0000-0003-2502-612X'
+  - given-names: Kirsty
+    family-names: Pringle
+    email: K.Pringle@epcc.ed.ac.uk
+    affiliation: 'University of Edinburgh'
 repository-code: 'https://github.com/EVERSE-ResearchSoftware/TechRadar/'
 url: 'https://everse.software/TechRadar/'
 abstract: >-
