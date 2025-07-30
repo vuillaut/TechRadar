@@ -21,5 +21,5 @@
     }
   ],
   "howToUse": ["CI/CD", "command-line"],
-  "license": "https://spdx.org/licenses/MIT
+  "license": "https://spdx.org/licenses/MIT"
 }
