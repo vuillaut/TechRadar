@@ -9,7 +9,7 @@
   "hasQualityDimension": { "@id": "dim:Sustainability", "@type": "@id" },
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "howToUse": ["CI/CD", "online-service"],
-  "schema:applicationCategory": [
+  "applicationCategory": [
     { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
     { "@id": "rs:PrototypeTool", "@type": "@id" }
   ]
