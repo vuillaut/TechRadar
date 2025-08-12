@@ -46,11 +46,8 @@ authors:
 repository-code: 'https://github.com/EVERSE-ResearchSoftware/TechRadar/'
 url: 'https://everse.software/TechRadar/'
 abstract: >-
-  It contains a catalog of of tools and services for
-  research software quality designed to assess, measure, and
-  improve the quality of software developed for research
-  purposes and the TechRadar, a visual dashboard to display
-  the catalog.
+  The EVERSE TechRadar is a catalogue of tools and services designed to assess, measure, and
+  improve the quality of research software represented in an interactive dashboard.
 keywords:
   - software quality
   - research software
