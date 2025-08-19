@@ -4,7 +4,7 @@
   "@type": "schema:SoftwareApplication",
   "name": "resqui",
   "description": "A command line tool to check a bunch of indicators related to research software quality.",
-  "url": "https://github.com/EVERSE-ResearchSoftware/resqui",
+  "url": "https://github.com/EVERSE-ResearchSoftware/QualityPipelines",
   "applicationCategory": [
     { "@id": "rs:ResearchInfrastructureSoftware", "@type": "@id" },
     { "@id": "rs:AnalysisCode", "@type": "@id" },
