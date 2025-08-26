@@ -74,3 +74,7 @@ npm run lint-prettier:fix
 ## Funding
 
 [EVERSE project](https://everse.software/) is funded by the European Commission HORIZON-INFRA-2023-EOSC-01-02 call.
+
+## License
+
+This project is licensed under the Creative Commons License - see the [LICENSE](License) file for details.
