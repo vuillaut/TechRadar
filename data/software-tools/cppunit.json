@@ -16,8 +16,5 @@
   ],
   "howToUse": ["command-line"],
   "appliesToProgrammingLanguage": ["C++"],
-  "license": {
-    "@id": "https://www.gnu.org/licenses/lgpl-3.0",
-    "@type": "@id"
-  }
+  "license": "https://www.gnu.org/licenses/lgpl-3.0"
 }

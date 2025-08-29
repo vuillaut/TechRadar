@@ -17,8 +17,5 @@
     { "@id": "dim:Sustainability", "@type": "@id" }
   ],
   "howToUse": ["command-line", "online-service"],
-  "license": {
-    "@id": "https://www.apache.org/licenses/LICENSE-2.0",
-    "@type": "@id"
-  }
+  "license": "https://www.apache.org/licenses/LICENSE-2.0"
 }

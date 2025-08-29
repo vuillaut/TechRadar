@@ -15,8 +15,5 @@
     { "@id": "dim:Flexibility", "@type": "@id" }
   ],
   "howToUse": ["command-line"],
-  "license": {
-    "@id": "https://opensource.org/license/bsd-3-clause",
-    "@type": "@id"
-  }
+  "license": "https://opensource.org/license/bsd-3-clause"
 }
