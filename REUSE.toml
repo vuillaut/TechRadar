@@ -1,0 +1,40 @@
+version = 1
+
+# TechRadar content (Documentation and assets)
+[[annotations]]
+path = [
+    "radar/**",
+    "CONTRIBUTING.md",
+    "README.md",
+    "public/favicon.ico",
+    "public/logo.svg",
+    "about.md"
+]
+SPDX-FileCopyrightText = "2025 TechRadar Curators and Organisations, including curators in CITATION.cff, https://everse.software/about/consortium/"
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
+SPDX-Year = "2025"
+SPDX-FileType = "Documentation"
+
+# Software and configurations
+[[annotations]]
+path = [
+    "package.json",
+    "tests/**", 
+    "scripts/**", 
+    "data/**", 
+    ".github/**",
+    "config.json"
+]
+SPDX-FileCopyrightText = "2025 TechRadar Curators and Organisations, including curators in CITATION.cff, https://everse.software/about/consortium/"
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
+SPDX-Year = "2025"
+SPDX-FileType = "Configuration"
+
+# Metadata files
+[[annotations]]
+path = [
+    "CITATION.cff",
+    ".gitignore"
+]
+SPDX-FileCopyrightText = "2025 TechRadar Curators and Organisations, including curators in CITATION.cff, https://everse.software/about/consortium/"
+SPDX-License-Identifier = "CC-BY-NC-SA-4.0"
