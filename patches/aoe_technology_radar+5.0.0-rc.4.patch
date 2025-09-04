@@ -1,0 +1,16 @@
+diff --git a/src/components/Radar/Chart.tsx b/src/components/Radar/Chart.tsx
+index 15f2b0b..f1b7b6b 100644
+--- a/src/components/Radar/Chart.tsx
++++ b/src/components/Radar/Chart.tsx
+@@ -187,7 +187,8 @@ const _Chart: FC<ChartProps> = ({
+       const { x, y } = polarToCartesian(labelRadius, midAngle);
+ 
+       const tolerance = 5;
+-      let textAnchor = "middle";
++      let textAnchor: React.SVGAttributes<SVGTextElement>["textAnchor"] =
++        "middle";
+       if (midAngle > tolerance && midAngle < 180 - tolerance) {
+         textAnchor = "start";
+       } else if (midAngle > 180 + tolerance && midAngle < 360 - tolerance) {
+         textAnchor = "end";
+       }
