@@ -9,7 +9,6 @@ message: >-
 type: software
 authors:
   - name: EVERSE 
-    website: 'https://everse.software/'
   - given-names: Thomas
     family-names: Vuillaume
     email: thomas.vuillaume@lapp.in2p3.fr
