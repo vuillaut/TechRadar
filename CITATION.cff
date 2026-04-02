@@ -58,8 +58,7 @@ keywords:
   - software quality
   - research software
   - RSE
-license:
-  - MIT
+license: MIT
 identifiers:
   - type: doi
     value: 10.5281/zenodo.17036276
